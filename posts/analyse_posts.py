@@ -3,8 +3,8 @@ import re
 
 def apply_action_to_post(posts, response_text):
     """Parse LLM response and apply the action to the relevant post."""
-    pattern = r"Action:\s*(\w+)\s+on\s+Post\s+(\d+)"
-    matches = re.findall(pattern, response_text, re.IGNORECASE)
+    pattern = r"Action:\s*(\w+).*?Post[_ ]ID:\s*(\d+)"
+    matches = re.findall(pattern, response_text, re.IGNORECASE | re.DOTALL)
 
     if not matches:
         print("[!] No valid action found.")

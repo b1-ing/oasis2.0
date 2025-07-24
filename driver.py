@@ -4,11 +4,14 @@ from ollama import chat
 from posts.analyse_posts import load_posts, apply_action_to_post
 import pandas as pd
 import os
-
+from recommendation.fyp import recommend_posts
+import random
 # ---------- CONFIG ----------
-START_TIME = datetime(2025, 7, 15, 8, 0, 0)
+START_TIME = datetime(2025, 7, 8, 8, 0, 0)
 TIMESTEP_DAYS = 1
-NUM_TIMESTEPS = 10
+NUM_TIMESTEPS = 20
+ONLINE_RATE = 0.1  # 10% of users online per timestep
+
 
 POSTS_FILE = "posts/posts.json"
 AGENTS_FILE = "agents/agents.json"
@@ -30,6 +33,12 @@ with open(AGENTS_FILE, "r", encoding="utf-8") as f:
 posts = []
 logs = []
 
+def get_online_agents(agent_data, rate=ONLINE_RATE):
+    n_total = len(agent_data)
+    n_online = max(1, int(rate * n_total))
+    return random.sample(agent_data, n_online)
+
+
 # ---------- MAIN SIMULATION LOOP ----------
 for t in range(NUM_TIMESTEPS):
     current_time = START_TIME + timedelta(days=t * TIMESTEP_DAYS)
@@ -43,34 +52,44 @@ for t in range(NUM_TIMESTEPS):
         posts.append(p)
 
     # 2. Each agent observes and acts
-    for agent in agents:
+    online_agents = get_online_agents(agents, ONLINE_RATE)
+    for agent in online_agents:
         persona = agent.get("persona", "You are a curious social media user.")
         agent_id = agent["id"]
         username = agent["username"]
 
         # Format prompt
-        posts_str = json.dumps(posts, indent=2)
+        recommended_posts= recommend_posts(agent, posts, current_time)
+        # print("recommended posts for agent", agent_id, recommended_posts)
+        posts_str = json.dumps(recommended_posts, indent=2)
         prompt = f"""
 {current_time.isoformat()} - Agent observing environment:
+Adhere to at most 2 actions per timestep STRICTLY.
 After refreshing, you see some posts: {posts_str}
 
 
 
 You have the following available actions:
-- Refresh
 - Like
 - Dislike
 - Comment (state content right afterwards here)
 - Share
-- Create new post
+
+Place extra emphasis on controversial issues such as privacy, rights, politics etc.
+- Do not focus on one-off events such as sales which you may deem as "timely requests", but are actually unlikely to GAIN MUCH ATTENTION.
++ Avoid engaging with promotional posts (e.g. sales, discounts, one-day offers) even if they seem useful.
++ These posts usually do not go viral or gain lasting attention, and are often ignored by most users.
++ Focus on meaningful or emotionally charged content instead.
 
 Always explain your reasoning behind the action.
 
 Respond in the following format:
-- Action: [action type] on Post [id]
+- Action: [action type]
+- Post_ID: [post id which your action applies to]
 - Reason: [short explanation based on post content and virality signals]
 
-do not do more than 3 actions per turn.
+
+
 """
 
         messages = [
@@ -79,7 +98,7 @@ do not do more than 3 actions per turn.
         ]
 
         try:
-            response = chat(model="gemma3:1b", messages=messages)
+            response = chat(model="gemma3:4b", messages=messages)
             reply = response["message"]["content"]
         except Exception as e:
             print(f"❌ Error for agent {agent_id}: {e}")

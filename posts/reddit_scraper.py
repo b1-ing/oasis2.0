@@ -47,6 +47,6 @@ def save_to_json(data, subreddit):
 
 if __name__ == "__main__":
     subreddit = "SecurityCamera"
-    posts = fetch_reddit_json(subreddit, limit=50)
+    posts = fetch_reddit_json(subreddit, limit=125)
     save_to_json(posts, subreddit)
     print(f"✅ Extracted {len(posts)} posts from r/{subreddit} using the Reddit JSON API")

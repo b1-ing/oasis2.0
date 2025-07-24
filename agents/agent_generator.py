@@ -20,7 +20,7 @@ usernames = [
 ]
 
 # Number of agents to generate
-NUM_AGENTS = 15
+NUM_AGENTS = 100
 
 
 def generate_agents(num_agents):
