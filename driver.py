@@ -52,6 +52,9 @@ for t in range(NUM_TIMESTEPS):
         posts_str = json.dumps(posts, indent=2)
         prompt = f"""
 {current_time.isoformat()} - Agent observing environment:
+
+You MUST perform at most 3 actions. Do not exceed this number under any circumstance.
+ALWAYS state which post_id your action applies to.
 After refreshing, you see some posts: {posts_str}
 
 
@@ -69,8 +72,8 @@ Always explain your reasoning behind the action.
 Respond in the following format:
 - Action: [action type] on Post [id]
 - Reason: [short explanation based on post content and virality signals]
+STRICTLY adhere to the format for Action.
 
-do not do more than 3 actions per turn.
 """
 
         messages = [
