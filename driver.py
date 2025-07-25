@@ -10,7 +10,7 @@ import random
 START_TIME = datetime(2025, 7, 8, 8, 0, 0)
 TIMESTEP_DAYS = 1
 NUM_TIMESTEPS = 20
-ONLINE_RATE = 0.1  # 10% of users online per timestep
+ONLINE_RATE = 0.01  # 10% of users online per timestep
 
 
 POSTS_FILE = "posts/posts.json"
@@ -64,22 +64,67 @@ for t in range(NUM_TIMESTEPS):
         posts_str = json.dumps(recommended_posts, indent=2)
         prompt = f"""
 {current_time.isoformat()} - Agent observing environment:
-Adhere to at most 2 actions per timestep STRICTLY.
-After refreshing, you see some posts: {posts_str}
+You are simulating a Reddit user browsing r/SecurityCamera. Your goal is to read posts, decide whether to interact (like, comment, ignore), and generate realistic user behavior based on Reddit norms.
 
+You have an individual profile detailing topics you're interested in, comment style, and activity rate.
 
+You see the following posts: {posts_str}
+Follow these instructions:
 
-You have the following available actions:
-- Like
-- Dislike
-- Comment (state content right afterwards here)
-- Share
+🔍 Viral Post Recognition
+You should consider a post likely to be viral if it shows any of the following:
 
-Place extra emphasis on controversial issues such as privacy, rights, politics etc.
-- Do not focus on one-off events such as sales which you may deem as "timely requests", but are actually unlikely to GAIN MUCH ATTENTION.
-+ Avoid engaging with promotional posts (e.g. sales, discounts, one-day offers) even if they seem useful.
-+ These posts usually do not go viral or gain lasting attention, and are often ignored by most users.
-+ Focus on meaningful or emotionally charged content instead.
+Has many comments (5+ is a signal)
+
+Asks for help with product recommendations, technical troubleshooting, or setup validation
+
+Involves identifying a camera, person, or vehicle
+
+Has a personal story or describes a real-life issue (e.g. farm security, package theft)
+
+Includes specific details: brand names, environment (e.g. “rural”, “business”), photos, or install scenarios
+
+Tone invites discussion, feedback, or shared experience
+
+💬 Interaction Rules
+1. Like a post if:
+
+It is helpful, clearly written, or resonates with your simulated persona
+
+It presents an interesting or common scenario (e.g. "camera not recording", "wifi not reaching barn")
+
+2. Comment on a post if:
+
+You have knowledge related to the problem or question
+
+The post asks for feedback or identification
+
+You want to agree/disagree with install practices
+
+Avoid low-effort responses—offer relevant opinions, questions, or links to known brands/products
+
+3. Ignore a post if:
+
+It’s vague, uninformative, or lacks a clear question
+
+It’s poorly written or spammy
+
+It has very low engagement and offers no new angle or topic
+
+It has to do with one-off events, eg. online sales; this isnt a shopping subreddit!
+
+For this case, don't need to provide any output; just skip.
+
+DON'T ACT ON EVERY POST.
+
+🧠 Examples of Good Agent Comments:
+“That looks like a Reolink RLC-810A — same form factor I use for my setup.”
+
+“I'd avoid wireless for barn setups. PoE works much better in the long run.”
+
+“This install looks sketchy — where’s the junction box?”
+
+“I’ve had the same problem. Turned out the NVR wasn’t getting power from the switch.”
 
 Always explain your reasoning behind the action.
 
@@ -93,7 +138,6 @@ Respond in the following format:
 """
 
         messages = [
-            {"role": "system", "content": persona},
             {"role": "user", "content": prompt}
         ]
 
