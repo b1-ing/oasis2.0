@@ -12,12 +12,12 @@ TIMESTEP_DAYS = 1
 NUM_TIMESTEPS = 20
 ONLINE_RATE = 0.01  # 10% of users online per timestep
 
-
-POSTS_FILE = "posts/posts.json"
+subreddit="NationalServiceSG"
+POSTS_FILE = f"posts/posts_{subreddit}.json"
 AGENTS_FILE = "agents/agents.json"
 OUTPUT_DIR = "output"
-LOG_FILE = os.path.join(OUTPUT_DIR, "logs", "simulation_log.csv")
-POSTS_OUT_FILE = os.path.join(OUTPUT_DIR, "posts", "posts.csv")
+LOG_FILE = os.path.join(OUTPUT_DIR, "logs", f"{subreddit}/simulation_log.csv")
+POSTS_OUT_FILE = os.path.join(OUTPUT_DIR, "posts", f"{subreddit}/posts.csv")
 
 # ---------- SETUP ----------
 os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
@@ -55,6 +55,11 @@ for t in range(NUM_TIMESTEPS):
     online_agents = get_online_agents(agents, ONLINE_RATE)
     for agent in online_agents:
         persona = agent.get("persona", "You are a curious social media user.")
+        agent_profile = {
+            "topics_of_interest": agent.get("topics", []),
+            "comment_style": agent.get("comment_style", "neutral and concise"),
+            "posting_frequency": agent.get("posting_frequency", "occasional"),
+        }
         agent_id = agent["id"]
         username = agent["username"]
 
@@ -63,79 +68,52 @@ for t in range(NUM_TIMESTEPS):
         # print("recommended posts for agent", agent_id, recommended_posts)
         posts_str = json.dumps(recommended_posts, indent=2)
         prompt = f"""
-{current_time.isoformat()} - Agent observing environment:
-You are simulating a Reddit user browsing r/SecurityCamera. Your goal is to read posts, decide whether to interact (like, comment, ignore), and generate realistic user behavior based on Reddit norms.
+        {current_time.isoformat()} - Agent browsing environment:
 
-You have an individual profile detailing topics you're interested in, comment style, and activity rate.
+        You are simulating a Reddit user browsing r/NationalServiceSG. You have a specific personality and behavior style.
 
-You see the following posts: {posts_str}
-Follow these instructions:
+        Your user profile:
+        - Topics of interest: {', '.join(agent_profile['topics_of_interest'])}
+        - Commenting style: {agent_profile['comment_style']}
+        - Posting frequency: {agent_profile['posting_frequency']}
 
-🔍 Viral Post Recognition
-You should consider a post likely to be viral if it shows any of the following:
 
-Has many comments (5+ is a signal)
+        **Key Principles:**
 
-Asks for help with product recommendations, technical troubleshooting, or setup validation
+        *   **Empathy First:** Always acknowledge the user's feelings and validate their concerns. Use phrases like, “That sounds incredibly frustrating,” or “It’s completely understandable why you’re feeling that way.”
+        *   **Practical Advice:** Offer concrete suggestions and resources, tailored to the specific situation. If the user is worried about a specific vocational issue, provide information about the different vocations and their requirements. If they’re struggling with a relationship, offer communication strategies.
+        *   **Singapore-Specific Knowledge:** You have extensive knowledge of Singapore National Service, including vocations, regulations, customs, and common challenges faced by NSmen.
+        *   **Avoid Giving Direct Orders:** Do not tell users what to do. Instead, frame your suggestions as options and encourage them to make their own decisions.
+        *   **Maintain a Respectful and Supportive Tone:**  Be polite, patient, and avoid judgmental language.
 
-Involves identifying a camera, person, or vehicle
+        **When Responding to User Input, Follow These Steps:**
 
-Has a personal story or describes a real-life issue (e.g. farm security, package theft)
+        1.  **Acknowledge and Validate:** Begin by acknowledging the user's feelings.  (e.g., "It sounds like you're going through a really tough time...")
+        2.  **Clarify (If Necessary):** Ask clarifying questions to fully understand the situation. (e.g., “Can you tell me more about what’s causing you to feel that way?”)
+        3.  **Offer Relevant Information:**  Provide information related to the user's question, drawing on your knowledge of NS and Singapore.
+        4.  **Suggest Solutions/Resources:**  Offer potential solutions or direct them to relevant resources (e.g., SAF website, counseling services, support groups).
+        5.  **End with Encouragement:**  End the conversation with a positive and supportive statement.
 
-Includes specific details: brand names, environment (e.g. “rural”, “business”), photos, or install scenarios
+        **Example:**
 
-Tone invites discussion, feedback, or shared experience
+        **User:** “I’m really worried that my boyfriend is pulling away from me because he’s in infantry.”
 
-💬 Interaction Rules
-1. Like a post if:
+        **Your Response:** “That sounds incredibly frustrating and concerning, especially when you're in a long-distance LDR. It's completely understandable why you're feeling
+        insecure and worried. Have you tried reaching out to him directly to ask how he's feeling and what's going on? The SAF website has some resources on maintaining relationships during NS. Would you like me to share those with you?”
 
-It is helpful, clearly written, or resonates with your simulated persona
-
-It presents an interesting or common scenario (e.g. "camera not recording", "wifi not reaching barn")
-
-2. Comment on a post if:
-
-You have knowledge related to the problem or question
-
-The post asks for feedback or identification
-
-You want to agree/disagree with install practices
-
-Avoid low-effort responses—offer relevant opinions, questions, or links to known brands/products
-
-3. Ignore a post if:
-
-It’s vague, uninformative, or lacks a clear question
-
-It’s poorly written or spammy
-
-It has very low engagement and offers no new angle or topic
-
-It has to do with one-off events, eg. online sales; this isnt a shopping subreddit!
-
-For this case, don't need to provide any output; just skip.
-
-DON'T ACT ON EVERY POST.
-
-🧠 Examples of Good Agent Comments:
-“That looks like a Reolink RLC-810A — same form factor I use for my setup.”
-
-“I'd avoid wireless for barn setups. PoE works much better in the long run.”
-
-“This install looks sketchy — where’s the junction box?”
-
-“I’ve had the same problem. Turned out the NVR wasn’t getting power from the switch.”
-
-Always explain your reasoning behind the action.
-
-Respond in the following format:
-- Action: [action type]
-- Post_ID: [post id which your action applies to]
-- Reason: [short explanation based on post content and virality signals]
+        You see the following posts: {posts_str}
 
 
 
-"""
+        🎯 Respond in this format for EACH POST (even if minimal):
+
+        - Action: [like | comment | ignore]
+        - Post_ID: [post id]
+        - Reason: [brief explanation — use your profile and post content to justify]
+        - (If comment) Comment: [realistic Reddit-style reply in your voice]
+
+        """
+
 
         messages = [
             {"role": "user", "content": prompt}
@@ -177,3 +155,36 @@ print("✅ Simulation complete. Logs and posts saved.")
 # - use keywords such as *booking*, *complaint*, *training*, *weekend*, *saf*
 # - have strong emotional sentiment (positive or negative)
 # - are longer than 50 words
+
+#
+#  ---
+#
+#         🔍 VIRAL POST RECOGNITION
+#         A post may be viral if:
+#         - It has 5+ comments
+#         - It asks for help (technical/setup/product advice)
+#         - It asks for identification (e.g. a camera or person)
+#         - It tells a personal story
+#         - It has brand names, camera types, or install details
+#         - It invites discussion or shared experience
+#
+#         💬 INTERACTION RULES
+#         1. Like if: clear, helpful, matches your interests or is well-written.
+#         2. Comment if:
+#            - It matches your topics
+#            - The author is asking for feedback or identification
+#            - You have a strong opinion on the setup or method shown
+#
+#         3. Ignore if:
+#            - It's vague, spammy, off-topic, or very low quality
+#            - It's about sales or single events
+#
+#         🛑 But: **every post must receive at least one action (like, comment)** across all agents. If none of the above fit, you can still react with a neutral like or comment for realism.
+#
+#         ---
+#
+#         🧠 EXAMPLES
+#         Comment: “That’s a Reolink NVR — I use the same one, works well for rural.”
+#         Comment: “Try moving the camera 2 feet higher — better angle.”
+#
+#         ---

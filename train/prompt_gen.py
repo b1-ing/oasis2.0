@@ -1,8 +1,8 @@
 import pandas as pd
 from ollama import chat
-
+subreddit="NationalServiceSG"
 # Load the CSV file
-df = pd.read_csv("validation/validation.csv")
+df = pd.read_csv(f"validation/validation_{subreddit}_trimmed.csv")
 
 # Convert DataFrame to a string with only the relevant fields
 post_summaries = []
@@ -29,7 +29,7 @@ messages = [
         "content": f"""
 Your main role is to identify which posts are viral, why they are viral, and to produce a prompt for LLM social media agents to mimic the actual behaviour as closely possible.
 
-Below are real Reddit posts scraped from the r/SecurityCamera subreddit, including metadata such as title, author, timestamps, likes, dislikes, comment counts, shares, and the full post text.
+Below are real Reddit posts scraped from the r/{subreddit} subreddit, including metadata such as title, author, timestamps, likes, dislikes, comment counts, shares, and the full post text.
 
 ---
 
