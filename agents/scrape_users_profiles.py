@@ -16,11 +16,11 @@ reddit = praw.Reddit(
     client_secret="NWyLu_mRq-9hhVWPlSSmCgQFibkFIQ",
     user_agent="oasis2.0",
 )
-
+subreddit_name="NationalServiceSG"
 analyzer = SentimentIntensityAnalyzer()
 
 # ---- Step 1: Collect 100 commenters from r/securitycameras ----
-def collect_users(subreddit_name="NationalServiceSG", post_limit=50, user_limit=100):
+def collect_users(subreddit_name=subreddit_name, post_limit=50, user_limit=100):
     users = set()
     subreddit = reddit.subreddit(subreddit_name)
 
@@ -132,7 +132,7 @@ if __name__ == "__main__":
             profiles.append(prof)
         time.sleep(1)  # avoid rate-limiting
 
-    with open(f"user_profiles_{subreddit}.json", "w", encoding="utf-8") as f:
+    with open(f"user_profiles_{subreddit_name}.json", "w", encoding="utf-8") as f:
         json.dump(profiles, f, indent=2)
 
-    print(f"✅ Done! Saved to user_profiles_{subreddit}.json")
+    print(f"✅ Done! Saved to user_profiles_{subreddit_name}.json")

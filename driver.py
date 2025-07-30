@@ -7,8 +7,8 @@ import os
 from recommendation.fyp import recommend_posts
 import random
 # ---------- CONFIG ----------
-START_TIME = datetime(2025, 7, 8, 8, 0, 0)
-TIMESTEP_DAYS = 1
+START_TIME = datetime(2025, 7, 19, 8, 0, 0)
+TIMESTEP_HOURS = 12
 NUM_TIMESTEPS = 20
 ONLINE_RATE = 0.01  # 10% of users online per timestep
 
@@ -41,7 +41,7 @@ def get_online_agents(agent_data, rate=ONLINE_RATE):
 
 # ---------- MAIN SIMULATION LOOP ----------
 for t in range(NUM_TIMESTEPS):
-    current_time = START_TIME + timedelta(days=t * TIMESTEP_DAYS)
+    current_time = START_TIME + timedelta(hours=t * TIMESTEP_HOURS)
     print(f"\n⏰ Timestep {t} — {current_time}")
 
     # 1. Post new content scheduled at this time
@@ -105,7 +105,7 @@ for t in range(NUM_TIMESTEPS):
 
 
 
-        🎯 Respond in this format for EACH POST (even if minimal):
+        🎯 Respond in this format for POSTS YOU DECIDE TO ACT ON (you do not need to act on everything you see, only what best aligns with your profile!):
 
         - Action: [like | comment | ignore]
         - Post_ID: [post id]

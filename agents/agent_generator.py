@@ -1,8 +1,8 @@
 import json
 import random
-
+subreddit_name = "NationalServiceSG"
 # Load scraped Reddit user profiles
-with open("user_profiles.json", "r", encoding="utf-8") as f:
+with open(f"user_profiles_{subreddit_name}.json", "r", encoding="utf-8") as f:
     user_profiles = json.load(f)  # Expecting list of 100 profiles
 
 # Example fallback usernames if not in profiles
@@ -34,6 +34,6 @@ def generate_agents(num_agents, user_profiles):
 
 # Generate and write to agents.json
 agents = generate_agents(NUM_AGENTS, user_profiles)
-with open("agents/agents.json", "w", encoding="utf-8") as f:
+with open(f"agents/agents_{subreddit_name}", "w", encoding="utf-8") as f:
     json.dump(agents, f, indent=4)
-print(f"✅ Generated agents.json with {NUM_AGENTS} agents and assigned 100 Reddit user profiles.")
+print(f"✅ Generated agents_{subreddit_name}.json with {NUM_AGENTS} agents and assigned 100 Reddit user profiles.")
