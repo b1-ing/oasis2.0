@@ -12,7 +12,7 @@ usernames = [
 ]
 
 # Number of agents to generate
-NUM_AGENTS = 1000
+NUM_AGENTS = 43000
 
 # Generate 1000 agents and assign profiles in round-robin
 def generate_agents(num_agents, user_profiles):
