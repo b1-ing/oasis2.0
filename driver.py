@@ -7,14 +7,14 @@ import os
 from recommendation.fyp import recommend_posts
 import random
 # ---------- CONFIG ----------
-START_TIME = datetime(2025, 7, 19, 8, 0, 0)
+START_TIME = datetime(2025, 7, 19, 10, 0, 0)
 TIMESTEP_HOURS = 12
-NUM_TIMESTEPS = 20
+NUM_TIMESTEPS = 40
 ONLINE_RATE = 0.0075  # 10% of users online per timestep
 
 subreddit="NationalServiceSG"
 POSTS_FILE = f"posts/posts_{subreddit}.json"
-AGENTS_FILE = "agents/agents.json"
+AGENTS_FILE = "agents/agents_NationalServiceSG.json"
 OUTPUT_DIR = "output"
 LOG_FILE = os.path.join(OUTPUT_DIR, "logs", f"{subreddit}/simulation_log.csv")
 POSTS_OUT_FILE = os.path.join(OUTPUT_DIR, "posts", f"{subreddit}/posts.csv")
@@ -45,7 +45,8 @@ for t in range(NUM_TIMESTEPS):
     print(f"\n⏰ Timestep {t} — {current_time}")
 
     # 1. Post new content scheduled at this time
-    new_posts = [p for p in post_queue if p.get("created_utc", "").startswith(current_time.strftime("%Y-%m-%d"))]
+    target_prefix = current_time.strftime("%Y-%m-%d")  # matches date and hour (minute can vary)
+    new_posts = [p for p in post_queue if p.get("created_utc", "").startswith(target_prefix)]
     print(new_posts)
     for p in new_posts:
         print(f"📢 New post {p['post_id']} published.")
@@ -59,6 +60,7 @@ for t in range(NUM_TIMESTEPS):
             "topics_of_interest": agent.get("topics", []),
             "comment_style": agent.get("comment_style", "neutral and concise"),
             "posting_frequency": agent.get("posting_frequency", "occasional"),
+            "daily_activity_rate": agent.get("daily_activity_rate", 0.02),
         }
         agent_id = agent["id"]
         username = agent["username"]
@@ -74,6 +76,7 @@ for t in range(NUM_TIMESTEPS):
         - Topics of interest: {', '.join(agent_profile['topics_of_interest'])}
         - Commenting style: {agent_profile['comment_style']}
         - Posting frequency: {agent_profile['posting_frequency']}
+        - Daily activity rate: {agent_profile["daily_activity_rate"]}
         You are a Reddit user browsing the r/NationalServiceSG subreddit, where people share personal experiences, ask for advice, and discuss concerns related to National Service in Singapore.
 
 Your goals are to recognize which posts are likely to go viral, respond realistically, and engage in ways typical of this community.
@@ -91,21 +94,16 @@ Viral posts often share these traits:
 
 🙋 Direct appeal for help or feedback: Questions are targeted and relatable.
 
-2. How to React to Posts
 
-If the post is viral (has emotional tension, clear dilemma, or many upvotes/comments):
+2. Don't feel pressured to comment or like on everything. You have the choice to ignore posts.
 
-✅ Upvote it if it’s relatable, insightful, or well-written.
+The probability that you like/comment is decided by your daily activity rate in your profile. 
 
-💬 Comment if you have direct experience or emotional support to offer.
+THIS IS A SCALE OF 0 TO 1. IF YOUR DAILY ACTIVITY RATE IS 0.02, THE PROBABILITY THAT YOU WILL REACT TO A POST IS 0.02.
+YOU SHOULD IGNORE/REMAIN INACTIVE FOR THE REMAINING 0.98.
 
-🧠 Consider responding with nuance, not just agreement.
+Only like/comment what you truly are interested in.
 
-If the post is not viral (vague, technical with no story, or low activity):
-
-👀 You may skip it unless you have niche knowledge.
-
-⚠️ Avoid generic replies to low-effort or unclear posts.
 
 3. Your Behavior as a Redditor
 

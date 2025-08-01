@@ -3,16 +3,18 @@ import json
 import pandas as pd
 from datetime import datetime
 
-def fetch_reddit_json(subreddit, limit=25, sort="new"):
-    url = f"https://www.reddit.com/r/{subreddit}/{sort}.json?limit={limit}"
-    headers = {"User-Agent": "Mozilla/5.0 (compatible; scraping-bot/1.0)"}
+def fetch_pushshift_posts(subreddit, after_timestamp, size=100):
+    url = f"https://api.pushshift.io/reddit/search/submission/"
+    params = {
+        "subreddit": subreddit,
+        "after": after_timestamp,
+        "size": size,
+        "sort": "asc",  # oldest first
+    }
+    response = requests.get(url, params=params)
+    data = response.json().get("data", [])
 
-    response = requests.get(url, headers=headers)
-    if response.status_code != 200:
-        raise Exception(f"Failed to fetch data: {response.status_code}")
-
-    posts = response.json()['data']['children']
-    results = []
+    print(data)
 
     for idx, post in enumerate(posts, start=1):
         data = post['data']
@@ -44,7 +46,10 @@ def save_to_csv(data, filename):
 
 if __name__ == "__main__":
     subreddit = "NationalServiceSG"
-    posts = fetch_reddit_json(subreddit, limit=200)
+    after_dt = datetime(2025, 7, 1)
+    after_ts = int(after_dt.timestamp())
+
+    posts = fetch_pushshift_posts(subreddit, after_ts, size=200)
     csv_file = f"validation/validation_{subreddit}.csv"
     save_to_csv(posts, csv_file)
     print(f"✅ Extracted {len(posts)} posts from r/{subreddit} and saved to {csv_file}")
