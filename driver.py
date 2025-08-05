@@ -1,23 +1,35 @@
 import json
-from datetime import datetime, timedelta
-from ollama import chat
-from posts.analyse_posts import load_posts, apply_action_to_post
-import pandas as pd
 import os
-from recommendation.fyp import recommend_posts
 import random
+import asyncio
+from datetime import datetime, timedelta
+
+import pandas as pd
+import google.generativeai as genai
+
+from posts.analyse_posts import load_posts, apply_action_to_post
+from recommendation.fyp import recommend_posts
+
 # ---------- CONFIG ----------
-START_TIME = datetime(2025, 7, 19, 10, 0, 0)
+# Prefer setting GEMINI_API_KEY in env: export GEMINI_API_KEY="..."
+API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBMDhVRQ3zBrfGSDiVoz16ELCwsFGoZ1Eo")
+genai.configure(api_key=API_KEY)
+MODEL_NAME = "gemini-2.5-flash"
+
+START_TIME = datetime(2025, 7, 9, 15, 0, 0)
 TIMESTEP_HOURS = 12
 NUM_TIMESTEPS = 40
-ONLINE_RATE = 0.0075  # 10% of users online per timestep
+ONLINE_RATE = 0.0075  # ~0.75% of users online per timestep
+GROUP_SIZE=20
 
-subreddit="NationalServiceSG"
-POSTS_FILE = f"posts/posts_{subreddit}.json"
-AGENTS_FILE = "agents/agents_NationalServiceSG.json"
+subreddit = "SecurityCamera"
+POSTS_FILE = f"posts/posts.json"
+AGENTS_FILE = "agents/agents.json"
 OUTPUT_DIR = "output"
 LOG_FILE = os.path.join(OUTPUT_DIR, "logs", f"{subreddit}/simulation_log.csv")
 POSTS_OUT_FILE = os.path.join(OUTPUT_DIR, "posts", f"{subreddit}/posts.csv")
+
+# ---------- SETUP ----------
 
 # ---------- SETUP ----------
 os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
@@ -37,7 +49,7 @@ def get_online_agents(agent_data, rate=ONLINE_RATE):
     n_total = len(agent_data)
     n_online = max(1, int(rate * n_total))
     return random.sample(agent_data, n_online)
-
+model = genai.GenerativeModel(MODEL_NAME)
 
 # ---------- MAIN SIMULATION LOOP ----------
 for t in range(NUM_TIMESTEPS):
@@ -77,27 +89,16 @@ for t in range(NUM_TIMESTEPS):
         - Commenting style: {agent_profile['comment_style']}
         - Posting frequency: {agent_profile['posting_frequency']}
         - Daily activity rate: {agent_profile["daily_activity_rate"]}
-        You are a Reddit user browsing the r/NationalServiceSG subreddit, where people share personal experiences, ask for advice, and discuss concerns related to National Service in Singapore.
+        You are a Reddit user browsing the r/{subreddit} subreddit, where people share personal experiences, ask for advice, and discuss concerns related to National Service in Singapore.
 
 Your goals are to recognize which posts are likely to go viral, respond realistically, and engage in ways typical of this community.
 
-1. How to Recognize a Viral Post
-Viral posts often share these traits:
 
-🔥 Personal stakes or emotional depth: The post reveals anxiety, relationships, confusion, or physical/mental health concerns. (e.g., “Worried I'm losing my bf while he's in NS”)
-
-🧠 Specific questions or decisions: The post requests clear advice or choices, especially about NS paths or outcomes. (e.g., “What Commando Vocation should I pick”)
-
-✍️ Medium length and clarity: Posts are well-written, personal, but not too long or abstract.
-
-📆 Timeliness: Posts made at the start or end of the week tend to get more engagement.
-
-🙋 Direct appeal for help or feedback: Questions are targeted and relatable.
 
 
 2. Don't feel pressured to comment or like on everything. You have the choice to ignore posts.
 
-The probability that you like/comment is decided by your daily activity rate in your profile. 
+The probability that you like/comment is decided by your daily activity rate in your profile.
 
 THIS IS A SCALE OF 0 TO 1. IF YOUR DAILY ACTIVITY RATE IS 0.02, THE PROBABILITY THAT YOU WILL REACT TO A POST IS 0.02.
 YOU SHOULD IGNORE/REMAIN INACTIVE FOR THE REMAINING 0.98.
@@ -107,9 +108,6 @@ Only like/comment what you truly are interested in.
 
 3. Your Behavior as a Redditor
 
-Be empathetic, personal, and grounded in NS-related culture.
-
-Use Singlish sparingly and authentically.
 
 Don’t overreact; most users are informative or chill.
 
@@ -128,22 +126,19 @@ You see the following posts: {posts_str}
         - Post_ID: [post id]
         - Reason: [brief explanation — use your profile and post content to justify]
         - (If comment) Comment: [realistic Reddit-style reply in your voice]
-        
-        
+
+
         FOLLOW STRICTLY THIS RESPONSE FORMAT. DO NOT ADD ADDITIONAL CHARACTERS BEFORE/AFTER eg. *.
-        
-        F
-        
+
+
+
         """
 
 
-        messages = [
-            {"role": "user", "content": prompt}
-        ]
 
         try:
-            response = chat(model="gemma3:4b", messages=messages)
-            reply = response["message"]["content"]
+            response = model.generate_content(prompt)
+            reply = response.text
         except Exception as e:
             print(f"❌ Error for agent {agent_id}: {e}")
             continue
