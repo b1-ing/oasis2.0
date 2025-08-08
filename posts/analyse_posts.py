@@ -1,5 +1,36 @@
 import json
 import re
+import pandas as pd
+
+def update_posts_csv_from_llm_output(response_text, posts, output_path=None):
+
+    pattern = r"Post\s+(\d+):\s*(?:(\d+)\s+likes?,\s*)?(?:(\d+)\s+comments?)?"
+    matches = re.findall(pattern, response_text)
+
+    if not matches:
+       print("[!] No valid updates found in response.")
+       return posts
+
+    for post_id_str, likes_str, comments_str in matches:
+       post_id = int(post_id_str)
+       likes = int(likes_str) if likes_str else 0
+       comments = int(comments_str) if comments_str else 0
+       # Find and update the post
+       updated = False
+       for post in posts:
+           if post.get("post_id") == post_id:
+               post["num_likes"] = likes
+               post["num_comments"] = comments
+                   # Just append a dummy comment for now
+               updated = True
+               break
+
+       if not updated:
+           print(f"[!] Post {post_id} not found.")
+
+
+
+    return posts
 
 def apply_action_to_post(posts, response_text):
     """Parse LLM response and apply the action to the relevant post."""

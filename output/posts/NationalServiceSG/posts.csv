@@ -1,7 +1,7 @@
-post_id,title,author,url,num_likes,num_dislikes,num_comments,num_shares,created_utc,flair,post_text
-94,"Going for a surgery for my ACL, possible to Up pes to join a combat unit",ACIDGOD47,https://www.reddit.com/r/NationalServiceSG/comments/1m41m65/going_for_a_surgery_for_my_acl_possible_to_up_pes/,0,0,1,0,2025-07-19T17:17:17Z,Question,"So my current pes is B4 and I've got permanent RMJ, excuse heavy load, excuse kneeling and squatting, as I have tore my ACL before national service, I have completed my BMT, and now I'm currently in a unit at Supply Base Central as a Supply Assistant (GE), Was wondering if after I done my surgery, and my knee is healed, is it possible for me to Up Pes and join a frontline combat unit like Guards. "
-95,How do emart credits work for nsmen?,NoAbility1842,https://www.reddit.com/r/NationalServiceSG/comments/1m41aws/how_do_emart_credits_work_for_nsmen/,0,0,0,0,2025-07-19T17:04:23Z,Question,"ORDed early this year, but really want to get more admin shorts. I was in the last batch that got issued the thick ones and really want to get more of the new ones after wearing like 2 pairs over the past couple of months. Is there a cap on how many I can buy? And will the credits still top up every year on my birthday? I may not have reservist due to my PES, vocation and unit"
-96,losing mass and feeling depressed,Present-Pack-6139,https://www.reddit.com/r/NationalServiceSG/comments/1m3z7ui/losing_mass_and_feeling_depressed/,0,0,2,0,2025-07-19T15:38:02Z,Discussion,"so to give context i gym and all blah blah so i do take note of how my physique looks
+post_id,title,author,url,num_likes,num_dislikes,num_comments,num_shares,created_utc,flair,post_text,virality_prediction
+94,"Going for a surgery for my ACL, possible to Up pes to join a combat unit",ACIDGOD47,https://www.reddit.com/r/NationalServiceSG/comments/1m41m65/going_for_a_surgery_for_my_acl_possible_to_up_pes/,1,0,0,0,2025-07-19T17:17:17Z,Question,"So my current pes is B4 and I've got permanent RMJ, excuse heavy load, excuse kneeling and squatting, as I have tore my ACL before national service, I have completed my BMT, and now I'm currently in a unit at Supply Base Central as a Supply Assistant (GE), Was wondering if after I done my surgery, and my knee is healed, is it possible for me to Up Pes and join a frontline combat unit like Guards. ","{'id': 94, 'prediction': 'not viral', 'reason': 'Specific scenario with questions about medical downgrades and unit transfers, probably of interest to a small number of people. '}"
+95,How do emart credits work for nsmen?,NoAbility1842,https://www.reddit.com/r/NationalServiceSG/comments/1m41aws/how_do_emart_credits_work_for_nsmen/,1,0,1,0,2025-07-19T17:04:23Z,Question,"ORDed early this year, but really want to get more admin shorts. I was in the last batch that got issued the thick ones and really want to get more of the new ones after wearing like 2 pairs over the past couple of months. Is there a cap on how many I can buy? And will the credits still top up every year on my birthday? I may not have reservist due to my PES, vocation and unit","{'id': 95, 'prediction': 'not viral', 'reason': 'Very specific question about Emart credits. Not very broadly applicable.'}"
+96,losing mass and feeling depressed,Present-Pack-6139,https://www.reddit.com/r/NationalServiceSG/comments/1m3z7ui/losing_mass_and_feeling_depressed/,15,0,8,0,2025-07-19T15:38:02Z,Discussion,"so to give context i gym and all blah blah so i do take note of how my physique looks
 
 anyways recently I took a pic of my physique and lo and behold i lost so much mass!
 
@@ -12,9 +12,9 @@ it feels like a lot of my effort is wasted haha
 
 with the lack of protein and lack of sleep i feel like my body is deteriorating every damn day 
 
-anyone knows how to cope because i have a long way to go before i ord 😂😂😂"
-97,any ways to get saf laundry (or similar looking ones) outside?,Open_Childhood5395,https://www.reddit.com/r/NationalServiceSG/comments/1m3z7gx/any_ways_to_get_saf_laundry_or_similar_looking/,0,0,0,0,2025-07-19T15:37:34Z,Question,camp laundry system kinda screwed up so uh trying to get my own laundry (especially blankets)
-98,Signing on to C4X? Worth it or not,Fred-ss,https://www.reddit.com/r/NationalServiceSG/comments/1m3y4n1/signing_on_to_c4x_worth_it_or_not/,0,0,3,0,2025-07-19T14:52:05Z,Question,"Hi guys, I have yet to enter the force (waiting to be enlisted), but I am considering signing on to C4X since signing is best done during BMT, from what I have heard. I have read posts regarding signing on but they are about 3 years ago, so I'd like to gain a newer/fresher insight on the current state.  
+anyone knows how to cope because i have a long way to go before i ord 😂😂😂","{'id': 96, 'prediction': 'viral', 'reason': 'Relatable experience of body image change and feeling of losing progress. This could potentially trigger a lot of discussion.'}"
+97,any ways to get saf laundry (or similar looking ones) outside?,Open_Childhood5395,https://www.reddit.com/r/NationalServiceSG/comments/1m3z7gx/any_ways_to_get_saf_laundry_or_similar_looking/,1,0,1,0,2025-07-19T15:37:34Z,Question,camp laundry system kinda screwed up so uh trying to get my own laundry (especially blankets),"{'id': 97, 'prediction': 'not viral', 'reason': 'Very specific and fairly mundane question.'}"
+98,Signing on to C4X? Worth it or not,Fred-ss,https://www.reddit.com/r/NationalServiceSG/comments/1m3y4n1/signing_on_to_c4x_worth_it_or_not/,12,0,7,0,2025-07-19T14:52:05Z,Question,"Hi guys, I have yet to enter the force (waiting to be enlisted), but I am considering signing on to C4X since signing is best done during BMT, from what I have heard. I have read posts regarding signing on but they are about 3 years ago, so I'd like to gain a newer/fresher insight on the current state.  
   
 Let me list out some of my concerns regarding signing on to C4X, hopefully any ex-regulars, current regulars of C4X, or even other vocation regulars could share their experience, stories or advice regarding this decision.
 
@@ -45,8 +45,8 @@ For some context, I don't really mind going through OCS to become occifer, if it
   
 I have also worked at a private sector company before, doing cyber related work. It is just 9 hours a day x5 every week (office / WFH), I would be lying if I said that it wasn't a mixture of boring/super-stressful, I would say that (in my opinion), most of the full timers there are overworked, juggling 7 concurrent projects at once with super tight deadlines.
 
-Edit: Also how are leaves and holidays like? Am I tied to Singapore in the long run or can I take leave for travels etc. as well?"
-99,Worried I'm losing my bf while he's in NS,Fluid_Zombie_6197,https://www.reddit.com/r/NationalServiceSG/comments/1m3xi25/worried_im_losing_my_bf_while_hes_in_ns/,0,0,7,0,2025-07-19T14:24:59Z,Discussion,"Hi everyone! For context, my bf and I started our LDR since before he started NS (I'm from a different country), and we've visited each other IRL a few times. Our relationship has been stable and healthy for the most part.
+Edit: Also how are leaves and holidays like? Am I tied to Singapore in the long run or can I take leave for travels etc. as well?","{'id': 98, 'prediction': 'viral', 'reason': 'The sign-on to C4X question sparks debate and thought. The length of the text might make the question have lower engagement, but it could be viral.'}"
+99,Worried I'm losing my bf while he's in NS,Fluid_Zombie_6197,https://www.reddit.com/r/NationalServiceSG/comments/1m3xi25/worried_im_losing_my_bf_while_hes_in_ns/,20,0,12,0,2025-07-19T14:24:59Z,Discussion,"Hi everyone! For context, my bf and I started our LDR since before he started NS (I'm from a different country), and we've visited each other IRL a few times. Our relationship has been stable and healthy for the most part.
 
 During BMT, he made a lot of effort to call and text me whenever possible and give a lot of assurance, even though his schedule was packed. During weekend book outs we could spend almost the entire time together, and I would listen to try to understand the NS workings since I myself am not from Singapore haha.
 
@@ -64,7 +64,100 @@ Any advice/opinions would be great, especially from girlies who are also dating 
 
 Edit: there are so many sickos in my DMs asking me if I wanna cheat on him. Get a grip bruhh 😭
 
-Edit 2: For clarification, I'm not in SG Uni and I'm working corporate from a different country. yes I'm older than him haha"
-100,Want To Attend A Concert in Nov,KiranCommander,https://www.reddit.com/r/NationalServiceSG/comments/1m3teza/want_to_attend_a_concert_in_nov/,0,0,0,0,2025-07-19T10:58:30Z,Question,"Pes E9 here, entering to God blessed BMTC SCH V this 19th Aug. I would love to get tickets for an upcoming concert in Novemember, it's at 8pm.
+Edit 2: For clarification, I'm not in SG Uni and I'm working corporate from a different country. yes I'm older than him haha","{'id': 99, 'prediction': 'very viral', 'reason': 'LDR relationships during NS are a very common theme. This post has lots of hooks: LDR, potential cheating, lack of quality time, emotional vulnerability. Also includes an edit that shows potential for even wider reach with the addition of the DM warning.'}"
+100,Want To Attend A Concert in Nov,KiranCommander,https://www.reddit.com/r/NationalServiceSG/comments/1m3teza/want_to_attend_a_concert_in_nov/,3,0,1,0,2025-07-19T10:58:30Z,Question,"Pes E9 here, entering to God blessed BMTC SCH V this 19th Aug. I would love to get tickets for an upcoming concert in Novemember, it's at 8pm.
 
-So uhm, any advice? Is it easy to get leave approve or no? Or if I'm a stay-out vocation do I need not to worry and it's just me overthinking everything? Thanks."
+So uhm, any advice? Is it easy to get leave approve or no? Or if I'm a stay-out vocation do I need not to worry and it's just me overthinking everything? Thanks.","{'id': 100, 'prediction': 'not viral', 'reason': 'Specific question regarding leave approval. Relatively low potential for virality.'}"
+83,Pes E reservist outfield?,Faglawd,https://www.reddit.com/r/NationalServiceSG/comments/1m4yhkm/pes_e_reservist_outfield/,1,0,0,0,2025-07-20T19:59:38Z,Question,"Recently got downgraded to pes E1 as NSman, am I still required to go outfield? CO and OC for reservist unit very garang because both extended past their required 10 cycles ","{'id': 83, 'prediction': 'not viral', 'reason': 'Specific question about PES E and outfield, likely to be of interest only to a small subset of NSmen. Lacks broad appeal.'}"
+84,Scared of having to retake BMT due to MCs,ViperTheKillerCobra,https://www.reddit.com/r/NationalServiceSG/comments/1m4ov1c/scared_of_having_to_retake_bmt_due_to_mcs/,8,0,5,0,2025-07-20T13:25:28Z,Question,"Kranji II E9 Stayout here. Out of the 21 available days for Phase 1, I’m headed into my 5th MC day bc I’m developing flu symptoms + high fever. 
+
+I’ve heard somewhere you need 75% attendance to clear BMT and so far I would only have 76% if I book in for the remaining days. From experience, this is a genuine worry I should have? Or is it just paranoid?","{'id': 84, 'prediction': 'viral', 'reason': 'Relatable fear about BMT attendance, resonates with many NS recruits. Has a clear, easy to understand question. The fear is universal.'}"
+85,Will I Get Posted to a Combat Vocation Before Seeing PCC?,Background_Sir8414,https://www.reddit.com/r/NationalServiceSG/comments/1m4nu40/will_i_get_posted_to_a_combat_vocation_before/,8,0,5,0,2025-07-20T12:34:54Z,Question,"
+Hi everyone,
+I’m currently quite stressed and confused about my NS situation and hoping someone here might have gone through something similar or can offer advice.
+
+Here’s my situation:
+	•	Enlisted into Enhanced BMT as a PES B1 recruit (combat-fit)
+	•	After 5 days, I sought help from CareHub, then saw my MO, and received 3 days of Respite MC
+	•	Was later sent to IMH A&amp;E, received a memo, and submitted it to my unit
+	•	I was told I’ll be referred to PCC (Psychiatric Case Conference), but I’ve yet to get any confirmation on my appointment
+	•	Currently, I’m:
+	•	Awaiting OOC
+	•	Still PES B1 (MO has not down-PESed me)
+	•	On Light Duties (84 days)
+	•	Excused Stay-In (temporary)
+	•	Excused FLEGS
+	•	Still allowed to take Respite MCs when needed
+
+My main concern is this:
+Will I be posted into a combat vocation unit before I get to see PCC or before they down-PES me? Since I’m still technically PES B1 and not officially downpassed yet, I’m really scared I might end up getting posted before proper psychiatric evaluation happens.","{'id': 85, 'prediction': 'viral', 'reason': 'Deals with a high-stress situation, fear of being posted, potential mental health issues. This topic can attract a lot of attention, potentially leading to discussions and a lot of upvotes and comments.'}"
+86,sending outfield letter to my nsbf,matchahoney444,https://www.reddit.com/r/NationalServiceSG/comments/1m4n2t7/sending_outfield_letter_to_my_nsbf/,1,0,0,0,2025-07-20T11:54:21Z,Question,hi guys does anyone knows how many days before the outfield must i send my letter to ensure he receives it when everyone else does too :”) im planning to send it via singpost smartpac myself ,"{'id': 86, 'prediction': 'not viral', 'reason': 'Specific question, unlikely to resonate with many people.'}"
+87,"NSFIT settled, still need IPPT during ICT?",piping_hot_potato,https://www.reddit.com/r/NationalServiceSG/comments/1m4mqb3/nsfit_settled_still_need_ippt_during_ict/,1,0,0,0,2025-07-20T11:34:24Z,Question,"If let's say I completed all NSFIT sessions (plus one IPPT attempt) before my ICT, am I still required to attempt the IPPT in camp?","{'id': 87, 'prediction': 'not viral', 'reason': 'Specific question, only relevant to NSmen. Lacks broad appeal or emotional resonance.'}"
+88,How are experiences with public psychiatrists?,Specialist_Safe4404,https://www.reddit.com/r/NationalServiceSG/comments/1m4ltru/how_are_experiences_with_public_psychiatrists/,10,0,6,0,2025-07-20T10:39:33Z,Question,"Hi there, has anyone saw psychiatrists from public hospital other than IMH for specialist memos or just consultations before? Gotta visit KTPH psychiatrists sometimes soon cuz private too expensive wondering if psychiatrists in government hospitals are generally nice and caring..... 
+
+Any helps would be appreciated. Thank you! ","{'id': 88, 'prediction': 'viral', 'reason': 'Relatable concern about public healthcare and psychiatrists, especially given the cost of private care. The topic is relevant to many people and open for discussion.'}"
+89,Helping out fellow NSF in unit,Any_Constant2965,https://www.reddit.com/r/NationalServiceSG/comments/1m4lsu0/helping_out_fellow_nsf_in_unit/,8,0,5,0,2025-07-20T10:37:54Z,Question,"Throwaway account due to personal reasons
+
+Recently, I had a new 3SG that got posted into my unit, over the short time that I had with him, he has been consistently late, quarelling with superiors and not taking initiative to help around the unit(ie, taking rations,area cleaning)
+
+Im ok if he wants to keng and stuff, but he is making it everyone's problem, the unit is tired of him
+
+He is going to take over me, and I feel that it is my responsibility to help him better adjust to his unit.I need your advice with this matter 🙏🙏🙏","{'id': 89, 'prediction': 'viral', 'reason': 'Relatable situation about a difficult colleague or superior. Creates opportunities for advice and discussion.'}"
+90,Vocations for Recovery Company,DeepLord2472,https://www.reddit.com/r/NationalServiceSG/comments/1m4lb1p/vocations_for_recovery_company/,1,0,0,0,2025-07-20T10:05:52Z,Question,I was informed that I'm posted to recovery coy. Anyone here has been posted to RCOY before and what vocation were you posted to after BMT?,"{'id': 90, 'prediction': 'not viral', 'reason': 'Specific question about a particular posting after BMT, unlikely to go viral, although it could be viral within a small community.'}"
+91,What Commando Vocation should I pick,ConfusedWalrus69,https://www.reddit.com/r/NationalServiceSG/comments/1m4jzrc/what_commando_vocation_should_i_pick/,6,0,4,0,2025-07-20T08:39:35Z,Question,"Just got through my 2 weeks confinement and still feeling indifferent to CDO life, definitely not all sunshine and rainbows but at least the food was pretty good. 
+
+Anyways, I've heard very little about the 5 vocations, (leaders/weapons/demo/medic/signals) so here I am.
+
+Already decided against leaders cuz I know I ain't got that dawg in me. Matter of fact, I'm looking for the slackest most chaokeng job a commando can get, ironic I know. 
+
+I live in the west, so stagmont camp (signals) is at the top of my list, appreciate if anyone could share their experience. Thanks 🙏 
+
+
+
+ ","{'id': 91, 'prediction': 'viral', 'reason': 'Relatable question, could spark discussion and suggestions, especially if it takes a funny/meme-ish tone (e.g., ""chaokeng job"").'}"
+92,Holding Area/Room (in SCDF) Queries,Remarkable-Bit-671,https://www.reddit.com/r/NationalServiceSG/comments/1m4jb0g/holding_arearoom_in_scdf_queries/,1,0,0,0,2025-07-20T07:54:04Z,Question,"Hello, does anyone know what are the odds/chances for someone that is currently in the midst of being downpes’d from B1 to C9 to be put in holding area after POP (which is like in 2 weeks time) or do they usually just straight away assign a frontline support vocation even when my down pes is processing? (Waiting for medical board to review)
+
+Also, would like some intake on what’s the attire like to book in/out if I was to be placed in the holding area/room after POP while waiting for my down pes to be fully processed and given a support vocation? Is it smart 4 or? And do we get to wear admin attire when in camp after that like when walking around/going for lunch and etc
+
+Would appreciate if anyone here knows! 🥲","{'id': 92, 'prediction': 'not viral', 'reason': 'Specific question. Not super relatable, but could get a good amount of comments and likes within a sub-community.'}"
+93,How to listen and not impose your opinions on someone,InformalTop5121,https://www.reddit.com/r/NationalServiceSG/comments/1m4d4n2/how_to_listen_and_not_impose_your_opinions_on/,8,0,5,0,2025-07-20T01:54:28Z,Question,"Maybe it’s just the way my unit functions but over my time in unit I’ve gotten really close to one of my specs cause we’ve had a lot of H2H talks in and outside of army, and he recently confided that his worried about life after army cause of his past education path but due to different beliefs every time we talk about this topic I always tell him don’t worry about it too much cause there’s not much he can do until Uni starts but to him worrying motivated him but I can tell it’s burning him out, he just doesn’t wanna admit it and so we always argue about it when the topic arises but other than that we get along fine (sometimes too well) 
+
+Also, he looks out for me in camp the most so I find it heartbreaking that I can help him and can only listen to him. So how do yall just listen and not do anything without feeling useless :/ btw im a Cpl and he’s not my buddy spec he just looks out for me on his own accord so technically its not really his job ? Cause there’s a spec to operator ratio and its 1:1 in my plt cause of how small it is","{'id': 93, 'prediction': 'viral', 'reason': 'Very relatable situation. Discussion about relationships, communication, and handling conflict will be widely relevant. Sparks emotional reaction and conversation. '}"
+73,Anyone know what's FFI for regular absorption,Ok_Librarian_5173,https://www.reddit.com/r/NationalServiceSG/comments/1m5yjb6/anyone_know_whats_ffi_for_regular_absorption/,1,0,0,0,2025-07-21T23:29:33Z,Question,I plan on signing a diff service currently in unit and the recruitment centre has ask that I get a FFI for regular absorption how am I suppose to get this cuz when I ask the staff at the MO they mention that it can't be book like the normal FFI appointment ,"{'id': 73, 'prediction': 'not viral', 'reason': 'Very niche question about the process to sign on.'}"
+74,Reservist pay if taking off/mc,MrKabowski,https://www.reddit.com/r/NationalServiceSG/comments/1m5mzqg/reservist_pay_if_taking_offmc/,1,0,0,0,2025-07-21T16:06:55Z,Question,Currently doing high key. Took 1 day off for personal matter. Will i still receive pay for the day i took off? Company is registered so they pay me directly instead of service pay + make up pay. Will i be expecting the same salary next month or will they prorate 1 day off?,"{'id': 74, 'prediction': 'not viral', 'reason': 'Specific question about pay related to reservist, thus limiting its audience appeal.'}"
+75,Tell me everything I should know if I were to sign on as a female,lazyleopard21,https://www.reddit.com/r/NationalServiceSG/comments/1m5kh7y/tell_me_everything_i_should_know_if_i_were_to/,0,0,0,0,2025-07-21T14:31:36Z,Question,"Hi I am 17F and I have been recently interested in the idea of signing on! For context, I am set to complete my International Baccalaureate Diploma in November 2026 so I have been thinking about what I’d like to pursue thereafter. I have been volunteering for National Day and though I’m aware that its a display of the more glamorous aspect of our nation’s defence, it has piqued my curiosity regarding a career in the army/airforce. If I choose to not sign on, I will likely pursue a PLE degree or law at the tertiary level. I have no brothers and my father attended NS awhile ago, so it would be great if I could get some answers to my questions 😊
+
+1.	⁠If I were to sign on, should I apply for university first, then sign on via the Mindef website, if no, what is the proper pathway I should take while approaching this?
+2.	⁠In the 2 years of NS, what will I experience other than BMT?
+3.	⁠As a girl, will I still be routed to NS vocations like NDU and Commandos/Guards?
+4.	⁠Why should I not sign on? Do I have a better shot at a career in a private sector after uni?
+5.	⁠Is it true that all girls in NS will be on track to SCS or OCS?
+6.	⁠How worth it is the SAF scholarship?
+
+
+If there is anything you think I should know or take as a precaution before signing on please let me know! It would be greatly appreciated as I’m still abit clueless 😂😓","{'id': 75, 'prediction': 'viral', 'reason': 'Addresses a broader audience - females considering a career in the army. It invites open discussion and has a broad appeal.'}"
+76,waiting for PES status change,Sensitive-Lunch-8494,https://www.reddit.com/r/NationalServiceSG/comments/1m5i52o/waiting_for_pes_status_change/,0,0,0,0,2025-07-21T12:54:55Z,Question,"hi, i recently submitted my memo to the MO and the MO told me i would downpes to C9 due to my leg injury. any idea when the medical board review for this month(july) would take place and how long then would it take before my PES changes?","{'id': 76, 'prediction': 'not viral', 'reason': 'Specific issue and waiting time for the PES status will appeal to a niche group only.'}"
+77,NSRO refuses to follow MO recommendation,Sally744,https://www.reddit.com/r/NationalServiceSG/comments/1m5htlq/nsro_refuses_to_follow_mo_recommendation/,0,0,0,0,2025-07-21T12:40:11Z,Question,Recently downpes due to mental health and MO recommended a transfer to our of my unit but my unit’s NSRO refuses to do so and is giving a invalid and weak reason like being still eligible for the unit by its PES status which isn’t the point since that’s not the reason for MO’s recommendation for a transfer out which has to do with the unit’s super toxic culture. What else can I do other than the MINDEF safety hotline? ,"{'id': 77, 'prediction': 'viral', 'reason': 'Addresses a common issue of dissatisfaction with the unit. This topic may attract engagement.'}"
+78,Is it possible to report NDP food?,pratathambi,https://www.reddit.com/r/NationalServiceSG/comments/1m5gv4e/is_it_possible_to_report_ndp_food/,0,0,0,0,2025-07-21T11:54:01Z,Question,"In NDP and being provided food from Old Chang Kee, the food is so bad that most of us rather just not eat at all and do work empty stomach. Is there even a possibility of the food being reported because we do not even have cookhouse food indented as an alternative?","{'id': 78, 'prediction': 'viral', 'reason': 'Relatable experience about food quality that may generate discussion and outrage.'}"
+79,Tore my acl in 2023. What will my PES be?,No_Baker_4946,https://www.reddit.com/r/NationalServiceSG/comments/1m5fd1j/tore_my_acl_in_2023_what_will_my_pes_be/,0,0,0,0,2025-07-21T10:30:29Z,Question,"Tore my acl in 2023 and had a successful surgery in 2023 december. I have not been to physio in a long time and i have not “cleared” my physiotherapy. As of now, i am currently fully fit and i play football very often. I have my ns check up at the end of the year. What will my PES be?
+Also, is my acl tear recorded in my history, and will they take into consideration about it at the ns check up?","{'id': 79, 'prediction': 'not viral', 'reason': 'Specific medical question which is based on personal medical history.'}"
+80,Random question about berets,Vivid-Associate-5868,https://www.reddit.com/r/NationalServiceSG/comments/1m5ezqz/random_question_about_berets/,0,0,0,0,2025-07-21T10:08:51Z,Question,"Hi I recently ooced from my scs pro term( won't say which) due to injury and have recently received my beret. Am I still allowed to wear the beret since technically I earned it up to that point even though im ooced and probably will post to a non combat unit?
+
+
+","{'id': 80, 'prediction': 'not viral', 'reason': 'Niche question regarding uniform and berets for a specific group.'}"
+81,Army Safety Inspectorate ASI,tutukuehlover,https://www.reddit.com/r/NationalServiceSG/comments/1m5e7vl/army_safety_inspectorate_asi/,0,0,0,0,2025-07-21T09:21:02Z,Question,"Not NS related but does anyone knows where officers from this unit/dept will be located at? 
+
+i.e. which camp can we find ASI? 
+
+Or are they based at CMPB? ","{'id': 81, 'prediction': 'not viral', 'reason': 'Specific question about unit location, unlikely to have broad appeal. Lacks emotional hook or relatable experience.'}"
+82,Regarding Make up Pay for reservist,XenonKirito,https://www.reddit.com/r/NationalServiceSG/comments/1m5cvyr/regarding_make_up_pay_for_reservist/,0,0,0,0,2025-07-21T07:55:48Z,Question,"I understand that normally for nondirect scheme, employer or HR is supposed to give a form to sign or they sign it but..
+
+Do they download it from the NS portal?
+Do they have to add the employee under something in Corp pass?
+
+Seems like my current employer/manager never done MUP for the other older NSmen colleagues before and only ask them to submit their own claims after they finished their cycle.
+
+This is my 2nd reservist and seems like for non direct I still need to get my employer to help us submit another form again. Since the MUP never auto calculated.
+Is that correct??
+
+(Forgot to mentioned that I'm from SCDF/MHA)","{'id': 82, 'prediction': 'not viral', 'reason': 'Niche topic about employer MUP, specific to reservist and HR processes. Not widely relatable.'}"

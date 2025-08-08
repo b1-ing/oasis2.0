@@ -6,7 +6,7 @@ from tqdm import tqdm
 import google.generativeai as genai
 subreddit="NationalServiceSG"
 # --- CONFIGURATION ---
-JSON_FILE_PATH = f"posts/posts.json"
+JSON_FILE_PATH = f"posts/posts_{subreddit}.json"
 BATCH_SIZE = 20
 SLEEP_BETWEEN_BATCHES = 1  # seconds, avoid hitting rate limits
 
