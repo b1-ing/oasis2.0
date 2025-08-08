@@ -68,7 +68,7 @@ for t in range(NUM_TIMESTEPS):
         print(f"📢 New post {p['post_id']} published.")
         posts.append(p)
 
-    recommended_posts= posts[:-20]
+    recommended_posts = sorted(posts, key=lambda x: x.get("created_utc", ""), reverse=True)[:20]
     print(recommended_posts)
     posts_str = json.dumps(recommended_posts, indent=2)
     prompt= f"""
