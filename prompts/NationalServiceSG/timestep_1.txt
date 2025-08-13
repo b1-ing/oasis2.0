@@ -1,0 +1,182 @@
+2025-07-20T10:00:00 -
+You are acting as a decision making body of 322.5 agents browsing the r/NationalServiceSG subreddit.
+
+Your goals are to recognize which posts are likely to go viral, have each of the agents respond realistically, and engage in ways typical of this community.
+
+You will simulate 4 timesteps, each being 6 hours. 4 timesteps will add up to be a day.
+
+1. Don't feel pressured to have the agents comment or like on everything. They can ignore posts.
+
+2. Agents' behavior:
+- Be realistic, not overly enthusiastic
+- You may ask clarifying questions
+- Don’t overreact
+
+3. The posts provided already have likes (num_likes) and comments (num_comments). USE THIS COUNT AS YOUR STARTING POINT. DO NOT START FROM 0
+
+
+Here are the existing posts:
+[]
+
+Here are the newly posted posts:
+[
+  {
+    "post_id": 83,
+    "title": "Pes E reservist outfield?",
+    "author": "Faglawd",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m4yhkm/pes_e_reservist_outfield/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-20T19:59:38Z",
+    "flair": "Question",
+    "post_text": "Recently got downgraded to pes E1 as NSman, am I still required to go outfield? CO and OC for reservist unit very garang because both extended past their required 10 cycles "
+  },
+  {
+    "post_id": 84,
+    "title": "Scared of having to retake BMT due to MCs",
+    "author": "ViperTheKillerCobra",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m4ov1c/scared_of_having_to_retake_bmt_due_to_mcs/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-20T13:25:28Z",
+    "flair": "Question",
+    "post_text": "Kranji II E9 Stayout here. Out of the 21 available days for Phase 1, I\u2019m headed into my 5th MC day bc I\u2019m developing flu symptoms + high fever. \n\nI\u2019ve heard somewhere you need 75% attendance to clear BMT and so far I would only have 76% if I book in for the remaining days. From experience, this is a genuine worry I should have? Or is it just paranoid?"
+  },
+  {
+    "post_id": 85,
+    "title": "Will I Get Posted to a Combat Vocation Before Seeing PCC?",
+    "author": "Background_Sir8414",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m4nu40/will_i_get_posted_to_a_combat_vocation_before/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-20T12:34:54Z",
+    "flair": "Question",
+    "post_text": "\nHi everyone,\nI\u2019m currently quite stressed and confused about my NS situation and hoping someone here might have gone through something similar or can offer advice.\n\nHere\u2019s my situation:\n\t\u2022\tEnlisted into Enhanced BMT as a PES B1 recruit (combat-fit)\n\t\u2022\tAfter 5 days, I sought help from CareHub, then saw my MO, and received 3 days of Respite MC\n\t\u2022\tWas later sent to IMH A&amp;E, received a memo, and submitted it to my unit\n\t\u2022\tI was told I\u2019ll be referred to PCC (Psychiatric Case Conference), but I\u2019ve yet to get any confirmation on my appointment\n\t\u2022\tCurrently, I\u2019m:\n\t\u2022\tAwaiting OOC\n\t\u2022\tStill PES B1 (MO has not down-PESed me)\n\t\u2022\tOn Light Duties (84 days)\n\t\u2022\tExcused Stay-In (temporary)\n\t\u2022\tExcused FLEGS\n\t\u2022\tStill allowed to take Respite MCs when needed\n\nMy main concern is this:\nWill I be posted into a combat vocation unit before I get to see PCC or before they down-PES me? Since I\u2019m still technically PES B1 and not officially downpassed yet, I\u2019m really scared I might end up getting posted before proper psychiatric evaluation happens."
+  },
+  {
+    "post_id": 86,
+    "title": "sending outfield letter to my nsbf",
+    "author": "matchahoney444",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m4n2t7/sending_outfield_letter_to_my_nsbf/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-20T11:54:21Z",
+    "flair": "Question",
+    "post_text": "hi guys does anyone knows how many days before the outfield must i send my letter to ensure he receives it when everyone else does too :\u201d) im planning to send it via singpost smartpac myself "
+  },
+  {
+    "post_id": 87,
+    "title": "NSFIT settled, still need IPPT during ICT?",
+    "author": "piping_hot_potato",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m4mqb3/nsfit_settled_still_need_ippt_during_ict/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-20T11:34:24Z",
+    "flair": "Question",
+    "post_text": "If let's say I completed all NSFIT sessions (plus one IPPT attempt) before my ICT, am I still required to attempt the IPPT in camp?"
+  },
+  {
+    "post_id": 88,
+    "title": "How are experiences with public psychiatrists?",
+    "author": "Specialist_Safe4404",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m4ltru/how_are_experiences_with_public_psychiatrists/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-20T10:39:33Z",
+    "flair": "Question",
+    "post_text": "Hi there, has anyone saw psychiatrists from public hospital other than IMH for specialist memos or just consultations before? Gotta visit KTPH psychiatrists sometimes soon cuz private too expensive wondering if psychiatrists in government hospitals are generally nice and caring..... \n\nAny helps would be appreciated. Thank you! "
+  },
+  {
+    "post_id": 89,
+    "title": "Helping out fellow NSF in unit",
+    "author": "Any_Constant2965",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m4lsu0/helping_out_fellow_nsf_in_unit/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-20T10:37:54Z",
+    "flair": "Question",
+    "post_text": "Throwaway account due to personal reasons\n\nRecently, I had a new 3SG that got posted into my unit, over the short time that I had with him, he has been consistently late, quarelling with superiors and not taking initiative to help around the unit(ie, taking rations,area cleaning)\n\nIm ok if he wants to keng and stuff, but he is making it everyone's problem, the unit is tired of him\n\nHe is going to take over me, and I feel that it is my responsibility to help him better adjust to his unit.I need your advice with this matter \ud83d\ude4f\ud83d\ude4f\ud83d\ude4f"
+  },
+  {
+    "post_id": 90,
+    "title": "Vocations for Recovery Company",
+    "author": "DeepLord2472",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m4lb1p/vocations_for_recovery_company/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-20T10:05:52Z",
+    "flair": "Question",
+    "post_text": "I was informed that I'm posted to recovery coy. Anyone here has been posted to RCOY before and what vocation were you posted to after BMT?"
+  },
+  {
+    "post_id": 91,
+    "title": "What Commando Vocation should I pick",
+    "author": "ConfusedWalrus69",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m4jzrc/what_commando_vocation_should_i_pick/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-20T08:39:35Z",
+    "flair": "Question",
+    "post_text": "Just got through my 2 weeks confinement and still feeling indifferent to CDO life, definitely not all sunshine and rainbows but at least the food was pretty good. \n\nAnyways, I've heard very little about the 5 vocations, (leaders/weapons/demo/medic/signals) so here I am.\n\nAlready decided against leaders cuz I know I ain't got that dawg in me. Matter of fact, I'm looking for the slackest most chaokeng job a commando can get, ironic I know. \n\nI live in the west, so stagmont camp (signals) is at the top of my list, appreciate if anyone could share their experience. Thanks \ud83d\ude4f \n\n\n\n "
+  },
+  {
+    "post_id": 92,
+    "title": "Holding Area/Room (in SCDF) Queries",
+    "author": "Remarkable-Bit-671",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m4jb0g/holding_arearoom_in_scdf_queries/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-20T07:54:04Z",
+    "flair": "Question",
+    "post_text": "Hello, does anyone know what are the odds/chances for someone that is currently in the midst of being downpes\u2019d from B1 to C9 to be put in holding area after POP (which is like in 2 weeks time) or do they usually just straight away assign a frontline support vocation even when my down pes is processing? (Waiting for medical board to review)\n\nAlso, would like some intake on what\u2019s the attire like to book in/out if I was to be placed in the holding area/room after POP while waiting for my down pes to be fully processed and given a support vocation? Is it smart 4 or? And do we get to wear admin attire when in camp after that like when walking around/going for lunch and etc\n\nWould appreciate if anyone here knows! \ud83e\udd72"
+  },
+  {
+    "post_id": 93,
+    "title": "How to listen and not impose your opinions on someone",
+    "author": "InformalTop5121",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m4d4n2/how_to_listen_and_not_impose_your_opinions_on/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-20T01:54:28Z",
+    "flair": "Question",
+    "post_text": "Maybe it\u2019s just the way my unit functions but over my time in unit I\u2019ve gotten really close to one of my specs cause we\u2019ve had a lot of H2H talks in and outside of army, and he recently confided that his worried about life after army cause of his past education path but due to different beliefs every time we talk about this topic I always tell him don\u2019t worry about it too much cause there\u2019s not much he can do until Uni starts but to him worrying motivated him but I can tell it\u2019s burning him out, he just doesn\u2019t wanna admit it and so we always argue about it when the topic arises but other than that we get along fine (sometimes too well) \n\nAlso, he looks out for me in camp the most so I find it heartbreaking that I can help him and can only listen to him. So how do yall just listen and not do anything without feeling useless :/ btw im a Cpl and he\u2019s not my buddy spec he just looks out for me on his own accord so technically its not really his job ? Cause there\u2019s a spec to operator ratio and its 1:1 in my plt cause of how small it is"
+  }
+]
+
+Respond in this format:
+
+Timestep 1 (0-6 hours)
+Post 96: 10 likes, 8 comments
+Post 98: 8 likes, 6 comments
+Post 99: 15 likes, 12 comments
+Post 95: 1 comment
+Post 97: 1 comment
+Post 100: 2 comments
+
+Timestep 2 (6-12 hours)
+Post 96: 25 likes, 20 comments
+Post 98: 18 likes, 15 comments
+...
+ONLY use this format. Do not add anything else.

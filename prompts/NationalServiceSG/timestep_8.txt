@@ -1,0 +1,182 @@
+2025-07-27T10:00:00 -
+You are acting as a decision making body of 322.5 agents browsing the r/NationalServiceSG subreddit.
+
+Your goals are to recognize which posts are likely to go viral, have each of the agents respond realistically, and engage in ways typical of this community.
+
+You will simulate 4 timesteps, each being 6 hours. 4 timesteps will add up to be a day.
+
+1. Don't feel pressured to have the agents comment or like on everything. They can ignore posts.
+
+2. Agents' behavior:
+- Be realistic, not overly enthusiastic
+- You may ask clarifying questions
+- Don’t overreact
+
+3. The posts provided already have likes (num_likes) and comments (num_comments). USE THIS COUNT AS YOUR STARTING POINT. DO NOT START FROM 0
+
+
+Here are the existing posts:
+[]
+
+Here are the newly posted posts:
+[
+  {
+    "post_id": 5,
+    "title": "Which attire is SLUTTIER?",
+    "author": "majulahsotongs",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1masdsu/which_attire_is_sluttier/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-27T17:36:22Z",
+    "flair": "Question",
+    "post_text": "Guys (and girls?) of this sub, which unofficial SAF attire is SLUTTIER?\n\nTopless number 4 + ID tag\n\nVS\n\nPT kit with alatama/WP (bonus if black socks reach your knees)\n\n"
+  },
+  {
+    "post_id": 6,
+    "title": "GPMG course as a 3SG @ ITI",
+    "author": "Enough_Bumblebee_296",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1maq37j/gpmg_course_as_a_3sg_iti/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-27T16:06:17Z",
+    "flair": "Question",
+    "post_text": "Going for gpmg course at ITI\n\nWhats the day to day programme like, is gpmg hard to learn and work with, is there overnight outfield and is the schedule strict like got 1st last parade?"
+  },
+  {
+    "post_id": 7,
+    "title": "Applying for Leave in pobc",
+    "author": "Own-Hyena8973",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1map1mb/applying_for_leave_in_pobc/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-27T15:24:57Z",
+    "flair": "Question",
+    "post_text": "Going to pobc this mid aug, is it possible to apply for leave during pobc somewhere around Nov for upcoming exams/events? \ud83e\udd14 (didnt pass ippt :[\n\n"
+  },
+  {
+    "post_id": 8,
+    "title": "Drinking 5 hour energy/Pocari sweat/100 Plus before IPPT?",
+    "author": "No_Pilot_7948",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1malkyb/drinking_5_hour_energypocari_sweat100_plus_before/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-27T12:55:03Z",
+    "flair": "Question",
+    "post_text": "Have a IPPT coming up, does drinking 5 hour energy before IPPT help?"
+  },
+  {
+    "post_id": 9,
+    "title": "Will I be ineligble for me1?",
+    "author": "Radiant_Attorney828",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1maljkc/will_i_be_ineligble_for_me1/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-27T12:53:07Z",
+    "flair": "Question",
+    "post_text": "i heard if i go to uni before signing on I would only be limited to me4 or officer positions so just wanna clarify on this? coz if it is then ill sign on with my diploma first then try to take a part time degree while serving\n\nik this sounds dumb but i rlly wish to serve as a me1 on the ground. in addition, i have never had a proper leadership position like exco due to my poor social skills. At most, ive been a group leader for school projects which shld be similar to leading a team of 6 ppl as a me1 rite? thus i dont feel it's right to take on a leadership role when Im most likely going to be poor at it (i prob wouldn't make it past the assesment in the first place)."
+  },
+  {
+    "post_id": 10,
+    "title": "How is your life as a sch HQ ASA?",
+    "author": "DentistAmbitious8072",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1majs8e/how_is_your_life_as_a_sch_hq_asa/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-27T11:17:35Z",
+    "flair": "Question",
+    "post_text": "1. What % of your time was spent on doing your own stuff?\n\n2. Bunk condition if i want to stay in? Heard that it was air-conditioned and is a 2-4 man bunk\n\n3. Is there washing machines? Can recruits use it?\n\n4. Generally, how well are you being treated as a recruit there? Heard that I will be working with a lot of high-ranking personnel, so a bit nervous about this as I will get anxiety and shut down when ppl scream at me.\n\n5. Do we get to eat better food, or is it the same food as what we ate previously?\n\n6. Is there unlimited mineral water/other drinks available in the office for us? Or must we drink tekong water? Been getting sore throat since I started drinking the water there.\n\nAny other information, please add on."
+  },
+  {
+    "post_id": 11,
+    "title": "Seeking advice: Struggling physically and emotionally",
+    "author": "Ok-Story3983",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1mag7uw/seeking_advice_struggling_physically_and/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-27T07:26:50Z",
+    "flair": "Question",
+    "post_text": "Could anyone help or advise on what i should do since im struggling physically and emotionally.\ncontext in comments*"
+  },
+  {
+    "post_id": 12,
+    "title": "Questions about HQ 9 DIV/INF",
+    "author": "KRXLover",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1maftdq/questions_about_hq_9_divinf/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-27T07:01:26Z",
+    "flair": "Question",
+    "post_text": "So I got my posting order on friday and it said HQ 9 DIV/INF and I called the POC Number and the Sir said that it was a temp posting for now and its a Stay out for now.\n\nNow I want to know\n1- Food, how is the food because I am tired of bentos (I was SCH V, our cookhouse was under reno and we ate too much bentos)\n\n2- Environment, how is the work environment there at Selarang Camp overall\n\nThats really all I want to know actually"
+  },
+  {
+    "post_id": 13,
+    "title": "signing on RSAF halfway through NSF?",
+    "author": "pikaclyy",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1maesaf/signing_on_rsaf_halfway_through_nsf/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-27T05:57:38Z",
+    "flair": "Question",
+    "post_text": "context: i was enlisted into Commando (CDO), but want to sign on RSAF at the end of this year (first year NS). \n\nis it possible? is there any procedure for transfering units? when should i start applying to RSAF?"
+  },
+  {
+    "post_id": 14,
+    "title": "Questions about time in NS (niche and weird)",
+    "author": "Any-Journalist4025",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1maenhu/questions_about_time_in_ns_niche_and_weird/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-27T05:49:21Z",
+    "flair": "Question",
+    "post_text": "I am pretty sure I am a transgender ah gua. Think what you want abt that but I\u2019m 99% confident I wish to transition and live as a woman. However, I don\u2019t entirely hate the concept of NS and will just get it over and done with. But I\u2019ve got several questions:\n\n1) Is it possible to skip meals or give my buddies some extra food from my plate? I\u2019d eat the bare minimum so I don\u2019t get any large bone or muscle growth that would make me look like a man when older but enough to survive. I\u2019d probably just give them my protein-rich stuff meats and beans whatnot, would they mind?\n\n2) What\u2019s to say, hypothetically, for the funny, I get hormones and medication from Indonesia and Thailand (if your curious you convert money into crypto and give them, it\u2019s a very weird system but as long as I get my meds) and just go on them DIY. Then after a year I go MO and show them. What\u2019s gonna happen? "
+  },
+  {
+    "post_id": 15,
+    "title": "What to expect for Outfield next week? I'm scared. Deathly scared.",
+    "author": "BryantTYZ",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1mad0zb/what_to_expect_for_outfield_next_week_im_scared/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-27T04:13:27Z",
+    "flair": "Question",
+    "post_text": "For context, I'm from the Enhanced BMT batch, serving my NS in mono guards (Oneguards).\n\nI've enlisted since early July and...truth be told, I wasn't doing so well. Even now, I still haven't adjusted. I've broken down and cried 5 times (Yes, I counted) when training gets too tough, timing is so rushed, or the use of weapons. There was the problem my personality and freedom stripped away from me, forcing me to become someone I never wanted to become; a soldier.\n\nAccording to my section mates, outfield will start early August. Living in the jungle for days without clean water, dirt all over you and the worst of all of me...away from my family. I've always contacted them every night before light's out, and outfield won't give me that privilege.\n\nCould anyone share with me what will I be going through at Outfield? At the very least, I could prepare myself mentally. I've received help from MO, OO and even the councillor from CareHub, so I'm should be hanging on...for now."
+  }
+]
+
+Respond in this format:
+
+Timestep 1 (0-6 hours)
+Post 96: 10 likes, 8 comments
+Post 98: 8 likes, 6 comments
+Post 99: 15 likes, 12 comments
+Post 95: 1 comment
+Post 97: 1 comment
+Post 100: 2 comments
+
+Timestep 2 (6-12 hours)
+Post 96: 25 likes, 20 comments
+Post 98: 18 likes, 15 comments
+...
+ONLY use this format. Do not add anything else.

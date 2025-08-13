@@ -16,18 +16,18 @@ API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBMDhVRQ3zBrfGSDiVoz16ELCwsFGoZ1Eo")
 genai.configure(api_key=API_KEY)
 MODEL_NAME = "gemini-2.5-flash"
 
-START_TIME = datetime(2025, 7, 19, 10, 0, 0)
+START_TIME = datetime(2025, 7, 9, 0, 0, 0)
 TIMESTEP_DAYS = 1
 NUM_TIMESTEPS = 10
 ONLINE_RATE = 0.0075  # ~0.75% of users online per timestep
 SUBREDDIT_SIZE=43000
 
-subreddit = "NationalServiceSG"
-POSTS_FILE = f"posts/posts_{subreddit}.json"
+subreddit = "SecurityCamera"
+POSTS_FILE = f"posts/posts.json"
 AGENTS_FILE = "agents/agents.json"
 OUTPUT_DIR = "output"
 LOG_FILE = os.path.join(OUTPUT_DIR, "logs", f"{subreddit}/simulation_log.csv")
-POSTS_OUT_FILE = os.path.join(OUTPUT_DIR, "posts", f"{subreddit}/posts.csv")
+POSTS_OUT_FILE = os.path.join(OUTPUT_DIR, "posts", f"{subreddit}/posts_2.csv")
 
 # ---------- SETUP ----------
 
@@ -71,6 +71,19 @@ for t in range(NUM_TIMESTEPS):
     recommended_posts = sorted(posts, key=lambda x: x.get("created_utc", ""), reverse=True)[:20]
     print(recommended_posts)
     posts_str = json.dumps(recommended_posts, indent=2)
+    community_details = f"""
+   ome key traits that make posts on the r/SecurityCamera subreddit viral include:
+
+   Seeking Specific Recommendations: Posts that ask for very specific camera recommendations, often with unique constraints (e.g., hurricane-proof, no subscriptions, non-Chinese made, audio-triggered), tend to generate a lot of discussion as people jump in to offer their favorite brands and models.
+
+   Unique or Unusual Use Cases: Posts detailing a non-traditional or emotional reason for needing a camera system, such as a problematic roommate, a crazy neighbor, or documenting wildlife, capture more interest and empathy from the community.
+
+   Troubleshooting Technical Problems: People often flock to help with technical issues. Posts about specific camera models or setup problems (like a Swann DVR not working or a specific Hikvision feature) draw in users with relevant experience who want to offer solutions.
+
+   Discussion on System Design: Posts about how to physically set up a camera system (e.g., a multi-switch PoE setup) or a technical feature (like RTSP support) engage a more knowledgeable segment of the community, leading to detailed and lengthy comments.
+
+   Comparison of Popular Brands: Direct comparisons between well-known brands like Swann vs. Eufy or detailed reviews of a new product from a popular company like Baseus attract a wider audience who are likely considering similar purchases.
+   """
     prompt= f"""
 {current_time.isoformat()} -
 You are acting as a decision making body of {SUBREDDIT_SIZE*ONLINE_RATE} agents browsing the r/{subreddit} subreddit.
@@ -97,6 +110,7 @@ You will simulate 4 timesteps, each being 6 hours. 4 timesteps will add up to be
 - Don’t overreact
 
 3. The posts provided already have likes (num_likes) and comments (num_comments). USE THIS COUNT AS YOUR STARTING POINT. DO NOT START FROM 0
+
 
 Posts:
 {posts_str}

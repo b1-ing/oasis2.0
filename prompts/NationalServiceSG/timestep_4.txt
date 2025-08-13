@@ -1,0 +1,156 @@
+2025-07-23T10:00:00 -
+You are acting as a decision making body of 322.5 agents browsing the r/NationalServiceSG subreddit.
+
+Your goals are to recognize which posts are likely to go viral, have each of the agents respond realistically, and engage in ways typical of this community.
+
+You will simulate 4 timesteps, each being 6 hours. 4 timesteps will add up to be a day.
+
+1. Don't feel pressured to have the agents comment or like on everything. They can ignore posts.
+
+2. Agents' behavior:
+- Be realistic, not overly enthusiastic
+- You may ask clarifying questions
+- Don’t overreact
+
+3. The posts provided already have likes (num_likes) and comments (num_comments). USE THIS COUNT AS YOUR STARTING POINT. DO NOT START FROM 0
+
+
+Here are the existing posts:
+[]
+
+Here are the newly posted posts:
+[
+  {
+    "post_id": 51,
+    "title": "For ex regulars, why did yall leave the force?",
+    "author": "Nocturnh",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m7cx34/for_ex_regulars_why_did_yall_leave_the_force/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-23T15:51:28Z",
+    "flair": "Question",
+    "post_text": "This question is for ex regulars who previously served and decided to leave the force. What were your reasons for signing on and your reasons for leaving?"
+  },
+  {
+    "post_id": 52,
+    "title": "Can I don\u2019t eat the food provided?",
+    "author": "dinerohungry",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m7cuyg/can_i_dont_eat_the_food_provided/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-23T15:49:17Z",
+    "flair": "Question",
+    "post_text": "I have not enlisted yet but was wondering, if I do not like the food that they serve in the cookhouse/ canteen, can I just choose not to eat it? I\u2019ve starved for a few days before so I wouldn\u2019t mind just not eating it if I don\u2019t like it. Will they force me to eat? Or can I at least just eat some rice and nothing else? I don\u2019t like eating a lot of food and from what I can tell, it seems that the food I do not like eating, are the type of food they serve there so I would rather just not eat at all if im being honest. "
+  },
+  {
+    "post_id": 53,
+    "title": "is it possible to sign EOS with private diploma or degree?",
+    "author": "Fluffy-Flamingo-667",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m7cqyb/is_it_possible_to_sign_eos_with_private_diploma/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-23T15:45:04Z",
+    "flair": "Question",
+    "post_text": "idm if the career progression is slow or the pay increment is slow, since young its my dream to be a officer.\n\n"
+  },
+  {
+    "post_id": 54,
+    "title": "NSF PAssion concession card",
+    "author": "NoIdeaForUsernamel0l",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m79lao/nsf_passion_concession_card/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-23T13:41:58Z",
+    "flair": "Question",
+    "post_text": "Will the fare be the same as an adult or no? "
+  },
+  {
+    "post_id": 55,
+    "title": "SPF SOC training wing, what is NSF life like there",
+    "author": "JeanSucksAtLife",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m76dby/spf_soc_training_wing_what_is_nsf_life_like_there/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-23T11:10:22Z",
+    "flair": "Question",
+    "post_text": "Hey guys, Im a PNSF who got posted to SOC recently and heard that a lot of NSFs get posted to training wing after completing PTC. Don\u2019t really know what life is like there other than it\u2019s office hours with the same risk pay? I may be wrong which is why I\u2019m asking lol. Thanks guys"
+  },
+  {
+    "post_id": 56,
+    "title": "About Downpes process in unit",
+    "author": "Upper_Disaster_6378",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m720mx/about_downpes_process_in_unit/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-23T06:35:33Z",
+    "flair": "Serious Discussion",
+    "post_text": "Currently a PTP recruit in Tekong (mono sch4 intake)\nSince the start of PTP, I\u2019ve had trouble adjusting and as BMT started, my mental health has been deteriorating and honestly I feel like I\u2019m already half dead inside.\nHowever I\u2019m really unwilling to seek help right now, as I really don\u2019t want to Re-BMT. Thus I\u2019m only considering seeking professional help after my POP.\n\nI have a few questions:\n\n1. Is it true that it\u2019s harder to downpes in unit? I\u2019ve heard that it\u2019s harder to get PCC appointments, OC is less willing to help u etc.\n2. Once I do submit my memo, will I be posted out or revocated to a support role?\n3. Is it possible to post out of my unit even if I\u2019m mono intake?\n4. Will I have to rebmt or recourse even if I seek help after POP?\n5. For those who got diagnosed with adjustment disorder, did you get excuse stay in?\nIf there\u2019s anything else I should know or if anyone has a similar experience, I\u2019d appreciate some insight on how the whole process is like \ud83d\ude4f\n"
+  },
+  {
+    "post_id": 57,
+    "title": "Argument with superior. Need advice.",
+    "author": "kerthern",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m71vq7/argument_with_superior_need_advice/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-23T06:27:05Z",
+    "flair": "Rant",
+    "post_text": "So today I was arguing with my superior regarding an issue (which I think we were both at fault, and I hope to get some advice on how I can resolve it from here on).\n\nContext: I'm an ASA, and in my office, the NSFs usually sleep during lunch time. I used to sleep at my office seat, but becos there's a ceiling light right above it, I can never sleep well so yesterday, I tried to find a new room to sleep in. I found this room which was supposed to be a lecture room (it just has stacked chairs and tables and nth else), and to my knowledge, it is rarely used, and there are also no signs that say \"no entry\", so I just went in to sleep during lunch. \n\nThen after I fell asleep, my superior came to that room and started knocking on the door to tell me to get the fuck out of there, and then I woke up and got out. The moment I got out, he scolded me for being in that room.. but there were no senstive materials nor any \"no entry\" signs that say I couldnt enter that room. That is not the worst part. The worst is he accused me of stealing the key to unlock the room, even though it was already unlocked when I entered! \n\nApparently last week, the key to that room was stolen (which I didn't even know about.. I only know a key was stolen from my office, but not to that room), so he pushed the blame of the stealing the key on me and said I took it, even tho I didn't even do it.\n\nNow back to the argument today, I admit that I was at fault for supposedly trespassing into that room without legal permission (but at that point I didn't think so as there weren't any no entry signs, which most army rooms wld have if they are not meant to be entered), but my superior doesn't want to admit his mistake and apologise for wrongly accusing me of stealing/taking the key. His explanation? He said that yesterday when he accused me, once I said no I didn't do it, he didn't push on the accusation. Well from my memory, yesterday he kept asking me why the fuck i didnt admit stealing the key, and tbh jus becos u accused someone one time and stop after that doesnt mean it makes u correct right? It's like saying I murdered someone and I realised my mistake so I stop killing people, without admitting nor apologising, and that doesn't make me a murderer.\n\nSorry for the long rant, but to anyone who was patient and kind enough to read thru this whole passage, are u able to give me any suggestions on how to settle things nicely with my superior? I'm also scared that he may charge me for trespassing so I am hesitant to escalate it to higher ups. Please advice me on what to do, thanks!\n\nEdit: Thank you to everyone who have read through and provided me with your own personal advice on the situation. All of your advice and feedback, regardless of which side you are taking, have helped me comprehend the situation in a much more mature manner. My decision from here on now is to just let it go and let the past be the past. Thank you again for all your advice!! \ud83d\ude4f\ud83c\udffb\ud83d\ude4f\ud83c\udffb"
+  },
+  {
+    "post_id": 58,
+    "title": "Does NS actually do this?",
+    "author": "GladPerspective6586",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m6yma7/does_ns_actually_do_this/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-23T03:23:37Z",
+    "flair": "Discussion",
+    "post_text": "Good guys go in come out bad  \nBad guys go in come out good"
+  },
+  {
+    "post_id": 59,
+    "title": "I\u2019m a foreigner but I want to find nsf friends!",
+    "author": "SouthHoneydew1469",
+    "url": "https://www.reddit.com/r/NationalServiceSG/comments/1m6up7v/im_a_foreigner_but_i_want_to_find_nsf_friends/",
+    "num_likes": 0,
+    "num_dislikes": 0,
+    "num_comments": 0,
+    "num_shares": 0,
+    "created_utc": "2025-07-23T00:15:57Z",
+    "flair": "Discussion",
+    "post_text": "Disclaimers: I know this can be a weird offtopic but I hope you guys can help out.\n\nHi everyone! For context, I\u2019m a uni student (21F), I\u2019m non-Singaporean (living in ASEAN). Since I was an introvert and my sense of humor doesn\u2019t really match with my peers (I\u2019m more comfortable in expressing myself in English), resulting in me not really having much friends irl. Luckily, I found some treasure friends online through videogames and one of them is an NSman, who used to be an Infantryman long ago.\n\nSince then, he was sharing to me a lot of things happening in his NS journey, from his first-ever BMT outfield where he had to practically dig shellscrapes to his funny moments where him and his friends were trolling on their sgt, literally everything. He said he developed best friendships in NS who were his ex-bunkmates where they ate, slept, did everything tgt, and definitely enjoyed the NS chapter of his life. He even showed me a few clips of both his and his friends\u2019 parade, whole time I was just amazed.\n\nI started forming a big passion in learning about NS systems (yet I\u2019m not sg-based so my ns knowledge is very limited), but I do love reading ns stories so much, which is kinda weird coming from a foreigner; however this stems from the fact I don\u2019t really enjoy how lonely uni is and how my life pattern just about same boring routine, slowly I found comfort in reading different experiences of nsf from all postings; from the bottommost stories (tiredness of combat load, unnecessary guard duty/night mission, screwed up meals, weird people etc.), to excitement in ord countdown. I don\u2019t sugarcoat it and I know a lot people think 2-year length is a waste, yet I view it as a meaningful short pause from actual competitive real-life settings that you can only experience once in early 20s. And I admired yall so much for completing such an immense journey.\n\nI don\u2019t have nsf friends and I\u2019m super welcoming to know more about real-time experiences!! I hope I can find some people to discuss/talk (or you can rant) about ns. I\u2019m so down to hear that rather than just watching Ah Boy to Men lol.\n\nEdit: I\u2019m sorry if it seemed like I was trolling, but I do have all proven socials if yall actually want to make friends (DMs open), I just want to hear about the cool stories and stuff yall have since I was interested in ns system which my country doesn\u2019t have it as compulsory. "
+  }
+]
+
+Respond in this format:
+
+Timestep 1 (0-6 hours)
+Post 96: 10 likes, 8 comments
+Post 98: 8 likes, 6 comments
+Post 99: 15 likes, 12 comments
+Post 95: 1 comment
+Post 97: 1 comment
+Post 100: 2 comments
+
+Timestep 2 (6-12 hours)
+Post 96: 25 likes, 20 comments
+Post 98: 18 likes, 15 comments
+...
+ONLY use this format. Do not add anything else.

@@ -10,12 +10,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-24T01:18:40Z",
     "flair": null,
-    "post_text": null,
-    "virality_prediction": {
-      "id": 1,
-      "prediction": "not viral",
-      "reason": "Very generic title and no body text, unlikely to generate discussion."
-    }
+    "post_text": null
   },
   {
     "post_id": 2,
@@ -28,12 +23,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-24T01:18:04Z",
     "flair": null,
-    "post_text": "Hi, we have a farm that has recently had some illegal hunting done on it. I want to set up a couple cameras out there, but they would need to be solar because there’s no power and also have the capability to use an SD card. I see people recommend Reolink and I have one in my house, but I have no power (and thus no internet) at the farm. Would a trail cam be better? TYIA!",
-    "virality_prediction": {
-      "id": 2,
-      "prediction": "viral",
-      "reason": "Specific question about a common need (farm security), clear description of requirements, and potential for multiple recommendations and discussion about brands/solutions.  Relevant to a large number of people."
-    }
+    "post_text": "Hi, we have a farm that has recently had some illegal hunting done on it. I want to set up a couple cameras out there, but they would need to be solar because there\u2019s no power and also have the capability to use an SD card. I see people recommend Reolink and I have one in my house, but I have no power (and thus no internet) at the farm. Would a trail cam be better? TYIA!"
   },
   {
     "post_id": 3,
@@ -46,12 +36,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-24T00:21:03Z",
     "flair": null,
-    "post_text": null,
-    "virality_prediction": {
-      "id": 3,
-      "prediction": "not viral",
-      "reason": "Specific technical problem, unlikely to resonate with a wide audience."
-    }
+    "post_text": null
   },
   {
     "post_id": 4,
@@ -64,12 +49,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-23T23:48:10Z",
     "flair": null,
-    "post_text": "Looking for a security camera system which allows saving video direct to PC, rather than to an SD card or cloud service which I have to pay for.  \n\nAccessing the cameras via an app is also needed in case we are not home and I want a live view.\n\nBut the point is the video data is saved to a PC one way or another.",
-    "virality_prediction": {
-      "id": 4,
-      "prediction": "viral",
-      "reason": "Addresses a common desire for local storage, clear requirements and potential for many people searching for this solution"
-    }
+    "post_text": "Looking for a security camera system which allows saving video direct to PC, rather than to an SD card or cloud service which I have to pay for.  \n\nAccessing the cameras via an app is also needed in case we are not home and I want a live view.\n\nBut the point is the video data is saved to a PC one way or another."
   },
   {
     "post_id": 5,
@@ -82,12 +62,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-23T23:35:11Z",
     "flair": null,
-    "post_text": "A friend had this camera but they don’t recall its name. I’m looking for a security/recording camera that comes with an app. The app lets you view the footage for up to 12 or 24 hours. I can’t remember which is correct. \n\nI just need something simple with no subscription. I don’t need the footage long term either. ",
-    "virality_prediction": {
-      "id": 5,
-      "prediction": "viral",
-      "reason": "Describes a need with a few constraints that will most likely be answered and solve the problem for many users"
-    }
+    "post_text": "A friend had this camera but they don\u2019t recall its name. I\u2019m looking for a security/recording camera that comes with an app. The app lets you view the footage for up to 12 or 24 hours. I can\u2019t remember which is correct. \n\nI just need something simple with no subscription. I don\u2019t need the footage long term either. "
   },
   {
     "post_id": 6,
@@ -100,12 +75,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-23T22:29:26Z",
     "flair": null,
-    "post_text": null,
-    "virality_prediction": {
-      "id": 6,
-      "prediction": "not viral",
-      "reason": "Very basic and non-descriptive title."
-    }
+    "post_text": null
   },
   {
     "post_id": 7,
@@ -118,12 +88,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-23T22:22:59Z",
     "flair": null,
-    "post_text": "I currently have tried Arlo, Wyze and Blinks. The Arlo has been the best out of the three but still really struggling. The cameras die really quickly and either don’t record at all or record clips every minute for 24 hours a day. They also get so messed up when the WiFi goes out. I need to uninstall and reinstall the cameras/ redo all the setting every time. The Arlo have the widest view and the camera quality is the best. But they are so unreliable. Feels like when I really need them they are offline. \n\nI want to be able to watch all four corners of my house on the outside as well as a couple cameras where the dogs are alone during the day in the house that I can turn off when we are home. \n\nI’d like to be able to see the footage live and get notifications to my phone with movement or sounds (barking). \n\nDoes such a thing exist? I’m not super tech savvy but could figure things out if I needed to do something more than just screwing cameras in the wall and downloading an app. ",
-    "virality_prediction": {
-      "id": 7,
-      "prediction": "viral",
-      "reason": "Clear description of frustrations with current cameras and desired features, which will lead to many suggestions"
-    }
+    "post_text": "I currently have tried Arlo, Wyze and Blinks. The Arlo has been the best out of the three but still really struggling. The cameras die really quickly and either don\u2019t record at all or record clips every minute for 24 hours a day. They also get so messed up when the WiFi goes out. I need to uninstall and reinstall the cameras/ redo all the setting every time. The Arlo have the widest view and the camera quality is the best. But they are so unreliable. Feels like when I really need them they are offline. \n\nI want to be able to watch all four corners of my house on the outside as well as a couple cameras where the dogs are alone during the day in the house that I can turn off when we are home. \n\nI\u2019d like to be able to see the footage live and get notifications to my phone with movement or sounds (barking). \n\nDoes such a thing exist? I\u2019m not super tech savvy but could figure things out if I needed to do something more than just screwing cameras in the wall and downloading an app. "
   },
   {
     "post_id": 8,
@@ -136,16 +101,11 @@
     "num_shares": 0,
     "created_utc": "2025-07-23T21:46:17Z",
     "flair": null,
-    "post_text": "Hello everyone, \n\nI had a client purchase a Reolink NVR for their Avycon cameras and I am completely stumped on how to add them. \n\nI spoke with Avycon support and they said Onvif is enabled by default but they also performed a factory reset on one of the cameras for me to test. The Reolink also supports and has Onvif enabled. \n\nI’m not sure why I cannot add the camera. Any help or advice would be great! Thanks. ",
-    "virality_prediction": {
-      "id": 8,
-      "prediction": "not viral",
-      "reason": "Specific technical issue related to specific hardware. Limited audience."
-    }
+    "post_text": "Hello everyone, \n\nI had a client purchase a Reolink NVR for their Avycon cameras and I am completely stumped on how to add them. \n\nI spoke with Avycon support and they said Onvif is enabled by default but they also performed a factory reset on one of the cameras for me to test. The Reolink also supports and has Onvif enabled. \n\nI\u2019m not sure why I cannot add the camera. Any help or advice would be great! Thanks. "
   },
   {
     "post_id": 9,
-    "title": "I’m looking for video cameras for my business that don’t rely on Internet and can’t be deleted by anyone at my front desk. Can anyone point me in the right direction? I’m having a serious security issue at my business.",
+    "title": "I\u2019m looking for video cameras for my business that don\u2019t rely on Internet and can\u2019t be deleted by anyone at my front desk. Can anyone point me in the right direction? I\u2019m having a serious security issue at my business.",
     "author": "Unfair_Minimum_581",
     "url": "https://www.reddit.com/r/SecurityCamera/comments/1m7kbk0/im_looking_for_video_cameras_for_my_business_that/",
     "num_likes": 0,
@@ -154,12 +114,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-23T20:30:21Z",
     "flair": null,
-    "post_text": null,
-    "virality_prediction": {
-      "id": 9,
-      "prediction": "viral",
-      "reason": "Specific and serious security need for a business, will bring a lot of recommendations"
-    }
+    "post_text": null
   },
   {
     "post_id": 10,
@@ -172,12 +127,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-23T20:08:28Z",
     "flair": null,
-    "post_text": "Need a camera to put in the barn. Must haves\n\n-easy install (like magnet or sticky easy) no screws\n-theres no WiFi so needs a memory card for storage\n-could possibly get a power source but ideally would like battery powered \n-needs to capture video\n-needs to be small/inconspicuous, no light on it\n\nAny help appreciated ",
-    "virality_prediction": {
-      "id": 10,
-      "prediction": "viral",
-      "reason": "Specific requirements for a camera in a barn (rural setting). The constraints make it likely to generate recommendations."
-    }
+    "post_text": "Need a camera to put in the barn. Must haves\n\n-easy install (like magnet or sticky easy) no screws\n-theres no WiFi so needs a memory card for storage\n-could possibly get a power source but ideally would like battery powered \n-needs to capture video\n-needs to be small/inconspicuous, no light on it\n\nAny help appreciated "
   },
   {
     "post_id": 11,
@@ -190,12 +140,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-23T10:14:06Z",
     "flair": null,
-    "post_text": "I need a few cameras to record at the same time when I run at the track.\n\nIn car: facing me, the shifter and the windshield\n\nIn the grill: showing the front of the car\n\nOutside the car: side of the track recording my launches and run down the track\n\nI'll also need a way to splice the videos together. Not sure what software is reasonable to use. This is just for me, to gather more track data. What cheap cameras can I use to make this happen? How would I record the cameras in/on the car? Thanks for any help!",
-    "virality_prediction": {
-      "id": 11,
-      "prediction": "viral",
-      "reason": "Specific use case for track video recordings and is very broad, will be many recommendations."
-    }
+    "post_text": "I need a few cameras to record at the same time when I run at the track.\n\nIn car: facing me, the shifter and the windshield\n\nIn the grill: showing the front of the car\n\nOutside the car: side of the track recording my launches and run down the track\n\nI'll also need a way to splice the videos together. Not sure what software is reasonable to use. This is just for me, to gather more track data. What cheap cameras can I use to make this happen? How would I record the cameras in/on the car? Thanks for any help!"
   },
   {
     "post_id": 12,
@@ -208,12 +153,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-23T09:21:08Z",
     "flair": null,
-    "post_text": "Looking to purchase my church some security cameras. At the point I'm considering Unifi due to there AIs,expandability and ability to view on a web browser remove though the account. Im just asking here to see if anyone else k ow of any other possible alternatives. ",
-    "virality_prediction": {
-      "id": 12,
-      "prediction": "viral",
-      "reason": "Specific recommendation for a church, likely to be suggestions and discussion."
-    }
+    "post_text": "Looking to purchase my church some security cameras. At the point I'm considering Unifi due to there AIs,expandability and ability to view on a web browser remove though the account. Im just asking here to see if anyone else k ow of any other possible alternatives. "
   },
   {
     "post_id": 13,
@@ -226,12 +166,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-23T08:44:16Z",
     "flair": null,
-    "post_text": "https://preview.redd.it/5qm5qv666lef1.jpg?width=700&amp;format=pjpg&amp;auto=webp&amp;s=72475761c718c33de183bfa8b03604c3206a4ada\n\nI apologise this isnt a strictly Security camera question.\n\nAt my place of business I have a coil lifter very similar to this but it has been reengineered and in the reengineering the operator's vision is now somewhat obstructed, is the short range camera or technology (I thought maybe RF or something that could do the trick?) \n\nWe are trying to avoid having to use a SIM card (on going cost) and there is no wifi signal in yard.",
-    "virality_prediction": {
-      "id": 13,
-      "prediction": "not viral",
-      "reason": "Odd question with a limited scope. "
-    }
+    "post_text": "https://preview.redd.it/5qm5qv666lef1.jpg?width=700&amp;format=pjpg&amp;auto=webp&amp;s=72475761c718c33de183bfa8b03604c3206a4ada\n\nI apologise this isnt a strictly Security camera question.\n\nAt my place of business I have a coil lifter very similar to this but it has been reengineered and in the reengineering the operator's vision is now somewhat obstructed, is the short range camera or technology (I thought maybe RF or something that could do the trick?) \n\nWe are trying to avoid having to use a SIM card (on going cost) and there is no wifi signal in yard."
   },
   {
     "post_id": 14,
@@ -244,12 +179,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-23T02:37:26Z",
     "flair": null,
-    "post_text": "I recently setup some Tapo C120 cameras around the house and over the weekend I was surprised to discover I can access them remotely to live stream, change settings, etc. I was out of the house in another part of the city, nowhere close enough to be connected my house’s wifi, and I was still able to live stream all four cameras from my phone via the app. I had assumed I could only access the cameras while at home connected to my house’s wifi. I don’t have a cloud subscription or account, and all four cameras record locally to the microSD cards I've installed in each.\n\nI'm new to this tech and I'd like to understand  know how this is possible, since the main reason I purchased these cameras is that I didn't want anything on the cloud servers and all recording to be hard recorded, so locally on drives like a microSD. I suspect the Tap app enables remote control/access of the cameras through the TP-Link cloud server. Once the cameras are configured and connected via the app and my Tapo ID, it establishes a link via the TP-Link cloud server to my cameras and that’s how I can live stream remotely and change any settings/make commands. \n\nIf this is correct, my question then is are my live streams and short detection videos when the cameras are triggered uploaded to the cloud server and that’s how I can view them remotely? I mean, how else would I be able to remotely access the live stream and the video clips if they weren’t first uploaded to the TP-Link cloud server? I can edit these videos as well, really anything I could do on the app via my house’s Wifi. My concerns are for my privacy really and the reason I set these up to only record locally to a microSD. It would be helpful to understand what the intricacies of the tech process here are, and to what extend my videos and live streams are on the TP-Link cloud servers. Thank you!",
-    "virality_prediction": {
-      "id": 14,
-      "prediction": "viral",
-      "reason": "Addresses a common privacy concern and seeks technical explanation. Many users will also be interested and provide a solution."
-    }
+    "post_text": "I recently setup some Tapo C120 cameras around the house and over the weekend I was surprised to discover I can access them remotely to live stream, change settings, etc. I was out of the house in another part of the city, nowhere close enough to be connected my house\u2019s wifi, and I was still able to live stream all four cameras from my phone via the app. I had assumed I could only access the cameras while at home connected to my house\u2019s wifi. I don\u2019t have a cloud subscription or account, and all four cameras record locally to the microSD cards I've installed in each.\n\nI'm new to this tech and I'd like to understand \u00a0know how this is possible, since the main reason I purchased these cameras is that I didn't want anything on the cloud servers and all recording to be hard recorded, so locally on drives like a microSD. I suspect the Tap app enables remote control/access of the cameras through the TP-Link cloud server. Once the cameras are configured and connected via the app and my Tapo ID, it establishes a link via the TP-Link cloud server to my cameras and that\u2019s how I can live stream remotely and change any settings/make commands. \n\nIf this is correct, my question then is are my live streams and short detection videos when the cameras are triggered uploaded to the cloud server and that\u2019s how I can view them remotely? I mean, how else would I be able to remotely access the live stream and the video clips if they weren\u2019t first uploaded to the TP-Link cloud server? I can edit these videos as well, really anything I could do on the app via my house\u2019s Wifi. My concerns are for my privacy really and the reason I set these up to only record locally to a microSD. It would be helpful to understand what the intricacies of the tech process here are, and to what extend my videos and live streams are on the TP-Link cloud servers. Thank you!"
   },
   {
     "post_id": 15,
@@ -262,12 +192,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-22T17:23:08Z",
     "flair": null,
-    "post_text": "Hi, just got a firmware update notice in the Vicohome app for a couple of cameras. Can I just select \"later\" and not deal with it now without any issues? Looks like a new update and may have bugs in it",
-    "virality_prediction": {
-      "id": 15,
-      "prediction": "not viral",
-      "reason": "Specific question related to a particular app/firmware update, very niche."
-    }
+    "post_text": "Hi, just got a firmware update notice in the Vicohome app for a couple of cameras. Can I just select \"later\" and not deal with it now without any issues? Looks like a new update and may have bugs in it"
   },
   {
     "post_id": 16,
@@ -280,12 +205,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-22T10:30:49Z",
     "flair": null,
-    "post_text": "I have a Swann NVR887080RN with 4x cameras attached via ethernet cable.  All cameras are working to the NVR and show up on my connected TV.  I have previously had the ethernet connected to my PC when 3x cameras were connected and was able to watch the cameras using the Swann app, HOWEVER, once I connected the 4th camera I have not been able to watch it any more on my PC.  I have absolutely no idea what I've done to make it longer work. If I remove the 4th camera I can still no longer watch anything through my PC. The ethernet cable is connected directly from the NVR to my PC. I'm using Starlink as my internet which runs to my PC through WiFi. \n\nAny idea what I'm doing wrong?  It may have just been a fluke last time I connected so please keep it simple with any explanation. (I'm getting old :P )",
-    "virality_prediction": {
-      "id": 16,
-      "prediction": "not viral",
-      "reason": "Specific technical issue related to a NVR setup. Limited audience."
-    }
+    "post_text": "I have a Swann NVR887080RN with 4x cameras attached via ethernet cable.  All cameras are working to the NVR and show up on my connected TV.  I have previously had the ethernet connected to my PC when 3x cameras were connected and was able to watch the cameras using the Swann app, HOWEVER, once I connected the 4th camera I have not been able to watch it any more on my PC.  I have absolutely no idea what I've done to make it longer work. If I remove the 4th camera I can still no longer watch anything through my PC. The ethernet cable is connected directly from the NVR to my PC. I'm using Starlink as my internet which runs to my PC through WiFi. \n\nAny idea what I'm doing wrong?  It may have just been a fluke last time I connected so please keep it simple with any explanation. (I'm getting old :P )"
   },
   {
     "post_id": 17,
@@ -298,12 +218,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-21T20:21:03Z",
     "flair": null,
-    "post_text": "My apartment managers sent out this email to all residents and it made me curious what it is about reviewing security camera footage that requires technical capability. I have no particular need to see security footage at this moment, but I have an interest in this because I have come across this situation before. In college, my laptop was stolen from a campus common area in which there was a security camera. When I went to the campus security to see if they could see the security footage for any insight into who stole the laptop, they said they couldn't access the footage and didn't have the expertise to review it even if they did. In my mind, it seems it shouldn't be hard to pull up footage from the date and approximate time an event happened and then examine the footage, but I also want to give people the benefit of the doubt that they aren't being difficult for no reason or lazy. Is there something more complicated about the process? Is it more about legal liability/not wanting to have to get involved in any sort of court proceedings? Are they renting cameras from the actual police and therefore don't own it or have log in credentials? If anyone knows why this is a phenomenon, let me know! Super curious.\n\nEdited photo to take out city name. ",
-    "virality_prediction": {
-      "id": 17,
-      "prediction": "viral",
-      "reason": "Curious question about the need for 'technical capability' to review footage. This will be interesting and generate discussion."
-    }
+    "post_text": "My apartment managers sent out this email to all residents and it made me curious what it is about reviewing security camera footage that requires technical capability. I have no particular need to see security footage at this moment, but I have an interest in this because I have come across this situation before. In college, my laptop was stolen from a campus common area in which there was a security camera. When I went to the campus security to see if they could see the security footage for any insight into who stole the laptop, they said they couldn't access the footage and didn't have the expertise to review it even if they did. In my mind, it seems it shouldn't be hard to pull up footage from the date and approximate time an event happened and then examine the footage, but I also want to give people the benefit of the doubt that they aren't being difficult for no reason or lazy. Is there something more complicated about the process? Is it more about legal liability/not wanting to have to get involved in any sort of court proceedings? Are they renting cameras from the actual police and therefore don't own it or have log in credentials? If anyone knows why this is a phenomenon, let me know! Super curious.\n\nEdited photo to take out city name. "
   },
   {
     "post_id": 18,
@@ -316,12 +231,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-21T20:02:34Z",
     "flair": null,
-    "post_text": null,
-    "virality_prediction": {
-      "id": 18,
-      "prediction": "not viral",
-      "reason": "Generic question with no body and no specifications."
-    }
+    "post_text": null
   },
   {
     "post_id": 19,
@@ -334,12 +244,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-21T19:12:05Z",
     "flair": null,
-    "post_text": "Hey y’all, I’m wanting the bare minimum here but I’m not sure I can get what I want. Any help is appreciated. I’m reasonably tech savvy but I’m not interested in complicated setup and maintaining a server or some central hub. I only need 1 camera. \n\nRight off the bat I’ll say I’m not paying for a subscription service. \n\nI want just 1 camera for inside a small apartment, that will give me notifications if it catches movement. If I can get live video of that movement that’s even better. We will only use the camera when away and at night. I don’t want an internet capable (I.e hackable) camera watching me all day, so I also don’t want cloud services if possible. Local storage is preferred. I do understand that getting live footage goes thru an app and they can aquire it that way… if I have to deal with that then I will. But local storage is still preferred because I’m not paying anyone to store footage I don’t care about long term. \n\nDo they make cameras that will just write over old data when the card storage is used up, essentially making it infinite storage? I don’t care about cataloging footage. It’s purely for notifying me if there is a break in or something. The apartment does not have an alarm system. \n\nDue to other post recommends. I’m looking at Reolink Poe cameras, something like an RLC-540A. But I’m having trouble determining if Poe means I can just splice it into my existing cat6 network, or if I would have to run new lines (deal breaker). I’m not interested in having to buy special software or a hub of some type, because again it’s only 1 camera for when we are not occupying the space. \n\nAm I being unrealistic with these requirements or is there something that fits the bill? \n",
-    "virality_prediction": {
-      "id": 19,
-      "prediction": "viral",
-      "reason": "Clear description of a setup and clear requirements for a camera system. There will be many recommendations."
-    }
+    "post_text": "Hey y\u2019all, I\u2019m wanting the bare minimum here but I\u2019m not sure I can get what I want. Any help is appreciated. I\u2019m reasonably tech savvy but I\u2019m not interested in complicated setup and maintaining a server or some central hub. I only need 1 camera. \n\nRight off the bat I\u2019ll say I\u2019m not paying for a subscription service. \n\nI want just 1 camera for inside a small apartment, that will give me notifications if it catches movement. If I can get live video of that movement that\u2019s even better. We will only use the camera when away and at night. I don\u2019t want an internet capable (I.e hackable) camera watching me all day, so I also don\u2019t want cloud services if possible. Local storage is preferred. I do understand that getting live footage goes thru an app and they can aquire it that way\u2026 if I have to deal with that then I will. But local storage is still preferred because I\u2019m not paying anyone to store footage I don\u2019t care about long term. \n\nDo they make cameras that will just write over old data when the card storage is used up, essentially making it infinite storage? I don\u2019t care about cataloging footage. It\u2019s purely for notifying me if there is a break in or something. The apartment does not have an alarm system. \n\nDue to other post recommends. I\u2019m looking at Reolink Poe cameras, something like an RLC-540A. But I\u2019m having trouble determining if Poe means I can just splice it into my existing cat6 network, or if I would have to run new lines (deal breaker). I\u2019m not interested in having to buy special software or a hub of some type, because again it\u2019s only 1 camera for when we are not occupying the space. \n\nAm I being unrealistic with these requirements or is there something that fits the bill? \n"
   },
   {
     "post_id": 20,
@@ -352,12 +257,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-21T16:51:59Z",
     "flair": null,
-    "post_text": null,
-    "virality_prediction": {
-      "id": 20,
-      "prediction": "not viral",
-      "reason": "Specific device, unlikely to generate a broad discussion"
-    }
+    "post_text": null
   },
   {
     "post_id": 21,
@@ -370,12 +270,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-21T16:04:09Z",
     "flair": null,
-    "post_text": "Some added context : For around the last 3 years our Neighbor has been surveilling our backyard , side of our house , and front yard . this wouldn’t be an issue if it wasn’t also meant with constant stalking , Harrasment , and multiple police calls to our house . Other examples are motion activated lights specifically on our side of the house and no other. We have 2 cameras for legal evidence but don’t survey everything, recently when one of our cameras had to be charged he cut down a post of ours in our backyard which we were gonna use to create a blind so he couldn’t watch us on his camera , since the camera was down we have no evidence or proof and are therefore not doing anything about this . Can anyone help us know what Brand of camera this is and if it has the ability to record audio . Any legal advice would be nice too , there’s also plenty more examples of harassment but the list goes on for a long time",
-    "virality_prediction": {
-      "id": 21,
-      "prediction": "viral",
-      "reason": "The post describes a concerning situation of alleged stalking and harassment, involving a neighbor and security cameras. It includes legal implications and a request for help, which is likely to garner attention and discussion."
-    }
+    "post_text": "Some added context : For around the last 3 years our Neighbor has been surveilling our backyard , side of our house , and front yard . this wouldn\u2019t be an issue if it wasn\u2019t also meant with constant stalking , Harrasment , and multiple police calls to our house . Other examples are motion activated lights specifically on our side of the house and no other. We have 2 cameras for legal evidence but don\u2019t survey everything, recently when one of our cameras had to be charged he cut down a post of ours in our backyard which we were gonna use to create a blind so he couldn\u2019t watch us on his camera , since the camera was down we have no evidence or proof and are therefore not doing anything about this . Can anyone help us know what Brand of camera this is and if it has the ability to record audio . Any legal advice would be nice too , there\u2019s also plenty more examples of harassment but the list goes on for a long time"
   },
   {
     "post_id": 22,
@@ -388,12 +283,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-21T15:17:08Z",
     "flair": null,
-    "post_text": "anyone know cheap camera with seperate sd card storage other than blink?\n\ni know blink has sync module but most other cameras seem to have sd card slot on camera\n\ni want one cheap camera with sd card hidden somewhere like blink",
-    "virality_prediction": {
-      "id": 22,
-      "prediction": "not viral",
-      "reason": "This is a straightforward request for product recommendations. It lacks any emotional hook or unique aspect that would make it stand out."
-    }
+    "post_text": "anyone know cheap camera with seperate sd card storage other than blink?\n\ni know blink has sync module but most other cameras seem to have sd card slot on camera\n\ni want one cheap camera with sd card hidden somewhere like blink"
   },
   {
     "post_id": 23,
@@ -406,12 +296,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-21T05:27:26Z",
     "flair": null,
-    "post_text": "Just moved into a new house and found this set up. Im trying to figure out how to actually use it. Inside the wardrobe, there's a PoE injector. Outside, there's a floodlight camera. No brand labels except for a serial number. ",
-    "virality_prediction": {
-      "id": 23,
-      "prediction": "not viral",
-      "reason": "This is a technical question about setting up a camera, which is not likely to go viral."
-    }
+    "post_text": "Just moved into a new house and found this set up. Im trying to figure out how to actually use it. Inside the wardrobe, there's a PoE injector. Outside, there's a floodlight camera. No brand labels except for a serial number. "
   },
   {
     "post_id": 24,
@@ -424,12 +309,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-21T05:23:42Z",
     "flair": null,
-    "post_text": "I just moved and realized this in the back yard. I took a picture and google told me it’s a camera but my question is is it actually a camera or is it like the base to a camera and the lens is missing. In other words could someone be watching and I need to take it down? Or is it just the plastic base and there’s no lens",
-    "virality_prediction": {
-      "id": 24,
-      "prediction": "not viral",
-      "reason": "A simple question about identifying a camera's function. Not likely to attract significant attention or comments."
-    }
+    "post_text": "I just moved and realized this in the back yard. I took a picture and google told me it\u2019s a camera but my question is is it actually a camera or is it like the base to a camera and the lens is missing. In other words could someone be watching and I need to take it down? Or is it just the plastic base and there\u2019s no lens"
   },
   {
     "post_id": 25,
@@ -442,12 +322,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-21T05:13:23Z",
     "flair": null,
-    "post_text": "Is there a WIFI battery camera which has the below options.\n\n1-Connect to Home WIFI , if internet goes down(it has to monitor internet because usually it won't connect to 2nd wifi with the same SSID if the home router didn't shutdown) it connect to 2nd WIFI with different SSID\n\n2-Connect to home WIFI , If internet goes down , failover to 4G SIM Connection embedded in the camera.",
-    "virality_prediction": {
-      "id": 25,
-      "prediction": "not viral",
-      "reason": "This is a niche request about the specific features of a wifi camera. It is unlikely to attract a large audience."
-    }
+    "post_text": "Is there a WIFI battery camera which has the below options.\n\n1-Connect to Home WIFI , if internet goes down(it has to monitor internet because usually it won't connect to 2nd wifi with the same SSID if the home router didn't shutdown) it connect to 2nd WIFI with different SSID\n\n2-Connect to home WIFI , If internet goes down , failover to 4G SIM Connection embedded in the camera."
   },
   {
     "post_id": 26,
@@ -460,12 +335,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-20T23:21:22Z",
     "flair": null,
-    "post_text": "Hey everyone, I am trying to create a new security product and trying to do market validation. The survey is 8 8-question MC and takes 1-2 minutes",
-    "virality_prediction": {
-      "id": 26,
-      "prediction": "not viral",
-      "reason": "Self-promotion for a survey. The topic is not broad enough to attract a large audience."
-    }
+    "post_text": "Hey everyone, I am trying to create a new security product and trying to do market validation. The survey is 8 8-question MC and takes 1-2 minutes"
   },
   {
     "post_id": 27,
@@ -478,12 +348,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-20T22:37:09Z",
     "flair": null,
-    "post_text": "I noticed it in a window of a building that has about 5 visible cameras. ",
-    "virality_prediction": {
-      "id": 27,
-      "prediction": "not viral",
-      "reason": "Simple observation about cameras. Lacks detail and likely to be ignored."
-    }
+    "post_text": "I noticed it in a window of a building that has about 5 visible cameras. "
   },
   {
     "post_id": 28,
@@ -496,12 +361,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-20T15:48:34Z",
     "flair": null,
-    "post_text": "Does anyone already experienced having a problem detecting there memory card? I already tried to format it via app but it just keeps loading for like 7-10mns then follow a message \"Session timed out\". \n\nI used 2 different memory cards just to be sure. Did a format as well via PC to FAT32 and EXFAT. Nothing works. Please help. ",
-    "virality_prediction": {
-      "id": 28,
-      "prediction": "not viral",
-      "reason": "Specific technical issue with a camera. Likely to be seen only by people who have the same camera model."
-    }
+    "post_text": "Does anyone already experienced having a problem detecting there memory card? I already tried to format it via app but it just keeps loading for like 7-10mns then follow a message \"Session timed out\". \n\nI used 2 different memory cards just to be sure. Did a format as well via PC to FAT32 and EXFAT. Nothing works. Please help. "
   },
   {
     "post_id": 29,
@@ -514,12 +374,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-20T15:31:51Z",
     "flair": null,
-    "post_text": "The title pretty much sums it up. I am looking for help and suggestions on what to buy for a small and simple home security system. There are so many options that I find myself fairly overwhelmed.\n\n* I only need support for two to four cameras.\n* The cameras would be outside.\n* I already have a bunch of SSD HDs lying around for the NVR.\n* The two places I have marked for cameras already have DC power from a previous ADT home security system. AC power would also be easy to provide.\n* Since the NVR would be local to my network my goal would be avoid apps and subscriptions and I would simply view the videos locally as needed.\n* I would prefer a WiFi compatible NVR and IP cameras so I don't have to run a bunch of Ethernet cable. My wireless network reaches outside just fine and has plenty of bandwidth currently.\n* 1080p video quality is fine and 30fps would be nice to have but not necessary. I don't need 4K@60fps or anything like that haha.\n* IP cameras that have some level of low light support would be another nice to have.\n\nWhat do y'all think? Thank you for helping out a security camera beginner!",
-    "virality_prediction": {
-      "id": 29,
-      "prediction": "not viral",
-      "reason": "Detailed technical question about home security system setup. Targeted at a specific audience and less likely to go viral."
-    }
+    "post_text": "The title pretty much sums it up. I am looking for help and suggestions on what to buy for a small and simple home security system. There are so many options that I find myself fairly overwhelmed.\n\n* I only need support for two to four cameras.\n* The cameras would be outside.\n* I already have a bunch of SSD HDs lying around for the NVR.\n* The two places I have marked for cameras already have DC power from a previous ADT home security system. AC power would also be easy to provide.\n* Since the NVR would be local to my network my goal would be avoid apps and subscriptions and I would simply view the videos locally as needed.\n* I would prefer a WiFi compatible NVR and IP cameras so I don't have to run a bunch of Ethernet cable. My wireless network reaches outside just fine and has plenty of bandwidth currently.\n* 1080p video quality is fine and 30fps would be nice to have but not necessary. I don't need 4K@60fps or anything like that haha.\n* IP cameras that have some level of low light support would be another nice to have.\n\nWhat do y'all think? Thank you for helping out a security camera beginner!"
   },
   {
     "post_id": 30,
@@ -532,12 +387,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-20T03:05:21Z",
     "flair": null,
-    "post_text": "I'm searching for a camera system to install in the four corners of my house that meets the following criteria:\n\n- No monthly subscription fees: This is critical.\n- Application or browser-controlled: The app must not have subscription-based features, as I want a fully functional default option without extra fees.\n- Solar-powered: Sustainability is important to me.\n- Wi-Fi enabled: For easy connectivity.\n- Local storage: Must have continuous recording capabilities in a loop",
-    "virality_prediction": {
-      "id": 30,
-      "prediction": "not viral",
-      "reason": "This is a specific request for features in a camera system, likely to be answered by a niche audience. Less likely to go viral."
-    }
+    "post_text": "I'm searching for a camera system to install in the four corners of my house that meets the following criteria:\n\n- No monthly subscription fees: This is critical.\n- Application or browser-controlled: The app must not have subscription-based features, as I want a fully functional default option without extra fees.\n- Solar-powered: Sustainability is important to me.\n- Wi-Fi enabled: For easy connectivity.\n- Local storage: Must have continuous recording capabilities in a loop"
   },
   {
     "post_id": 31,
@@ -550,12 +400,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-20T00:57:23Z",
     "flair": null,
-    "post_text": null,
-    "virality_prediction": {
-      "id": 31,
-      "prediction": "not viral",
-      "reason": "A very basic question about camera placement. Not enough detail or interest to attract a large audience."
-    }
+    "post_text": null
   },
   {
     "post_id": 32,
@@ -568,12 +413,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-19T21:08:11Z",
     "flair": null,
-    "post_text": "I need advice on an indoor camera system for my mom who's 96. My sisters and I have been taking 24/7 shifts at her house since a hospitalization. She's well enough to be on her own, but we want to make sure she's ok when we're not there. We just got a medical alarm system set-up. Now we need to get a camera system set up. We're looking for: Wide-angle view; night vision, audio so we can talk to her from our houses, phone app viewing (Apple), quiet/silent, small and discreet. We'll need 6 cameras altogether. Anything else we haven't thought about?",
-    "virality_prediction": {
-      "id": 32,
-      "prediction": "viral",
-      "reason": "This post is asking for help to ensure an elderly person’s safety. This is a very emotional situation and can be easily related to."
-    }
+    "post_text": "I need advice on an indoor camera system for my mom who's 96. My sisters and I have been taking 24/7 shifts at her house since a hospitalization. She's well enough to be on her own, but we want to make sure she's ok when we're not there. We just got a medical alarm system set-up. Now we need to get a camera system set up. We're looking for: Wide-angle view; night vision, audio so we can talk to her from our houses, phone app viewing (Apple), quiet/silent, small and discreet. We'll need 6 cameras altogether. Anything else we haven't thought about?"
   },
   {
     "post_id": 33,
@@ -586,16 +426,11 @@
     "num_shares": 0,
     "created_utc": "2025-07-19T20:01:24Z",
     "flair": null,
-    "post_text": "I just bought the four pack of cameras from Amazon with solar panels for under $300. Seemed like a good deal. One arrived dead with no picture. All four connected to the hub. Taking them about 8 feet away from the hub turned the feed into a slide show. Anything further resulted in lost connections with an occassional single frame. The dead one being the exception, it only send a blue/green screen. I've seen good reviews but these came out of the box in a bad state. If they're broken out of the box, I don't want to deal with them.  \n\nI have been using Arlo cameras but they are now turning off features if you don't use their subscription service. Does anyone have good deals on a reliable 4 camera system? ",
-    "virality_prediction": {
-      "id": 33,
-      "prediction": "not viral",
-      "reason": "A post about specific camera brands, and a bad experience with some cameras. The negative feedback is not enough to boost it to viral status."
-    }
+    "post_text": "I just bought the four pack of cameras from Amazon with solar panels for under $300. Seemed like a good deal. One arrived dead with no picture. All four connected to the hub. Taking them about 8 feet away from the hub turned the feed into a slide show. Anything further resulted in lost connections with an occassional single frame. The dead one being the exception, it only send a blue/green screen. I've seen good reviews but these came out of the box in a bad state. If they're broken out of the box, I don't want to deal with them.  \n\nI have been using Arlo cameras but they are now turning off features if you don't use their subscription service. Does anyone have good deals on a reliable 4 camera system? "
   },
   {
     "post_id": 34,
-    "title": "Which 180° panoramic PoE camera with person detection under $300?",
+    "title": "Which 180\u00b0 panoramic PoE camera with person detection under $300?",
     "author": "riverviewpark",
     "url": "https://www.reddit.com/r/SecurityCamera/comments/1m40qvt/which_180_panoramic_poe_camera_with_person/",
     "num_likes": 0,
@@ -604,12 +439,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-19T16:41:24Z",
     "flair": null,
-    "post_text": "I need to replace an existing 110° horizontal field of view (FOV) turret camera, would like a wider FOV.  Considering Amcrest's IP8M-DLB2998EW-AI dual-lens camera with in-camera image stitching, but open to alternatives with similar functionality.\n\nNeeds to be PoE, [Synology-supported](https://www.synology.com/en-us/compatibility/camera/37665) as a single stitched image stream, and should offer RTSP and storage/backup via MicroSD and SFTP, and in-camera person detection.\n\nLeaning towards the Amcrest for the FOV (H:180° x V:81°) has more vertical field compared to Reolink Duo 3 (H: 180°; V: 55°) and also because Reolink still only offers cleartext FTP, no SFTP support.\n\nAre there other turret/bullet cameras worth considering in my budget?",
-    "virality_prediction": {
-      "id": 34,
-      "prediction": "not viral",
-      "reason": "This is a highly technical question comparing specific camera models. Too niche to gain viral status."
-    }
+    "post_text": "I need to replace an existing 110\u00b0 horizontal field of view (FOV) turret camera, would like a wider FOV.  Considering Amcrest's IP8M-DLB2998EW-AI dual-lens camera with in-camera image stitching, but open to alternatives with similar functionality.\n\nNeeds to be PoE, [Synology-supported](https://www.synology.com/en-us/compatibility/camera/37665) as a single stitched image stream, and should offer RTSP and storage/backup via MicroSD and SFTP, and in-camera person detection.\n\nLeaning towards the Amcrest for the FOV (H:180\u00b0 x V:81\u00b0) has more vertical field compared to Reolink Duo 3 (H: 180\u00b0; V: 55\u00b0) and also because Reolink still only offers cleartext FTP, no SFTP support.\n\nAre there other turret/bullet cameras worth considering in my budget?"
   },
   {
     "post_id": 35,
@@ -622,12 +452,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-19T11:55:48Z",
     "flair": null,
-    "post_text": "I have 3 of these cameras and I bought them a while ago. The app now is infested with ads. You can't skip it. You have to wait like 30 seconds before you can see the place you are monitoring. Piece of junk anymore. ",
-    "virality_prediction": {
-      "id": 35,
-      "prediction": "viral",
-      "reason": "Negative experience with a camera. The user shares frustration, which resonates, and also warns people to avoid purchasing it, making the post more likely to go viral."
-    }
+    "post_text": "I have 3 of these cameras and I bought them a while ago. The app now is infested with ads. You can't skip it. You have to wait like 30 seconds before you can see the place you are monitoring. Piece of junk anymore. "
   },
   {
     "post_id": 36,
@@ -640,12 +465,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-19T11:24:27Z",
     "flair": null,
-    "post_text": "Howdy people I have a ptz camera 54x zoom Sony chip 8mp Aliexpress job which works surprisingly well except at night it has a bunch of fuzzy lines like from IR feedback or something. Once the picture focuses it's reasonably clear I guess just got these weird lines. It gets programmed via preset values just wondering if there is a fix or if I should just get another. I've attached a picture of my paddock and horse for example which is about 40 meters away. ",
-    "virality_prediction": {
-      "id": 36,
-      "prediction": "not viral",
-      "reason": "This post describes a technical issue that is not likely to go viral."
-    }
+    "post_text": "Howdy people I have a ptz camera 54x zoom Sony chip 8mp Aliexpress job which works surprisingly well except at night it has a bunch of fuzzy lines like from IR feedback or something. Once the picture focuses it's reasonably clear I guess just got these weird lines. It gets programmed via preset values just wondering if there is a fix or if I should just get another. I've attached a picture of my paddock and horse for example which is about 40 meters away. "
   },
   {
     "post_id": 37,
@@ -658,12 +478,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-19T09:08:30Z",
     "flair": null,
-    "post_text": "I'm looking for a 4g wifi router/modem that I can hook up to a solar panel to provide wifi to a couple of solar cameras. Just wondering if anyone could share their experiences or thoughts on this one? Or maybe had a suggestion of a more suitable one. I dont want to spend a lot of money as it's only temporary. I will get the power connected eventually🤞 I'm in Australia.",
-    "virality_prediction": {
-      "id": 37,
-      "prediction": "not viral",
-      "reason": "A niche inquiry about a router, without a particular interesting angle. Not likely to attract widespread attention."
-    }
+    "post_text": "I'm looking for a 4g wifi router/modem that I can hook up to a solar panel to provide wifi to a couple of solar cameras. Just wondering if anyone could share their experiences or thoughts on this one? Or maybe had a suggestion of a more suitable one. I dont want to spend a lot of money as it's only temporary. I will get the power connected eventually\ud83e\udd1e I'm in Australia."
   },
   {
     "post_id": 38,
@@ -676,12 +491,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-19T03:25:48Z",
     "flair": null,
-    "post_text": "I just received an order of Eufy C31 door bell video camera. I bought it because it has an onboard built-in camera which could be used to keep the camera on when the power goes out. Next thing that is important is 24/7 video recording. And it would get power from the current doorbell transformer. I also want to use the original chime. Well, I temp installed the doorbell after setting it up and when I connected it to the doorbell transformer power it detected power and then gave me other options. Basically it either allows 24/7 recording without the use of my original chime or it allows use of my original chime without 24/7 recording. Both features are not allowed to function together by which is a major deal breaker for me. Anyone know if a workaround is possible? The reality is that this is a simple fix with a firmware update if Eufy so chose. I don’t have any interest in a camera with a subscription and that’s why I’ve stuck with eufy.  I emailed eufy support about it and am waiting for their response.",
-    "virality_prediction": {
-      "id": 38,
-      "prediction": "not viral",
-      "reason": "A post focusing on a specific camera model and a firmware update, which is less likely to go viral."
-    }
+    "post_text": "I just received an order of Eufy C31 door bell video camera. I bought it because it has an onboard built-in camera which could be used to keep the camera on when the power goes out. Next thing that is important is 24/7 video recording. And it would get power from the current doorbell transformer. I also want to use the original chime. Well, I temp installed the doorbell after setting it up and when I connected it to the doorbell transformer power it detected power and then gave me other options. Basically it either allows 24/7 recording without the use of my original chime or it allows use of my original chime without 24/7 recording. Both features are not allowed to function together by which is a major deal breaker for me. Anyone know if a workaround is possible? The reality is that this is a simple fix with a firmware update if Eufy so chose. I don\u2019t have any interest in a camera with a subscription and that\u2019s why I\u2019ve stuck with eufy.  I emailed eufy support about it and am waiting for their response."
   },
   {
     "post_id": 39,
@@ -694,12 +504,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-18T22:16:12Z",
     "flair": null,
-    "post_text": "hi reddit i’m looking for a security camera that can be mounted on the ceiling in a corner ! a lot of the ones i’ve seen online are desktop with limited plugins , but also they seem too sleek for me . if anyone has any suggestions i would really appreciate it !!",
-    "virality_prediction": {
-      "id": 39,
-      "prediction": "not viral",
-      "reason": "A simple request for camera suggestions. It lacks emotional weight or a compelling story."
-    }
+    "post_text": "hi reddit i\u2019m looking for a security camera that can be mounted on the ceiling in a corner ! a lot of the ones i\u2019ve seen online are desktop with limited plugins , but also they seem too sleek for me . if anyone has any suggestions i would really appreciate it !!"
   },
   {
     "post_id": 40,
@@ -712,12 +517,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-18T20:23:42Z",
     "flair": null,
-    "post_text": "https://preview.redd.it/2ukma27hxodf1.png?width=1799&amp;format=png&amp;auto=webp&amp;s=6159c951fef7c9b6414661b70555891ce62f8f27\n\nWe recently switched ISP providers. Previous provider took back their mesh system. New ISP does have better wifi coverage throughout our home, except in the garage and basement bathroom(wifi reaches about 70% of the time). Now in order to get full wifi coverage in the garage, I was thinking of getting a single unit of a TP link wifi extender/AP/mesh. Problem is, I'm not sure if it'll work with how I setup the cameras for our home. We do spend a lot of time in the garage to hangout as well, so we do need wifi there.\n\nCurrently, 4 cameras are connected to a POE switch in the garage, that POE is connected via ethernet to the NVR in the living room that is directly connected to our NAH/Modem/Router.  \nWould my attached diagram work for both wifi in the garage and NVR receiving the camera signals?\n\nAny advise/answer would be greatly appreciated before I make a purchase.\n\nedit: all connections are hard-wired. i just didnt want to have to drill extra holes. the AP would act as a pass-through in between the NVR and POE switch.  \nNVR in living room to the POE switch in the garage are connected via an ethernet line that runs outside the house. i don't have the skills to run these lines within the walls nor do i have the time. lol. and would/could not spend upwards and maybe over $1000 CAD on getting it done professionally.",
-    "virality_prediction": {
-      "id": 40,
-      "prediction": "not viral",
-      "reason": "Technical question related to networking and camera setup. Likely targeted at a specific audience and will not go viral."
-    }
+    "post_text": "https://preview.redd.it/2ukma27hxodf1.png?width=1799&amp;format=png&amp;auto=webp&amp;s=6159c951fef7c9b6414661b70555891ce62f8f27\n\nWe recently switched ISP providers. Previous provider took back their mesh system. New ISP does have better wifi coverage throughout our home, except in the garage and basement bathroom(wifi reaches about 70% of the time). Now in order to get full wifi coverage in the garage, I was thinking of getting a single unit of a TP link wifi extender/AP/mesh. Problem is, I'm not sure if it'll work with how I setup the cameras for our home. We do spend a lot of time in the garage to hangout as well, so we do need wifi there.\n\nCurrently, 4 cameras are connected to a POE switch in the garage, that POE is connected via ethernet to the NVR in the living room that is directly connected to our NAH/Modem/Router.  \nWould my attached diagram work for both wifi in the garage and NVR receiving the camera signals?\n\nAny advise/answer would be greatly appreciated before I make a purchase.\n\nedit: all connections are hard-wired. i just didnt want to have to drill extra holes. the AP would act as a pass-through in between the NVR and POE switch.  \nNVR in living room to the POE switch in the garage are connected via an ethernet line that runs outside the house. i don't have the skills to run these lines within the walls nor do i have the time. lol. and would/could not spend upwards and maybe over $1000 CAD on getting it done professionally."
   },
   {
     "post_id": 41,
@@ -730,12 +530,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-18T03:32:49Z",
     "flair": null,
-    "post_text": null,
-    "virality_prediction": {
-      "id": 41,
-      "prediction": "not viral",
-      "reason": "Specific product recommendation, low potential for broad interest."
-    }
+    "post_text": null
   },
   {
     "post_id": 42,
@@ -748,12 +543,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-18T03:26:18Z",
     "flair": null,
-    "post_text": "Hello everybody quick question. I’m the building maintenance for our building and I need to slightly adjust these LTS cameras and I cannot for the life of me figure out how to adjust them. They are very tight. I am not the one that installed them, but they need to be adjusted Any assistance is greatly appreciated",
-    "virality_prediction": {
-      "id": 42,
-      "prediction": "not viral",
-      "reason": "Specific technical issue, limited audience."
-    }
+    "post_text": "Hello everybody quick question. I\u2019m the building maintenance for our building and I need to slightly adjust these LTS cameras and I cannot for the life of me figure out how to adjust them. They are very tight. I am not the one that installed them, but they need to be adjusted Any assistance is greatly appreciated"
   },
   {
     "post_id": 43,
@@ -766,12 +556,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-18T02:33:49Z",
     "flair": null,
-    "post_text": "Anyone have any idea how I can connect my aosu cameras to a computer monitor? Want to have it continuously running beside my tv with the cameras up. ",
-    "virality_prediction": {
-      "id": 43,
-      "prediction": "not viral",
-      "reason": "Specific technical issue, limited audience."
-    }
+    "post_text": "Anyone have any idea how I can connect my aosu cameras to a computer monitor? Want to have it continuously running beside my tv with the cameras up. "
   },
   {
     "post_id": 44,
@@ -784,12 +569,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-18T00:23:39Z",
     "flair": null,
-    "post_text": null,
-    "virality_prediction": {
-      "id": 44,
-      "prediction": "not viral",
-      "reason": "Lack of context, unlikely to generate significant engagement."
-    }
+    "post_text": null
   },
   {
     "post_id": 45,
@@ -802,12 +582,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-17T22:36:10Z",
     "flair": null,
-    "post_text": "Why are my cameras doing this",
-    "virality_prediction": {
-      "id": 45,
-      "prediction": "not viral",
-      "reason": "Vague title and content, unlikely to resonate broadly."
-    }
+    "post_text": "Why are my cameras doing this"
   },
   {
     "post_id": 46,
@@ -820,12 +595,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-17T18:02:47Z",
     "flair": null,
-    "post_text": "Hello we just purchased a hiseeu system for our business and the led lights we have a affecting the cameras so that black lines are running through the screen. Anyone know what I can do to fix this or a similar system that will work. Our older revo system works fine with the lights but it's from 2008 and needs replacing. Any help would be great thank you ",
-    "virality_prediction": {
-      "id": 46,
-      "prediction": "not viral",
-      "reason": "Specific technical problem, limited appeal, though the business aspect could raise some interest."
-    }
+    "post_text": "Hello we just purchased a hiseeu system for our business and the led lights we have a affecting the cameras so that black lines are running through the screen. Anyone know what I can do to fix this or a similar system that will work. Our older revo system works fine with the lights but it's from 2008 and needs replacing. Any help would be great thank you "
   },
   {
     "post_id": 47,
@@ -838,12 +608,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-17T17:27:55Z",
     "flair": null,
-    "post_text": "I’m looking for a wireless security camera for the side of my house. The plan is to have the camera sit behind a motion activated security light from Sansi as a deterrent.\n\nCriteria:\n\n* No monthly subscription – critical\n* Application or browser controlled, but the application must not have subscription fee based options, because this means that the default option without subscription is not good enough.\n* Solar powered\n* Wifi\n* Local storage with continuous recording in loop capability\n* No budget limit, but I do not want to run wires through my house.\n\nThanks for the advice in advance.",
-    "virality_prediction": {
-      "id": 47,
-      "prediction": "viral",
-      "reason": "Addresses a common desire (no subscription security) with a defined list of criteria. Good potential for comments and recommendations and debate."
-    }
+    "post_text": "I\u2019m looking for a wireless security camera for the side of my house. The plan is to have the camera sit behind a motion activated security light from Sansi as a deterrent.\n\nCriteria:\n\n* No monthly subscription \u2013 critical\n* Application or browser controlled, but the application must not have subscription fee based options, because this means that the default option without subscription is not good enough.\n* Solar powered\n* Wifi\n* Local storage with continuous recording in loop capability\n* No budget limit, but I do not want to run wires through my house.\n\nThanks for the advice in advance."
   },
   {
     "post_id": 48,
@@ -856,12 +621,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-17T17:06:35Z",
     "flair": null,
-    "post_text": "Hi, I am working to try and find a camera that will accurately record situations in my house. My stbx husband is extremely volatile and emotionally abusive, screaming, broken furniture, a broken window, doors, punched holes in walls ect. My current blink cameras are notorious for not activating when motion is sensed right away so a lot is missed. I have filed for divorce, just waiting for him to be served, if it was just me I would just leave, but I have 4 kids, one works locally, and school starts in a few weeks, and we have 2 ferrets, and 8 cats whom he has threatened to kill. So please help me find a c camera solution that I can document this for court. ",
-    "virality_prediction": {
-      "id": 48,
-      "prediction": "viral",
-      "reason": "Emotional content (abuse), coupled with a call for help.  This situation is likely to spark a strong emotional reaction and generate advice and possibly even outside resources."
-    }
+    "post_text": "Hi, I am working to try and find a camera that will accurately record situations in my house. My stbx husband is extremely volatile and emotionally abusive, screaming, broken furniture, a broken window, doors, punched holes in walls ect. My current blink cameras are notorious for not activating when motion is sensed right away so a lot is missed. I have filed for divorce, just waiting for him to be served, if it was just me I would just leave, but I have 4 kids, one works locally, and school starts in a few weeks, and we have 2 ferrets, and 8 cats whom he has threatened to kill. So please help me find a c camera solution that I can document this for court. "
   },
   {
     "post_id": 49,
@@ -874,12 +634,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-17T15:13:53Z",
     "flair": null,
-    "post_text": "What are some budget-friendly security cameras that i can place around the perimeter of my home?\n\nI’m 18F and I live with my mom, her boyfriend, oldest brother, his gf and 4 of his kids. \nWe do live on a budget and just this morning someone broke into both of our storage buildings next to our single-wide trailer and camper, and poured gasoline on my brother’s reptiles while it was me and my nephew home alone.\n\nThis is not the first time someone has attempted to break into our storage buildings.",
-    "virality_prediction": {
-      "id": 49,
-      "prediction": "viral",
-      "reason": "Addresses a basic need, includes the need for security on a budget, as well as a troubling story which is likely to generate comments/engagement."
-    }
+    "post_text": "What are some budget-friendly security cameras that i can place around the perimeter of my home?\n\nI\u2019m 18F and I live with my mom, her boyfriend, oldest brother, his gf and 4 of his kids. \nWe do live on a budget and just this morning someone broke into both of our storage buildings next to our single-wide trailer and camper, and poured gasoline on my brother\u2019s reptiles while it was me and my nephew home alone.\n\nThis is not the first time someone has attempted to break into our storage buildings."
   },
   {
     "post_id": 50,
@@ -892,12 +647,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-17T12:34:13Z",
     "flair": null,
-    "post_text": "I'm working on a UNV NVR system with 100% UNV cameras, no third party hardware. The NVR is a 302-16E-P16-B.  Due to the facility layout having multiple buildings we have four cameras in another building and those four cameras are connected via fiber back to the NVR and plugged into switchport 16 on the rear 16 port PoE switch of the NVR.\n\nHowever, for some reason the NVR does not seem to 'like' a 2nd switch where multiple cameras are residing on one interface,  I've seen this before at another site too where multiple cameras shared one interface.  Sometimes one or two cameras will disappear and then reappear, sometimes they all disappear. The connection is via two Cisco switches on a GB fiber connection via Cisco SFP's.  Cisco switches show no port errors, no connection drops, nothing abnormal on the line between the buildings.\n\nSo is the built in switch on the NVR not a true switch or something unique to the UNV unit where it only wants to see one camera per interface?   Is there a workaround to fix the issue of the cameras disappearing and reappearing?  Thanks!",
-    "virality_prediction": {
-      "id": 50,
-      "prediction": "not viral",
-      "reason": "Highly technical problem, very limited audience."
-    }
+    "post_text": "I'm working on a UNV NVR system with 100% UNV cameras, no third party hardware. The NVR is a 302-16E-P16-B.  Due to the facility layout having multiple buildings we have four cameras in another building and those four cameras are connected via fiber back to the NVR and plugged into switchport 16 on the rear 16 port PoE switch of the NVR.\n\nHowever, for some reason the NVR does not seem to 'like' a 2nd switch where multiple cameras are residing on one interface,  I've seen this before at another site too where multiple cameras shared one interface.  Sometimes one or two cameras will disappear and then reappear, sometimes they all disappear. The connection is via two Cisco switches on a GB fiber connection via Cisco SFP's.  Cisco switches show no port errors, no connection drops, nothing abnormal on the line between the buildings.\n\nSo is the built in switch on the NVR not a true switch or something unique to the UNV unit where it only wants to see one camera per interface?   Is there a workaround to fix the issue of the cameras disappearing and reappearing?  Thanks!"
   },
   {
     "post_id": 51,
@@ -910,12 +660,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-17T06:37:23Z",
     "flair": null,
-    "post_text": null,
-    "virality_prediction": {
-      "id": 51,
-      "prediction": "not viral",
-      "reason": "Very generic title, no body text, unlikely to generate interest."
-    }
+    "post_text": null
   },
   {
     "post_id": 52,
@@ -928,12 +673,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-17T00:47:04Z",
     "flair": null,
-    "post_text": "Very new to Security Cameras, and need a setup similar to this for my business. My question is, will this work off grid (More than 1000ft away from a currently established wifi connection. Also, is this way overpriced, and if so, how much would I save building this by myself.\n\nhttps://preview.redd.it/fymc3gl90cdf1.png?width=2356&amp;format=png&amp;auto=webp&amp;s=60269eeae2dd21664013b46ce4d62f9f9687e4b1\n\nhttps://preview.redd.it/3wntwi1a0cdf1.png?width=850&amp;format=png&amp;auto=webp&amp;s=5fb3b8995f71f543e64652ad2f1efe7f34d88c85\n\n",
-    "virality_prediction": {
-      "id": 52,
-      "prediction": "not viral",
-      "reason": "Specific setup questions, likely a niche audience, and the links are not likely to generate excitement."
-    }
+    "post_text": "Very new to Security Cameras, and need a setup similar to this for my business. My question is, will this work off grid (More than 1000ft away from a currently established wifi connection. Also, is this way overpriced, and if so, how much would I save building this by myself.\n\nhttps://preview.redd.it/fymc3gl90cdf1.png?width=2356&amp;format=png&amp;auto=webp&amp;s=60269eeae2dd21664013b46ce4d62f9f9687e4b1\n\nhttps://preview.redd.it/3wntwi1a0cdf1.png?width=850&amp;format=png&amp;auto=webp&amp;s=5fb3b8995f71f543e64652ad2f1efe7f34d88c85\n\n"
   },
   {
     "post_id": 53,
@@ -946,12 +686,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-16T13:27:35Z",
     "flair": null,
-    "post_text": "Hello just got a new swann security camera set. ive set up 2 cameras 2 days ago yet theyve not been recording anything. theyve got a 256gb micro sd inside aswell however nothing has been captured. i want it to record 24/7 not just motion.",
-    "virality_prediction": {
-      "id": 53,
-      "prediction": "not viral",
-      "reason": "Specific product and problem, limited appeal."
-    }
+    "post_text": "Hello just got a new swann security camera set. ive set up 2 cameras 2 days ago yet theyve not been recording anything. theyve got a 256gb micro sd inside aswell however nothing has been captured. i want it to record 24/7 not just motion."
   },
   {
     "post_id": 54,
@@ -964,12 +699,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-16T04:58:08Z",
     "flair": null,
-    "post_text": "Is there a security camera that lets you set up google one as the storage? I'd like to store data to the cloud whenever there's motion or sound and get alerts. I'm on a budget of about $100 a camera and would like to only pay for the google one subscription. Preferably it would also only use so much of the google one drive and delete older files say after 10 GBs.  Thanks for the help in advance!",
-    "virality_prediction": {
-      "id": 54,
-      "prediction": "viral",
-      "reason": "Addresses a common need (budget-friendly cloud storage), with a defined, accessible problem.  Will likely generate recommendations and solutions."
-    }
+    "post_text": "Is there a security camera that lets you set up google one as the storage? I'd like to store data to the cloud whenever there's motion or sound and get alerts. I'm on a budget of about $100 a camera and would like to only pay for the google one subscription. Preferably it would also only use so much of the google one drive and delete older files say after 10 GBs.  Thanks for the help in advance!"
   },
   {
     "post_id": 55,
@@ -982,12 +712,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-16T02:14:12Z",
     "flair": null,
-    "post_text": "Is anyone using DW Spectrum and having issues with the cloud accounts getting timed out weekly?  I have multiple sites that have clients logged in with a cloud account for remote view of their systems and in the past few months I have been having them get timed out every week even though on those servers the settings are set to not limit session duration.  When this happens my phone and laptop will have issues getting back into the cloud account as well.  I have raised multiple support tickets and have gotten nowhere with support.  The last one was to update to the latest version which has been done on all the sites but then again tonight it timed out again.  It also seems to be hit and miss on whether I can just sign them right back in or I have to wait for an hour or so like tonight.  The only thing i have noticed is that systems that are on V5 still do not appear to have this issue.  Just V6..  ",
-    "virality_prediction": {
-      "id": 55,
-      "prediction": "not viral",
-      "reason": "Specific software issue, small user base."
-    }
+    "post_text": "Is anyone using DW Spectrum and having issues with the cloud accounts getting timed out weekly?  I have multiple sites that have clients logged in with a cloud account for remote view of their systems and in the past few months I have been having them get timed out every week even though on those servers the settings are set to not limit session duration.  When this happens my phone and laptop will have issues getting back into the cloud account as well.  I have raised multiple support tickets and have gotten nowhere with support.  The last one was to update to the latest version which has been done on all the sites but then again tonight it timed out again.  It also seems to be hit and miss on whether I can just sign them right back in or I have to wait for an hour or so like tonight.  The only thing i have noticed is that systems that are on V5 still do not appear to have this issue.  Just V6..  "
   },
   {
     "post_id": 56,
@@ -1000,12 +725,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-15T17:42:02Z",
     "flair": null,
-    "post_text": "I need a camera that’s covert, battery powered and can see number plates at night.\n\nAt home I have a unifi system but this location up the road from my house is used by fly tippers weekly. Driving to work and seeing fridges, mattresses and the contents of some unscrupulous house clearing is depressing me so I need to take some vigilante action and capture them.\n\nI’ve done some base research but I think most night cameras reflect number plates (i know my unifi cameras do) so looking for recommendations.\n\n",
-    "virality_prediction": {
-      "id": 56,
-      "prediction": "viral",
-      "reason": "Combines a common problem (fly-tipping) with a call for advice.  Appeals to a broader audience who may have similar experiences or solutions."
-    }
+    "post_text": "I need a camera that\u2019s covert, battery powered and can see number plates at night.\n\nAt home I have a unifi system but this location up the road from my house is used by fly tippers weekly. Driving to work and seeing fridges, mattresses and the contents of some unscrupulous house clearing is depressing me so I need to take some vigilante action and capture them.\n\nI\u2019ve done some base research but I think most night cameras reflect number plates (i know my unifi cameras do) so looking for recommendations.\n\n"
   },
   {
     "post_id": 57,
@@ -1018,12 +738,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-15T15:50:30Z",
     "flair": null,
-    "post_text": "First time wiring up security cameras in new home what y'all think. Mounted the box under desk. ",
-    "virality_prediction": {
-      "id": 57,
-      "prediction": "not viral",
-      "reason": "Generic question about a new setup, likely to be a niche interest."
-    }
+    "post_text": "First time wiring up security cameras in new home what y'all think. Mounted the box under desk. "
   },
   {
     "post_id": 58,
@@ -1036,12 +751,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-15T14:11:24Z",
     "flair": null,
-    "post_text": null,
-    "virality_prediction": {
-      "id": 58,
-      "prediction": "viral",
-      "reason": "Complains about a common problem with a well-known product with a strong statement. Likely to gain traction among dissatisfied users and generate debate."
-    }
+    "post_text": null
   },
   {
     "post_id": 59,
@@ -1054,12 +764,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-15T13:33:24Z",
     "flair": null,
-    "post_text": "Hi!\nI have an issue with a person surveilling my house. She never enters the property but does drive by and stop on the street to \"look\". Lawyers advised to see if I can record her and we can show a pattern of obsession. (Not looking far advise on how to deal with her)\nAnyhow, I do have a home security system (eufy) but the house is further back from the street and the cams wouldn't capture anything. I also live on a street with frequent traffic. \nSo what I'm looking for is a solution that only records the stalkers car, even at night, and doesn't need wifi as the signal might not always reach to the street. I'm also not a super technical person, easy out of the box setup would be great!",
-    "virality_prediction": {
-      "id": 59,
-      "prediction": "viral",
-      "reason": "Addresses a sensitive issue (stalking), with a clear need for information and a well defined, common question.  This topic can draw in a larger audience."
-    }
+    "post_text": "Hi!\nI have an issue with a person surveilling my house. She never enters the property but does drive by and stop on the street to \"look\". Lawyers advised to see if I can record her and we can show a pattern of obsession. (Not looking far advise on how to deal with her)\nAnyhow, I do have a home security system (eufy) but the house is further back from the street and the cams wouldn't capture anything. I also live on a street with frequent traffic. \nSo what I'm looking for is a solution that only records the stalkers car, even at night, and doesn't need wifi as the signal might not always reach to the street. I'm also not a super technical person, easy out of the box setup would be great!"
   },
   {
     "post_id": 60,
@@ -1072,12 +777,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-15T03:06:02Z",
     "flair": null,
-    "post_text": " Someone burned my car in my backyard i have no insurance  im screwed... this trailer has a camera   point at my back yard   he said it dont work i think hes lying and is covering for his brother  who i think did it i have some evidence but not enough.  does this have onboard storage ? Or anything? I need help im completely  doomed\n",
-    "virality_prediction": {
-      "id": 60,
-      "prediction": "viral",
-      "reason": "High-stakes scenario (arson), personal tragedy, call for help. High probability of emotional response, and likely to generate advice and outside support."
-    }
+    "post_text": " Someone burned my car in my backyard i have no insurance  im screwed... this trailer has a camera   point at my back yard   he said it dont work i think hes lying and is covering for his brother  who i think did it i have some evidence but not enough.  does this have onboard storage ? Or anything? I need help im completely  doomed\n"
   },
   {
     "post_id": 61,
@@ -1090,12 +790,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-15T03:02:42Z",
     "flair": null,
-    "post_text": "Hello lovely reddits !\n\nSo I am in need of advice, I am looking for security cameras that record to a USB or memory card. I don't have Internet other than my phone. I do not require it to be in real time alert.\n\nI have problems with my landlord entering the property unannounced, and am concerned it's happening when I'm not at home. Illegal and creepy.\n\nI'd like to catch em in the act, so what set up do I need? It's short term, and I can't drill holes and stuff. Some sort of rechargeable nanny cam? One for the front porch, and one for the lounge room area.\n\nCheers!",
-    "virality_prediction": {
-      "id": 61,
-      "prediction": "viral",
-      "reason": "Relatable problem (landlord issues), clear request for specific tech advice, and a bit of a 'catch the bad guy' narrative which can resonate with many. Might attract many comments."
-    }
+    "post_text": "Hello lovely reddits !\n\nSo I am in need of advice, I am looking for security cameras that record to a USB or memory card. I don't have Internet other than my phone. I do not require it to be in real time alert.\n\nI have problems with my landlord entering the property unannounced, and am concerned it's happening when I'm not at home. Illegal and creepy.\n\nI'd like to catch em in the act, so what set up do I need? It's short term, and I can't drill holes and stuff. Some sort of rechargeable nanny cam? One for the front porch, and one for the lounge room area.\n\nCheers!"
   },
   {
     "post_id": 62,
@@ -1108,12 +803,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-14T22:23:46Z",
     "flair": null,
-    "post_text": "Hi, After the notification on my phone from the app has been closed (for a motion alert for example) - how do I find those recording clips? Thank you so much, this is new to me, VicoHome.\n\nEdited to add - if the alerts are older than a couple of days and I have the free plan - if I subscribe now to the extended plan in the cloud - will it retroactively make those prior ones viewable? Or, just more going forward? \n\nThanks!",
-    "virality_prediction": {
-      "id": 62,
-      "prediction": "not viral",
-      "reason": "Specific question about a single product (VicoHome) that limits broad appeal. Technical, rather than emotional hook."
-    }
+    "post_text": "Hi, After the notification on my phone from the app has been closed (for a motion alert for example) - how do I find those recording clips? Thank you so much, this is new to me, VicoHome.\n\nEdited to add - if the alerts are older than a couple of days and I have the free plan - if I subscribe now to the extended plan in the cloud - will it retroactively make those prior ones viewable? Or, just more going forward? \n\nThanks!"
   },
   {
     "post_id": 63,
@@ -1126,12 +816,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-14T19:20:32Z",
     "flair": null,
-    "post_text": "Does anyone have any advice so I want to put up a camera at my sons grave we know who’s doing the damaging and that, police won’t do anything unless they have it on video the graveyard is a 5 minute walk from me so I don’t have access to wifi or Bluetooth, does anyone have any suggestions on cameras that will work don’t want to go wasting money that’s doesn’t work if there is a camera that would work\nTIA.",
-    "virality_prediction": {
-      "id": 63,
-      "prediction": "viral",
-      "reason": "Sensitive topic (grave desecration) combined with a need for security. Potential for strong emotional response and community involvement. Specific need for camera recommendations."
-    }
+    "post_text": "Does anyone have any advice so I want to put up a camera at my sons grave we know who\u2019s doing the damaging and that, police won\u2019t do anything unless they have it on video the graveyard is a 5 minute walk from me so I don\u2019t have access to wifi or Bluetooth, does anyone have any suggestions on cameras that will work don\u2019t want to go wasting money that\u2019s doesn\u2019t work if there is a camera that would work\nTIA."
   },
   {
     "post_id": 64,
@@ -1144,12 +829,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-14T18:06:47Z",
     "flair": null,
-    "post_text": "Is anyone aware of a side-mount/wall-mount PTZ where the the orientation is to the side, rather than down.  It would resemble a dome or turret mounted to wall, but be motorized to pan at 180 degrees and tilt at least 90.  ",
-    "virality_prediction": {
-      "id": 64,
-      "prediction": "not viral",
-      "reason": "Very technical and niche request (side-mount PTZ cameras). Limited audience."
-    }
+    "post_text": "Is anyone aware of a side-mount/wall-mount PTZ where the the orientation is to the side, rather than down.  It would resemble a dome or turret mounted to wall, but be motorized to pan at 180 degrees and tilt at least 90.  "
   },
   {
     "post_id": 65,
@@ -1162,12 +842,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-13T17:24:55Z",
     "flair": null,
-    "post_text": "Hey all! New to the wireless security world and could use some help. Also, I’m not specifically worried about local storage or subscriptions. I’m am look a quality brand of camera for a wired doorbell, internal camera, and external camera. I have had a Ring doorbell in the past and enjoyed it and the app, but never had anything else Ring. I currently have a Blink doorbell and few camera, but despise the app and the reaction time for motion. Thanks!",
-    "virality_prediction": {
-      "id": 65,
-      "prediction": "not viral",
-      "reason": "Generic request for whole house camera recommendations is unlikely to go viral. However, it could get a good number of responses. Needs to be a bit more specific."
-    }
+    "post_text": "Hey all! New to the wireless security world and could use some help. Also, I\u2019m not specifically worried about local storage or subscriptions. I\u2019m am look a quality brand of camera for a wired doorbell, internal camera, and external camera. I have had a Ring doorbell in the past and enjoyed it and the app, but never had anything else Ring. I currently have a Blink doorbell and few camera, but despise the app and the reaction time for motion. Thanks!"
   },
   {
     "post_id": 66,
@@ -1180,12 +855,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-13T16:54:19Z",
     "flair": null,
-    "post_text": "I live in a apartment and the rules are I can have a security camera inside my apartment but it can't have the ability to record audio and it can't be able to pan and tilt. Is there any simple wifi camera that has this ideally I'd be able to connect it to my Synology nas or the cloud so if I am robbed the footage is safe? ",
-    "virality_prediction": {
-      "id": 66,
-      "prediction": "not viral",
-      "reason": "Specific use case for an apartment is a bit niche, focusing on specific requirements rather than a broad appeal."
-    }
+    "post_text": "I live in a apartment and the rules are I can have a security camera inside my apartment but it can't have the ability to record audio and it can't be able to pan and tilt. Is there any simple wifi camera that has this ideally I'd be able to connect it to my Synology nas or the cloud so if I am robbed the footage is safe? "
   },
   {
     "post_id": 67,
@@ -1198,12 +868,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-12T20:09:53Z",
     "flair": null,
-    "post_text": "I'm looking for a camera with a battery life that lasts months or a wired one that is inconspicuous. I'm trying to place it on a cluttered vanity with the only outlet being behind the vanity. I also need it to stream to my phone and notify me when there's a person in the room like a ring doorbell but without the obnoxious noises. i really need it to be not noticeable.",
-    "virality_prediction": {
-      "id": 67,
-      "prediction": "viral",
-      "reason": "Privacy is a sensitive topic, and people want discreet cameras. The post includes an ideal use case of wanting a security camera but not being noticable. This could make for some virality."
-    }
+    "post_text": "I'm looking for a camera with a battery life that lasts months or a wired one that is inconspicuous. I'm trying to place it on a cluttered vanity with the only outlet being behind the vanity. I also need it to stream to my phone and notify me when there's a person in the room like a ring doorbell but without the obnoxious noises. i really need it to be not noticeable."
   },
   {
     "post_id": 68,
@@ -1216,12 +881,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-12T18:33:59Z",
     "flair": null,
-    "post_text": "I’m installing a Reolink Poe doorbell camera. \nI just run an Ethernet cable through the attic and put the connectors. The tester shows the cable is ok, but the camera shows disconnected on the NVR. \nI tested the camera with a short cable next to the NVR and the camera works perfectly.\nIs it possible that even if the tester shows everything that the cable is OK , something can still be wrong with it? ",
-    "virality_prediction": {
-      "id": 68,
-      "prediction": "not viral",
-      "reason": "Specific technical troubleshooting question (PoE connection). Low probability of virality."
-    }
+    "post_text": "I\u2019m installing a Reolink Poe doorbell camera. \nI just run an Ethernet cable through the attic and put the connectors. The tester shows the cable is ok, but the camera shows disconnected on the NVR. \nI tested the camera with a short cable next to the NVR and the camera works perfectly.\nIs it possible that even if the tester shows everything that the cable is OK , something can still be wrong with it? "
   },
   {
     "post_id": 69,
@@ -1234,12 +894,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-12T17:30:17Z",
     "flair": null,
-    "post_text": "I'm trying to get a security camera setup for my room, Since I live with a questionable drug addict who I don't trust at all. I also lock my door, But have 1 day a week that I'm not able to do that, and want to make sure my stuff isnt stolen or tampered with. I've tried looking for different type of CCTV type cameras, But almost all the ones I've seen require a whole DVR setup. I just want 1 single camera that can constantly record, and save to an SD card or something similar, and to have the ability to set up my camera to wifi and check on it from my phone, or go back and watch the recording. Any recommendations?",
-    "virality_prediction": {
-      "id": 69,
-      "prediction": "viral",
-      "reason": "Relatable issue (trust issues with a housemate) combined with a desire for security. Clear request for simple, practical advice. This can garner lots of suggestions."
-    }
+    "post_text": "I'm trying to get a security camera setup for my room, Since I live with a questionable drug addict who I don't trust at all. I also lock my door, But have 1 day a week that I'm not able to do that, and want to make sure my stuff isnt stolen or tampered with. I've tried looking for different type of CCTV type cameras, But almost all the ones I've seen require a whole DVR setup. I just want 1 single camera that can constantly record, and save to an SD card or something similar, and to have the ability to set up my camera to wifi and check on it from my phone, or go back and watch the recording. Any recommendations?"
   },
   {
     "post_id": 70,
@@ -1252,12 +907,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-12T14:58:58Z",
     "flair": null,
-    "post_text": "I hired a guy to install a cctv outside of my home. He us plugging the cameras into existing outlets i have around my home. Is this a good job and the standard way of installing these things?\n\nMy concerns are 1. It looks bad. 2. It won't last long outside in the elements. 3. Anyone can just unplug my camera by going up to it.\n\nDid I just get a lazy guy or should I have specified I wanted a more professional job?",
-    "virality_prediction": {
-      "id": 70,
-      "prediction": "viral",
-      "reason": "Question of quality and professionalism. The post has an explicit concern of a potential 'lazy' installation. This could get some virality."
-    }
+    "post_text": "I hired a guy to install a cctv outside of my home. He us plugging the cameras into existing outlets i have around my home. Is this a good job and the standard way of installing these things?\n\nMy concerns are 1. It looks bad. 2. It won't last long outside in the elements. 3. Anyone can just unplug my camera by going up to it.\n\nDid I just get a lazy guy or should I have specified I wanted a more professional job?"
   },
   {
     "post_id": 71,
@@ -1270,12 +920,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-12T12:10:21Z",
     "flair": null,
-    "post_text": null,
-    "virality_prediction": {
-      "id": 71,
-      "prediction": "not viral",
-      "reason": "Very specific and lacks a clear hook."
-    }
+    "post_text": null
   },
   {
     "post_id": 72,
@@ -1288,12 +933,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-12T08:30:44Z",
     "flair": null,
-    "post_text": "I have a romoss sense 8p 30,000mah that I run some closet motion sensor lights for the front door and wondering if there is a cheap security camera I can attach to that just for simple motion detection people detection purely for delivery notification nothing else.. No other features needed besides maybe night detection\n\nNo recording or two way talk or any other fancy features required\n\nJust looking for the cheapest camera with no subscription fee required to notify me when someone opens my door to leave food inside the front door on my phone and desktop pc\n\nThere is no nearby mains power to the door unless I run an obstructive extension cable that's why trying to find a camera that can already use an existing power bank there\n\nNo ring or doorbell type cameras either as I will most likely be pointing it at the front door room rather than outside the door itself\n\nI might get a second camera to put on the window indoor to point outside to get a second feed of the front door in case people leave the delivery outside for example instead of inside the house\n\nSo what are some options for this",
-    "virality_prediction": {
-      "id": 72,
-      "prediction": "viral",
-      "reason": "Specific request (security with a power bank) but with a clear practical application. The post involves the delivery of food inside the door. Can go viral."
-    }
+    "post_text": "I have a romoss sense 8p 30,000mah that I run some closet motion sensor lights for the front door and wondering if there is a cheap security camera I can attach to that just for simple motion detection people detection purely for delivery notification nothing else.. No other features needed besides maybe night detection\n\nNo recording or two way talk or any other fancy features required\n\nJust looking for the cheapest camera with no subscription fee required to notify me when someone opens my door to leave food inside the front door on my phone and desktop pc\n\nThere is no nearby mains power to the door unless I run an obstructive extension cable that's why trying to find a camera that can already use an existing power bank there\n\nNo ring or doorbell type cameras either as I will most likely be pointing it at the front door room rather than outside the door itself\n\nI might get a second camera to put on the window indoor to point outside to get a second feed of the front door in case people leave the delivery outside for example instead of inside the house\n\nSo what are some options for this"
   },
   {
     "post_id": 73,
@@ -1306,12 +946,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-11T23:16:15Z",
     "flair": null,
-    "post_text": "Hi everyone,\n\nCan anyone please recommend a small spy camera that I can put anywhere in my front room that looks like an ornament, something no one wouldn’t notice at all if they looked twice at it?\n\nOne preferably that would only start recording if there was movement / sound and is a USB to wall plug chargeable that comes with an app i can downloaded to an app on my phone to save videos?\n\nThank you x",
-    "virality_prediction": {
-      "id": 73,
-      "prediction": "viral",
-      "reason": "Privacy is a sensitive topic, and the idea of a 'spy camera' that's also discreet has broad appeal."
-    }
+    "post_text": "Hi everyone,\n\nCan anyone please recommend a small spy camera that I can put anywhere in my front room that looks like an ornament, something no one wouldn\u2019t notice at all if they looked twice at it?\n\nOne preferably that would only start recording if there was movement / sound and is a USB to wall plug chargeable that comes with an app i can downloaded to an app on my phone to save videos?\n\nThank you x"
   },
   {
     "post_id": 74,
@@ -1324,12 +959,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-11T04:43:01Z",
     "flair": null,
-    "post_text": "Hello. Im looking for a security camera to watch over my garden. I want it to have good night vision because that is when it's most vulnerable. I would need 100+ feet clear Night vision. Wifi, good battery / solar.\nI've been researching and looking online but im getting overwhelmed with all the options. Any insight is appreciated,  thank you\n",
-    "virality_prediction": {
-      "id": 74,
-      "prediction": "not viral",
-      "reason": "Specific technical requirements (long distance night vision) that don't have as much general interest."
-    }
+    "post_text": "Hello. Im looking for a security camera to watch over my garden. I want it to have good night vision because that is when it's most vulnerable. I would need 100+ feet clear Night vision. Wifi, good battery / solar.\nI've been researching and looking online but im getting overwhelmed with all the options. Any insight is appreciated,  thank you\n"
   },
   {
     "post_id": 75,
@@ -1342,12 +972,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-11T03:12:58Z",
     "flair": null,
-    "post_text": "I’m looking for an outdoor surveillance camera that would be good for a remote setting.\n\nNo wifi is available on this site and neither is electricity so I think a solar/cellular camera may be the best fit for this kind of application. Please advise if you have another suggestion. \n\nI know of Reolink and have installed a couple previously but their PIR motion detection isn’t the best and their night vision is worse. \n\nWhat other brands or models of cameras would you recommend for this kind of application? \n\nRequirements:\nReasonably priced\nSolar powered\nCellular based\nDecent night vision and motion detection.\n\nThank you hive mind.",
-    "virality_prediction": {
-      "id": 75,
-      "prediction": "viral",
-      "reason": "Specific request (solar/cellular) with a clear niche application, but good potential due to addressing a common problem in remote locations."
-    }
+    "post_text": "I\u2019m looking for an outdoor surveillance camera that would be good for a remote setting.\n\nNo wifi is available on this site and neither is electricity so I think a solar/cellular camera may be the best fit for this kind of application. Please advise if you have another suggestion. \n\nI know of Reolink and have installed a couple previously but their PIR motion detection isn\u2019t the best and their night vision is worse. \n\nWhat other brands or models of cameras would you recommend for this kind of application? \n\nRequirements:\nReasonably priced\nSolar powered\nCellular based\nDecent night vision and motion detection.\n\nThank you hive mind."
   },
   {
     "post_id": 76,
@@ -1360,12 +985,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-11T02:06:44Z",
     "flair": null,
-    "post_text": "^(My neighbor put this up pointing at my backyard. Sorry for the poor photo quality!)\n\nhttps://preview.redd.it/2w0joshwk5cf1.jpg?width=1318&amp;format=pjpg&amp;auto=webp&amp;s=4699ac96e3b73e7b310f45c50c6aaf088311ec90\n\n",
-    "virality_prediction": {
-      "id": 76,
-      "prediction": "viral",
-      "reason": "Mystery and concern about being watched (neighbor's camera). Includes an image which often aids in the success of a viral post."
-    }
+    "post_text": "^(My neighbor put this up pointing at my backyard. Sorry for the poor photo quality!)\n\nhttps://preview.redd.it/2w0joshwk5cf1.jpg?width=1318&amp;format=pjpg&amp;auto=webp&amp;s=4699ac96e3b73e7b310f45c50c6aaf088311ec90\n\n"
   },
   {
     "post_id": 77,
@@ -1378,12 +998,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-10T23:27:47Z",
     "flair": null,
-    "post_text": "I found this camera at my house. I used Google Lens and it gave me the title above. Problem is I don't know what app to install on my android phone so I can view the camera. Anyone know? Please help. I've been trying to figure this out half of the day. I'm getting very frustrated. Thank y'all in advance. Feel free to add me.",
-    "virality_prediction": {
-      "id": 77,
-      "prediction": "viral",
-      "reason": "Need help with camera settings. Very specific question and a request for help on a frustrating task, could go viral."
-    }
+    "post_text": "I found this camera at my house. I used Google Lens and it gave me the title above. Problem is I don't know what app to install on my android phone so I can view the camera. Anyone know? Please help. I've been trying to figure this out half of the day. I'm getting very frustrated. Thank y'all in advance. Feel free to add me."
   },
   {
     "post_id": 78,
@@ -1396,16 +1011,11 @@
     "num_shares": 0,
     "created_utc": "2025-07-10T22:45:32Z",
     "flair": null,
-    "post_text": null,
-    "virality_prediction": {
-      "id": 78,
-      "prediction": "not viral",
-      "reason": "Very short, no real content."
-    }
+    "post_text": null
   },
   {
     "post_id": 79,
-    "title": "24/7 Video recording review/“scrubbing”",
+    "title": "24/7 Video recording review/\u201cscrubbing\u201d",
     "author": "yanksfold",
     "url": "https://www.reddit.com/r/SecurityCamera/comments/1lwjtvf/247_video_recording_reviewscrubbing/",
     "num_likes": 0,
@@ -1414,12 +1024,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-10T18:12:01Z",
     "flair": null,
-    "post_text": "Is there a quality system that has ability to do “scrubbing” for review of video (vs viewing recorded clips)?   Nest does it well but I would prefer anything but Google!",
-    "virality_prediction": {
-      "id": 79,
-      "prediction": "not viral",
-      "reason": "Very niche technical query (\"scrubbing\" of video). Limited appeal."
-    }
+    "post_text": "Is there a quality system that has ability to do \u201cscrubbing\u201d for review of video (vs viewing recorded clips)?   Nest does it well but I would prefer anything but Google!"
   },
   {
     "post_id": 80,
@@ -1432,12 +1037,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-10T16:01:46Z",
     "flair": null,
-    "post_text": "Airbnb has motion sensors with what looks like camera lens through the living areas, hallways etc. we've been here a few days and I didn't notice. \n\nAre these cameras or are they part of the motion sensor lens? Unsure - help appreciated. I've met the host and can't imagine her to do something sinister. ",
-    "virality_prediction": {
-      "id": 80,
-      "prediction": "very viral",
-      "reason": "Airbnb cameras and the topic of privacy are a very sensitive topic. Includes a question and concern for privacy which has high potential for viral."
-    }
+    "post_text": "Airbnb has motion sensors with what looks like camera lens through the living areas, hallways etc. we've been here a few days and I didn't notice. \n\nAre these cameras or are they part of the motion sensor lens? Unsure - help appreciated. I've met the host and can't imagine her to do something sinister. "
   },
   {
     "post_id": 81,
@@ -1450,12 +1050,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-10T15:06:45Z",
     "flair": null,
-    "post_text": "We recently purchased a new Mx-VB1A-8-IR-VA and we were wondering how we can grab a still jpg image from the camera.\n\nOn our older Mobotix M15 camera we just used the following URL [http://192.168.1.1/record/current.jpg](http://192.168.1.1/record/current.jpg) and we see a still image from the camera\n\nBut testing this on the new Mx-VB1A-8-IR-VA camera doesn't seem to work\n\nNew camera IP is [192.168.1.2](http://192.168.1.2)\n\nTested\n\n[http://192.168.1.2/record/current.jpg](http://192.168.1.2/record/current.jpg)\n\nand get the following error Access Error: 404 -- Not Found\n\nI'm able to open up the mjpeg live stream no problem via the following URL\n\n[http://192.168.1.2/live/stream3](http://192.168.1.2/live/stream3)\n\nDoes the newer Mx-VB1A-8-IR-VA support grabbing jpg images from a URL?\n\nCamera Firmware version = &lt;mb20250619UX&gt;",
-    "virality_prediction": {
-      "id": 81,
-      "prediction": "not viral",
-      "reason": "Technical question about a specific camera model; very niche topic."
-    }
+    "post_text": "We recently purchased a new Mx-VB1A-8-IR-VA and we were wondering how we can grab a still jpg image from the camera.\n\nOn our older Mobotix M15 camera we just used the following URL [http://192.168.1.1/record/current.jpg](http://192.168.1.1/record/current.jpg) and we see a still image from the camera\n\nBut testing this on the new Mx-VB1A-8-IR-VA camera doesn't seem to work\n\nNew camera IP is [192.168.1.2](http://192.168.1.2)\n\nTested\n\n[http://192.168.1.2/record/current.jpg](http://192.168.1.2/record/current.jpg)\n\nand get the following error Access Error: 404 -- Not Found\n\nI'm able to open up the mjpeg live stream no problem via the following URL\n\n[http://192.168.1.2/live/stream3](http://192.168.1.2/live/stream3)\n\nDoes the newer Mx-VB1A-8-IR-VA support grabbing jpg images from a URL?\n\nCamera Firmware version = &lt;mb20250619UX&gt;"
   },
   {
     "post_id": 82,
@@ -1468,12 +1063,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-10T14:39:26Z",
     "flair": null,
-    "post_text": "Looking for a PoE doorbell camera. Are there any other options aside from Reolink?\n\nHoping to use with my Swann NVR.",
-    "virality_prediction": {
-      "id": 82,
-      "prediction": "not viral",
-      "reason": "Specific product request; not a broad appeal."
-    }
+    "post_text": "Looking for a PoE doorbell camera. Are there any other options aside from Reolink?\n\nHoping to use with my Swann NVR."
   },
   {
     "post_id": 83,
@@ -1486,12 +1076,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-10T05:57:15Z",
     "flair": null,
-    "post_text": "Alright, I think this is the right place to ask this? I'm trying to find a basic camera to monitor my barn. I don't need any audio features, absolutely don't want to deal with a subscription, don't really need it to record anything. I just need to be able to look in frequently to check on them without walking out there at all hours, especially when I have girls expecting babies. Night vision would be important but motion detection is not, the animals would set it off every few minutes and that seems silly. It would be technically indoors (the barn is a concrete block building but it does have little screened vents at the top and bottom of two walls) so it won't get wet but it could get cold (just above freezing at the lowest). There is power out there in the form of a regular outlet (I run ac and fans in the summer) so I'd prefer a wired camera. The wifi does just about reach I believe but doing high demand things like video calls in there has had some crunchiness. I imagine that if its just sending video out, no audio, and not receiving anything back it should work? I'd look into cellular but I have a feeling that would be more expensive and I'm on a tighter budget with this. \n\nI did do some looking of my own at first but all the cheap cameras seem to require subscriptions and have all sorts of extra bells and whistles that really seem like overkill in this situation. I just need to know when one of the girls goes into labor or check in when I'm off the farm just in case. Any help here would be awesome!",
-    "virality_prediction": {
-      "id": 83,
-      "prediction": "not viral",
-      "reason": "Niche use case (barn monitoring), detailed requirements, but unlikely to generate widespread interest."
-    }
+    "post_text": "Alright, I think this is the right place to ask this? I'm trying to find a basic camera to monitor my barn. I don't need any audio features, absolutely don't want to deal with a subscription, don't really need it to record anything. I just need to be able to look in frequently to check on them without walking out there at all hours, especially when I have girls expecting babies. Night vision would be important but motion detection is not, the animals would set it off every few minutes and that seems silly. It would be technically indoors (the barn is a concrete block building but it does have little screened vents at the top and bottom of two walls) so it won't get wet but it could get cold (just above freezing at the lowest). There is power out there in the form of a regular outlet (I run ac and fans in the summer) so I'd prefer a wired camera. The wifi does just about reach I believe but doing high demand things like video calls in there has had some crunchiness. I imagine that if its just sending video out, no audio, and not receiving anything back it should work? I'd look into cellular but I have a feeling that would be more expensive and I'm on a tighter budget with this. \n\nI did do some looking of my own at first but all the cheap cameras seem to require subscriptions and have all sorts of extra bells and whistles that really seem like overkill in this situation. I just need to know when one of the girls goes into labor or check in when I'm off the farm just in case. Any help here would be awesome!"
   },
   {
     "post_id": 84,
@@ -1504,12 +1089,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-10T03:41:33Z",
     "flair": null,
-    "post_text": "I’ll be on my app and hear from the cameras but if you save the footage there’s no sound. Sometimes the cameras go out. Am I being WiFi jammed?",
-    "virality_prediction": {
-      "id": 84,
-      "prediction": "not viral",
-      "reason": "Relatively general question, but vague and lacks context/detail. Unlikely to go viral."
-    }
+    "post_text": "I\u2019ll be on my app and hear from the cameras but if you save the footage there\u2019s no sound. Sometimes the cameras go out. Am I being WiFi jammed?"
   },
   {
     "post_id": 85,
@@ -1522,12 +1102,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-09T23:21:52Z",
     "flair": null,
-    "post_text": "I just ordered two TP-Link **Tapo SolarCam C402 Kits** and they’ll be arriving next week. Will be using them strictly with a Micro SD card and no cloud storage.  We're planning to install them at our family cabin so everyone can keep an eye on the place when we’re not there—mainly to monitor the garden, lake area, and any animals that might be getting into things. I was wondering if there’s any way to set the cameras up so I can give people a **link** to view the feed, **without requiring everyone to download the Tapo app**. Ideally, I’d like it to be **“public” in the sense that it's easily accessible** (like via a URL), but still **private so that only immediate family members can view it**—not just anyone with the link. If that’s not possible, is there at least a way for multiple people to have their own Tapo accounts and log in to view the cameras and or get notifications? Just looking for the simplest way to share access with family without making it a hassle. Thanks!",
-    "virality_prediction": {
-      "id": 85,
-      "prediction": "not viral",
-      "reason": "Specific product (Tapo) and use case. Problem is common, but solution is not very engaging."
-    }
+    "post_text": "I just ordered two TP-Link **Tapo SolarCam C402 Kits** and they\u2019ll be arriving next week. Will be using them strictly with a Micro SD card and no cloud storage.  We're planning to install them at our family cabin so everyone can keep an eye on the place when we\u2019re not there\u2014mainly to monitor the garden, lake area, and any animals that might be getting into things. I was wondering if there\u2019s any way to set the cameras up so I can give people a **link** to view the feed, **without requiring everyone to download the Tapo app**. Ideally, I\u2019d like it to be **\u201cpublic\u201d in the sense that it's easily accessible** (like via a URL), but still **private so that only immediate family members can view it**\u2014not just anyone with the link. If that\u2019s not possible, is there at least a way for multiple people to have their own Tapo accounts and log in to view the cameras and or get notifications? Just looking for the simplest way to share access with family without making it a hassle. Thanks!"
   },
   {
     "post_id": 86,
@@ -1540,12 +1115,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-09T20:21:26Z",
     "flair": null,
-    "post_text": "Hi everyone! I need some help. I work at a mall and we recently got a rooftop beehive. My boss wants a continuous live stream of the beehive to stream to a TV on the mall floor. The problem is that we don’t have a computer to run the stream so we need the feed to go from the camera straight to the TV somehow. We can buy a smart TV and weatherproof camera but are at a loss on what to get and how to actually set it up. None of us are very tech savvy, we just want a way to watch our bees! Any help is very appreciated!!! Thank you!",
-    "virality_prediction": {
-      "id": 86,
-      "prediction": "viral",
-      "reason": "Unique and interesting topic (beehive at a mall). The problem is easy to understand, and solution could be engaging. It has the potential to be shared beyond the original community."
-    }
+    "post_text": "Hi everyone! I need some help. I work at a mall and we recently got a rooftop beehive. My boss wants a continuous live stream of the beehive to stream to a TV on the mall floor. The problem is that we don\u2019t have a computer to run the stream so we need the feed to go from the camera straight to the TV somehow. We can buy a smart TV and weatherproof camera but are at a loss on what to get and how to actually set it up. None of us are very tech savvy, we just want a way to watch our bees! Any help is very appreciated!!! Thank you!"
   },
   {
     "post_id": 87,
@@ -1558,12 +1128,7 @@
     "num_shares": 0,
     "created_utc": "2025-07-09T19:04:44Z",
     "flair": null,
-    "post_text": "A friend of mine would like to put in some outdoor security at her barn. She’s looking to put in about 6 cameras total, all outside covering the exterior and pathways to her barn (she boards and trains horses) I was thinking she might like the Blink outdoor cameras because they are relatively simple, WiFi, enabled, motion activated and have IR for night time. My only concern is battery life. Trying to keep the overall bill under $500 and open to recommendations ",
-    "virality_prediction": {
-      "id": 87,
-      "prediction": "not viral",
-      "reason": "Specific product suggestion for a limited case, but there is no real hook."
-    }
+    "post_text": "A friend of mine would like to put in some outdoor security at her barn. She\u2019s looking to put in about 6 cameras total, all outside covering the exterior and pathways to her barn (she boards and trains horses) I was thinking she might like the Blink outdoor cameras because they are relatively simple, WiFi, enabled, motion activated and have IR for night time. My only concern is battery life. Trying to keep the overall bill under $500 and open to recommendations "
   },
   {
     "post_id": 88,
@@ -1576,16 +1141,11 @@
     "num_shares": 0,
     "created_utc": "2025-07-09T18:17:26Z",
     "flair": null,
-    "post_text": "Looking for a home system with wireless cameras, but that I can set up without an internet connection? Just not sure if there's anything out there like it. \n\nBasically, is there a system that let's me connect the cameras to a non-internet wifi network (basically a router with no-modem) and transfer footage to an offline central storage hub that way (like an computer or harddrive also on the network)\n\nWould a normal wifi-camera set up allow me to do that?\n\nSorry if the question doesn't quite make sense. Im just not familiar enough with the industry to know what terminology to even look for. I've been hesitant to look at home secuirty systems because I don't like the idea of someone potentially being able to get into my home Internet wifi, and access the system from the internet (yes, I'm paranoid).\n\nFigure with a non-internet connected wifi, at least someone would have to be phsycially close to try to get in.\n\nThoughts? Ideas? ",
-    "virality_prediction": {
-      "id": 88,
-      "prediction": "not viral",
-      "reason": "Specific and technical question about security systems; not a broad topic."
-    }
+    "post_text": "Looking for a home system with wireless cameras, but that I can set up without an internet connection? Just not sure if there's anything out there like it. \n\nBasically, is there a system that let's me connect the cameras to a non-internet wifi network (basically a router with no-modem) and transfer footage to an offline central storage hub that way (like an computer or harddrive also on the network)\n\nWould a normal wifi-camera set up allow me to do that?\n\nSorry if the question doesn't quite make sense. Im just not familiar enough with the industry to know what terminology to even look for. I've been hesitant to look at home secuirty systems because I don't like the idea of someone potentially being able to get into my home Internet wifi, and access the system from the internet (yes, I'm paranoid).\n\nFigure with a non-internet connected wifi, at least someone would have to be phsycially close to try to get in.\n\nThoughts? Ideas? "
   },
   {
     "post_id": 89,
-    "title": "Wireless/Solar + 4G/LTE Outdoor Security Cameras for 5-Building Industrial Park – Recommendations?",
+    "title": "Wireless/Solar + 4G/LTE Outdoor Security Cameras for 5-Building Industrial Park \u2013 Recommendations?",
     "author": "Hungry_Coconut930",
     "url": "https://www.reddit.com/r/SecurityCamera/comments/1lvmgnx/wirelesssolar_4glte_outdoor_security_cameras_for/",
     "num_likes": 0,
@@ -1594,11 +1154,6 @@
     "num_shares": 0,
     "created_utc": "2025-07-09T15:57:42Z",
     "flair": null,
-    "post_text": "We’ve looked at Reolink Go/Go PT Plus, Arlo Go 2, and Eufy 4G Cam S330, but real-world feedback would help. Budget is flexible for reliability.\n\nWhat works well for you? \nWe would need roughly 4-6 cameras. \n\nThanks in advance! ",
-    "virality_prediction": {
-      "id": 89,
-      "prediction": "not viral",
-      "reason": "Niche request for industrial park cameras with specific requirements and brands, unlikely to have a broad audience."
-    }
+    "post_text": "We\u2019ve looked at Reolink Go/Go PT Plus, Arlo Go 2, and Eufy 4G Cam S330, but real-world feedback would help. Budget is flexible for reliability.\n\nWhat works well for you? \nWe would need roughly 4-6 cameras. \n\nThanks in advance! "
   }
 ]

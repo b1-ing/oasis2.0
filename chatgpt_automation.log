@@ -1,0 +1,242 @@
+2025-08-08 22:15:08,660:INFO:====== WebDriver manager ======
+2025-08-08 22:15:10,648:INFO:Get LATEST chromedriver version for google-chrome
+2025-08-08 22:15:10,720:INFO:Get LATEST chromedriver version for google-chrome
+2025-08-08 22:15:10,824:INFO:There is no [win64] chromedriver "138.0.7204.183" for browser google-chrome "138.0.7204" in cache
+2025-08-08 22:15:10,825:INFO:Get LATEST chromedriver version for google-chrome
+2025-08-08 22:15:11,021:INFO:WebDriver version 138.0.7204.183 selected
+2025-08-08 22:15:11,027:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.183/win32/chromedriver-win32.zip
+2025-08-08 22:15:11,027:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.183/win32/chromedriver-win32.zip
+2025-08-08 22:15:11,076:INFO:Driver downloading response is 200
+2025-08-08 22:15:11,344:INFO:Get LATEST chromedriver version for google-chrome
+2025-08-08 22:15:11,634:INFO:Driver has been saved in cache [C:\Users\Brendan Ling\.wdm\drivers\chromedriver\win64\138.0.7204.183]
+2025-08-08 22:15:11,635:INFO:Available port found: 57407
+2025-08-08 22:15:32,087:ERROR:Failed to open new chat: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+	GetHandleVerifier [0x0xecba83+63395]
+	GetHandleVerifier [0x0xecbac4+63460]
+	(No symbol) [0x0xd12113]
+	(No symbol) [0x0xcf0fb9]
+	(No symbol) [0x0xd85ace]
+	(No symbol) [0x0xda0099]
+	(No symbol) [0x0xd7f1a6]
+	(No symbol) [0x0xd4e7b2]
+	(No symbol) [0x0xd4f654]
+	GetHandleVerifier [0x0x1148883+2672035]
+	GetHandleVerifier [0x0x1143cba+2652634]
+	GetHandleVerifier [0x0xef2bca+223466]
+	GetHandleVerifier [0x0xee2cb8+158168]
+	GetHandleVerifier [0x0xee978d+185517]
+	GetHandleVerifier [0x0xed3b78+96408]
+	GetHandleVerifier [0x0xed3d02+96802]
+	GetHandleVerifier [0x0xebe90a+9770]
+	BaseThreadInitThunk [0x0x75325d49+25]
+	RtlInitializeExceptionChain [0x0x76fabceb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x76fabc71+561]
+
+2025-08-08 22:15:32,092:ERROR:Failed to open new chat: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+	GetHandleVerifier [0x0xecba83+63395]
+	GetHandleVerifier [0x0xecbac4+63460]
+	(No symbol) [0x0xd12113]
+	(No symbol) [0x0xcf0fb9]
+	(No symbol) [0x0xd85ace]
+	(No symbol) [0x0xda0099]
+	(No symbol) [0x0xd7f1a6]
+	(No symbol) [0x0xd4e7b2]
+	(No symbol) [0x0xd4f654]
+	GetHandleVerifier [0x0x1148883+2672035]
+	GetHandleVerifier [0x0x1143cba+2652634]
+	GetHandleVerifier [0x0xef2bca+223466]
+	GetHandleVerifier [0x0xee2cb8+158168]
+	GetHandleVerifier [0x0xee978d+185517]
+	GetHandleVerifier [0x0xed3b78+96408]
+	GetHandleVerifier [0x0xed3d02+96802]
+	GetHandleVerifier [0x0xebe90a+9770]
+	BaseThreadInitThunk [0x0x75325d49+25]
+	RtlInitializeExceptionChain [0x0x76fabceb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x76fabc71+561]
+
+2025-08-08 22:15:32,099:ERROR:Failed to open new chat: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+	GetHandleVerifier [0x0xecba83+63395]
+	GetHandleVerifier [0x0xecbac4+63460]
+	(No symbol) [0x0xd12113]
+	(No symbol) [0x0xcf0fb9]
+	(No symbol) [0x0xd85ace]
+	(No symbol) [0x0xda0099]
+	(No symbol) [0x0xd7f1a6]
+	(No symbol) [0x0xd4e7b2]
+	(No symbol) [0x0xd4f654]
+	GetHandleVerifier [0x0x1148883+2672035]
+	GetHandleVerifier [0x0x1143cba+2652634]
+	GetHandleVerifier [0x0xef2bca+223466]
+	GetHandleVerifier [0x0xee2cb8+158168]
+	GetHandleVerifier [0x0xee978d+185517]
+	GetHandleVerifier [0x0xed3b78+96408]
+	GetHandleVerifier [0x0xed3d02+96802]
+	GetHandleVerifier [0x0xebe90a+9770]
+	BaseThreadInitThunk [0x0x75325d49+25]
+	RtlInitializeExceptionChain [0x0x76fabceb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x76fabc71+561]
+
+2025-08-08 22:15:32,103:ERROR:Failed to open new chat: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+	GetHandleVerifier [0x0xecba83+63395]
+	GetHandleVerifier [0x0xecbac4+63460]
+	(No symbol) [0x0xd12113]
+	(No symbol) [0x0xcf0fb9]
+	(No symbol) [0x0xd85ace]
+	(No symbol) [0x0xda0099]
+	(No symbol) [0x0xd7f1a6]
+	(No symbol) [0x0xd4e7b2]
+	(No symbol) [0x0xd4f654]
+	GetHandleVerifier [0x0x1148883+2672035]
+	GetHandleVerifier [0x0x1143cba+2652634]
+	GetHandleVerifier [0x0xef2bca+223466]
+	GetHandleVerifier [0x0xee2cb8+158168]
+	GetHandleVerifier [0x0xee978d+185517]
+	GetHandleVerifier [0x0xed3b78+96408]
+	GetHandleVerifier [0x0xed3d02+96802]
+	GetHandleVerifier [0x0xebe90a+9770]
+	BaseThreadInitThunk [0x0x75325d49+25]
+	RtlInitializeExceptionChain [0x0x76fabceb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x76fabc71+561]
+
+2025-08-08 22:15:32,109:ERROR:Failed to open new chat: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+	GetHandleVerifier [0x0xecba83+63395]
+	GetHandleVerifier [0x0xecbac4+63460]
+	(No symbol) [0x0xd12113]
+	(No symbol) [0x0xcf0fb9]
+	(No symbol) [0x0xd85ace]
+	(No symbol) [0x0xda0099]
+	(No symbol) [0x0xd7f1a6]
+	(No symbol) [0x0xd4e7b2]
+	(No symbol) [0x0xd4f654]
+	GetHandleVerifier [0x0x1148883+2672035]
+	GetHandleVerifier [0x0x1143cba+2652634]
+	GetHandleVerifier [0x0xef2bca+223466]
+	GetHandleVerifier [0x0xee2cb8+158168]
+	GetHandleVerifier [0x0xee978d+185517]
+	GetHandleVerifier [0x0xed3b78+96408]
+	GetHandleVerifier [0x0xed3d02+96802]
+	GetHandleVerifier [0x0xebe90a+9770]
+	BaseThreadInitThunk [0x0x75325d49+25]
+	RtlInitializeExceptionChain [0x0x76fabceb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x76fabc71+561]
+
+2025-08-08 22:15:32,117:ERROR:Failed to open new chat: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+	GetHandleVerifier [0x0xecba83+63395]
+	GetHandleVerifier [0x0xecbac4+63460]
+	(No symbol) [0x0xd12113]
+	(No symbol) [0x0xcf0fb9]
+	(No symbol) [0x0xd85ace]
+	(No symbol) [0x0xda0099]
+	(No symbol) [0x0xd7f1a6]
+	(No symbol) [0x0xd4e7b2]
+	(No symbol) [0x0xd4f654]
+	GetHandleVerifier [0x0x1148883+2672035]
+	GetHandleVerifier [0x0x1143cba+2652634]
+	GetHandleVerifier [0x0xef2bca+223466]
+	GetHandleVerifier [0x0xee2cb8+158168]
+	GetHandleVerifier [0x0xee978d+185517]
+	GetHandleVerifier [0x0xed3b78+96408]
+	GetHandleVerifier [0x0xed3d02+96802]
+	GetHandleVerifier [0x0xebe90a+9770]
+	BaseThreadInitThunk [0x0x75325d49+25]
+	RtlInitializeExceptionChain [0x0x76fabceb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x76fabc71+561]
+
+2025-08-08 22:15:32,123:ERROR:Failed to open new chat: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+	GetHandleVerifier [0x0xecba83+63395]
+	GetHandleVerifier [0x0xecbac4+63460]
+	(No symbol) [0x0xd12113]
+	(No symbol) [0x0xcf0fb9]
+	(No symbol) [0x0xd85ace]
+	(No symbol) [0x0xda0099]
+	(No symbol) [0x0xd7f1a6]
+	(No symbol) [0x0xd4e7b2]
+	(No symbol) [0x0xd4f654]
+	GetHandleVerifier [0x0x1148883+2672035]
+	GetHandleVerifier [0x0x1143cba+2652634]
+	GetHandleVerifier [0x0xef2bca+223466]
+	GetHandleVerifier [0x0xee2cb8+158168]
+	GetHandleVerifier [0x0xee978d+185517]
+	GetHandleVerifier [0x0xed3b78+96408]
+	GetHandleVerifier [0x0xed3d02+96802]
+	GetHandleVerifier [0x0xebe90a+9770]
+	BaseThreadInitThunk [0x0x75325d49+25]
+	RtlInitializeExceptionChain [0x0x76fabceb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x76fabc71+561]
+
+2025-08-08 22:15:32,127:ERROR:Failed to open new chat: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+	GetHandleVerifier [0x0xecba83+63395]
+	GetHandleVerifier [0x0xecbac4+63460]
+	(No symbol) [0x0xd12113]
+	(No symbol) [0x0xcf0fb9]
+	(No symbol) [0x0xd85ace]
+	(No symbol) [0x0xda0099]
+	(No symbol) [0x0xd7f1a6]
+	(No symbol) [0x0xd4e7b2]
+	(No symbol) [0x0xd4f654]
+	GetHandleVerifier [0x0x1148883+2672035]
+	GetHandleVerifier [0x0x1143cba+2652634]
+	GetHandleVerifier [0x0xef2bca+223466]
+	GetHandleVerifier [0x0xee2cb8+158168]
+	GetHandleVerifier [0x0xee978d+185517]
+	GetHandleVerifier [0x0xed3b78+96408]
+	GetHandleVerifier [0x0xed3d02+96802]
+	GetHandleVerifier [0x0xebe90a+9770]
+	BaseThreadInitThunk [0x0x75325d49+25]
+	RtlInitializeExceptionChain [0x0x76fabceb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x76fabc71+561]
+
+2025-08-08 22:15:32,132:ERROR:Failed to open new chat: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+	GetHandleVerifier [0x0xecba83+63395]
+	GetHandleVerifier [0x0xecbac4+63460]
+	(No symbol) [0x0xd12113]
+	(No symbol) [0x0xcf0fb9]
+	(No symbol) [0x0xd85ace]
+	(No symbol) [0x0xda0099]
+	(No symbol) [0x0xd7f1a6]
+	(No symbol) [0x0xd4e7b2]
+	(No symbol) [0x0xd4f654]
+	GetHandleVerifier [0x0x1148883+2672035]
+	GetHandleVerifier [0x0x1143cba+2652634]
+	GetHandleVerifier [0x0xef2bca+223466]
+	GetHandleVerifier [0x0xee2cb8+158168]
+	GetHandleVerifier [0x0xee978d+185517]
+	GetHandleVerifier [0x0xed3b78+96408]
+	GetHandleVerifier [0x0xed3d02+96802]
+	GetHandleVerifier [0x0xebe90a+9770]
+	BaseThreadInitThunk [0x0x75325d49+25]
+	RtlInitializeExceptionChain [0x0x76fabceb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x76fabc71+561]
+
+2025-08-08 22:16:47,051:INFO:====== WebDriver manager ======
+2025-08-08 22:16:48,949:INFO:Get LATEST chromedriver version for google-chrome
+2025-08-08 22:16:48,998:INFO:Get LATEST chromedriver version for google-chrome
+2025-08-08 22:16:49,041:INFO:Driver [C:\Users\Brendan Ling\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-08 22:16:49,042:INFO:Available port found: 49781
