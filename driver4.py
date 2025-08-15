@@ -3,9 +3,9 @@ import json
 from datetime import datetime, timedelta
 
 subreddit="NationalServiceSG"
-START_TIME = datetime(2025, 7, 19, 10, 0, 0)
+START_TIME = datetime(2025, 8, 2, 10, 0, 0)
 TIMESTEP_DAYS=1
-POSTS_FILE = f"posts/posts_{subreddit}.json"
+POSTS_FILE = f"posts/posts_{subreddit}_2.json"
 ONLINE_RATE = 0.0075  # ~0.75% of users online per timestep
 SUBREDDIT_SIZE=43000
 PROMPTS_DIR = os.path.join("prompts", subreddit)

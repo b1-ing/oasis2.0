@@ -6,7 +6,7 @@ from tqdm import tqdm
 import google.generativeai as genai
 subreddit="NationalServiceSG"
 # --- CONFIGURATION ---
-JSON_FILE_PATH = f"posts/posts_{subreddit}.json"
+JSON_FILE_PATH = f"posts/posts_{subreddit}_2.json"
 BATCH_SIZE = 20
 SLEEP_BETWEEN_BATCHES = 1  # seconds, avoid hitting rate limits
 
@@ -51,50 +51,50 @@ for i in tqdm   (range(0, len(unprocessed), BATCH_SIZE), desc="Processing batche
         for p in batch
     ]
 
-    # prompt = PROMPT_TEMPLATE.format(
-    #     posts_json=json.dumps(minimal_batch, indent=2, ensure_ascii=False)
-    # )
-    #
-    # # ✅ Print prompt
-    # print(f"\n--- Prompt for batch {i//BATCH_SIZE + 1} ---")
-    # print(prompt)
-    #
-    # # ✅ Save prompt to a file
-    # prompt_filename = f"prompt_batch_{i//BATCH_SIZE + 1:03d}.txt"
-    # with open(prompt_filename, "w", encoding="utf-8") as pf:
-    #     pf.write(prompt)
+    prompt = PROMPT_TEMPLATE.format(
+        posts_json=json.dumps(minimal_batch, indent=2, ensure_ascii=False)
+    )
+
+    # ✅ Print prompt
+    print(f"\n--- Prompt for batch {i//BATCH_SIZE + 1} ---")
+    print(prompt)
+
+    # ✅ Save prompt to a file
+    prompt_filename = f"prompt_batch_{i//BATCH_SIZE + 1:03d}.txt"
+    with open(prompt_filename, "w", encoding="utf-8") as pf:
+        pf.write(prompt)
 
     # ❌ Skip Gemini API call — use prompt manually instead
     # You can later manually paste this prompt into Gemini
-    #
-    # time.sleep(SLEEP_BETWEEN_BATCHES)
-#
-    try:
-        response = model.generate_content(PROMPT_TEMPLATE.format(
-            posts_json=json.dumps(minimal_batch, indent=2)
-        ))
-
-        print("Raw response text:", response.text)
-
-        fixed_json=repair_json(response.text)
-        output = json.loads(fixed_json)
-        result_map = {item["id"]: item for item in output}
-        print(result_map)
-
-        # Update original posts with prediction
-        for post in posts:
-            pid = post.get("id") or post.get("post_id")
-            if pid in result_map:
-                post["virality_prediction"] = result_map[pid]
-
-    except Exception as e:
-        print(f"❌ Error processing batch {i//BATCH_SIZE + 1}: {e}")
-        continue
 
     time.sleep(SLEEP_BETWEEN_BATCHES)
-
-# --- SAVE BACK TO JSON ---
-with open(JSON_FILE_PATH, "w", encoding="utf-8") as f:
-    json.dump(posts, f, indent=2, ensure_ascii=False)
-
-print("✅ Finished processing and saved back to file.")
+# #
+#     try:
+#         response = model.generate_content(PROMPT_TEMPLATE.format(
+#             posts_json=json.dumps(minimal_batch, indent=2)
+#         ))
+#
+#         print("Raw response text:", response.text)
+#
+#         fixed_json=repair_json(response.text)
+#         output = json.loads(fixed_json)
+#         result_map = {item["id"]: item for item in output}
+#         print(result_map)
+#
+#         # Update original posts with prediction
+#         for post in posts:
+#             pid = post.get("id") or post.get("post_id")
+#             if pid in result_map:
+#                 post["virality_prediction"] = result_map[pid]
+#
+#     except Exception as e:
+#         print(f"❌ Error processing batch {i//BATCH_SIZE + 1}: {e}")
+#         continue
+#
+#     time.sleep(SLEEP_BETWEEN_BATCHES)
+#
+# # --- SAVE BACK TO JSON ---
+# with open(JSON_FILE_PATH, "w", encoding="utf-8") as f:
+#     json.dump(posts, f, indent=2, ensure_ascii=False)
+#
+# print("✅ Finished processing and saved back to file.")
