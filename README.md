@@ -98,10 +98,9 @@ oasis2.0/
 │   ├── prompt_gen.py/        # generate subreddit-specific prompt
 │   └── (other files)/        # were my testing files, ignore    
 ├── validation/               # Validation scripts and data
-├── driver.py                 # Main simulation runner
-├── driver2.py               # Alternative simulation version
-├── driver3.py               # Extended simulation features
-├── driver4.py               # Advanced simulation configuration
+├── driver.py                 # Simulation using Ollama
+├── driver2.py               # Simulation using Gemini API
+├── driver3.py               # Simulation using OpenRouter models 
 ```
 
 ## Prerequisites
