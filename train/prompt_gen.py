@@ -1,64 +1,69 @@
-import pandas as pd
-from ollama import chat
-subreddit="NationalServiceSG"
-# Load the CSV file
-df = pd.read_csv(f"validation/validation_{subreddit}_trimmed.csv")
+import json
+import os
+from datetime import datetime, timedelta
+import google.generativeai as genai
 
-# Convert DataFrame to a string with only the relevant fields
-post_summaries = []
-for _, row in df.iterrows():
-    post = f"""
-Post ID: {row['post_id']}
-Title: {row['title']}
-Score: {row['score']}
-Likes: {row['num_likes']}, Dislikes: {row['num_dislikes']}, Comments: {row['num_comments']}, Shares: {row['num_shares']}
-Posted at: {row['created_utc']}
-Flair: {row['flair']}
-Post Text:
-{row['combined_text']}
----"""
-    post_summaries.append(post)
+# ---------- CONFIG ----------
+# Better practice: put your API key in an environment variable instead of hardcoding
+# Example: export GEMINI_API_KEY="..." in shell, then:
+API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBMDhVRQ3zBrfGSDiVoz16ELCwsFGoZ1Eo")
+genai.configure(api_key=API_KEY)
+MODEL_NAME = "gemini-2.5-flash"
 
-csv_summary = "\n".join(post_summaries)
+SUBREDDIT = "NationalServiceSG"
+POSTS_FILE = f"posts/posts_{SUBREDDIT}.json"
+OUTPUT_DIR = "output/virality_predictions"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# LLM prompt for Gemma
-messages = [
+# ---------- UTILITIES ----------
 
-    {
-        "role": "user",
-        "content": f"""
-Your main role is to identify which posts are viral, why they are viral, and to produce a prompt for LLM social media agents to mimic the actual behaviour as closely possible.
+def load_posts(path):
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-Below are real Reddit posts scraped from the r/{subreddit} subreddit, including metadata such as title, author, timestamps, likes, dislikes, comment counts, shares, and the full post text.
+# ---------- MAIN ----------
 
----
+def main():
+    try:
+        all_posts = load_posts(POSTS_FILE)
+    except FileNotFoundError:
+        print(f"Posts file not found: {POSTS_FILE}")
+        return
 
-**Your task:**
+    model = genai.GenerativeModel(model_name=MODEL_NAME)
 
-1. **Identify which posts are “viral”** based on available metrics (likes, comments, shares). For this, provide responses as such:
-Post: [Post id]
-Score: [Post score]
-Content: [Post content]
-Reason: [Why you think it is viral]
-2. **Compare viral and non-viral posts**, and **summarize key patterns** that tend to make posts more engaging.
-   - Consider tone, timing, length, clarity of problem, specificity of request, or technical detail.
-3. Based on this, **generate a prompt for large language model (LLM) agents** participating in a social media simulation. These agents will be browsing and reacting to posts.
-   - The prompt should teach the agents how to:
-     - Recognize which posts are likely to be viral.
-     - Choose whether to comment, like, or ignore posts based on these viral cues.
-     - Mimic realistic Reddit behavior in the context of the subreddit’s interests and tone.
-4. Return me the best possible prompt ONLY.
+    # Convert all posts to JSON string (truncate if very large)
+    posts_str = json.dumps(all_posts, indent=2, ensure_ascii=False)
 
----
+    prompt = f"""
+Here are posts from the reddit community r/{SUBREDDIT}:
 
-Here are the posts:
-{csv_summary}
+{posts_str}
+
+Some posts (e.g., 91, 92, 94, 95) were viral.
+Based on these, identify the features that make posts go viral in this community.
 """
+
+    try:
+        response = model.generate_content(prompt)
+        answer = response.text if hasattr(response, "text") else response.get("output", "")
+    except Exception as e:
+        print(f"Error querying model: {e}")
+        answer = f"ERROR: {e}"
+
+    entry = {
+        "timestamp": datetime.utcnow().isoformat(),
+        "num_posts": len(all_posts),
+        "model_response": answer,
+        "post_ids": [p.get("post_id") for p in all_posts],
     }
-]
 
-print(messages)
+    out_path = os.path.join(OUTPUT_DIR, f"virality_predictions_{SUBREDDIT}.jsonl")
+    with open(out_path, "a", encoding="utf-8") as outf:
+        outf.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
-# Run it through Ollama's Gemma
-response = chat(model="gemma3:4b", messages=messages)
-print(response["message"]["content"])
+    print(f"Queried {len(all_posts)} posts → response length {len(answer):,}")
+    print(answer)
+
+if __name__ == "__main__":
+    main()
