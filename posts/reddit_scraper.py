@@ -41,7 +41,7 @@ def fetch_reddit_json(subreddit, limit=25, sort="new"):
     return results
 
 def save_to_json(data, subreddit):
-    filename = f"posts/posts_{subreddit}_h1.json"
+    filename = f"posts/posts_{subreddit}_h2.json"
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 

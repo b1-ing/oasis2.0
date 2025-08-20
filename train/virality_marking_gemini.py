@@ -11,7 +11,7 @@ BATCH_SIZE = 20
 SLEEP_BETWEEN_BATCHES = 1  # seconds, avoid hitting rate limits
 
 # --- INIT GEMINI ---
-API_KEY = "AIzaSyBMDhVRQ3zBrfGSDiVoz16ELCwsFGoZ1Eo"  # or hardcode if needed
+API_KEY = "___"  # or hardcode if needed
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-2.0-flash-lite")  # or gemini-pro
 

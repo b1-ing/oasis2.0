@@ -6,7 +6,7 @@ import google.generativeai as genai
 # ---------- CONFIG ----------
 # Better practice: put your API key in an environment variable instead of hardcoding
 # Example: export GEMINI_API_KEY="..." in shell, then:
-API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBMDhVRQ3zBrfGSDiVoz16ELCwsFGoZ1Eo")
+API_KEY = os.getenv("GEMINI_API_KEY", "___")
 genai.configure(api_key=API_KEY)
 MODEL_NAME = "gemini-2.5-flash"
 

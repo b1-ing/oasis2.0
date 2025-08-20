@@ -11,7 +11,7 @@ from recommendation.fyp import recommend_posts
 
 # ---------- CONFIG ----------
 # Prefer setting OPENROUTER_API_KEY in env: export OPENROUTER_API_KEY="..."
-API_KEY = "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"
+API_KEY = "___"
 MODEL_NAME = "meta-llama/llama-3.3-70b-instruct:free"  # free tier llama3 model
 model="llama3.3"
 START_TIME = datetime(2025, 7, 9, 0, 0, 0)

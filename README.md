@@ -40,22 +40,26 @@ Here is a bird's eye view diagram of the simulation:
 This is a quick start tutorial on using Gemini API models.
 
 Get up and running in 5 minutes:
-
+1. Clone and setup the project
 ```bash
-# 1. Clone and setup the project
+
 git clone <repository-url>
 cd oasis2.0
 pip install -r requirements.txt
+```
 
-# 2. Get your own Gemini API key from [Google AI studio](https://aistudio.google.com/prompts/new_chat) Then, in driver2.py, configure these settings:
+2. Get your own Gemini API key from [Google AI studio](https://aistudio.google.com/prompts/new_chat) Then, in driver2.py, configure these settings:
+```jupyter
 ...
 API_KEY = os.getenv("GEMINI_API_KEY", "YOUR_API_KEY")
 genai.configure(api_key=API_KEY)
 MODEL_NAME = "gemini-2.5-flash" #or any gemini model
 ...
+```
 
-#3. customise your input options here:
+3. customise your input options here:
 
+```
 START_TIME = datetime(2025, 7, 9, 0, 0, 0) #start time of sim
 TIMESTEP_DAYS = 1 #timestep length, can configure to be in hours/mins/etc
 NUM_TIMESTEPS = 10 #no of timesteps 
@@ -67,8 +71,9 @@ POSTS_FILE = f"posts/posts.json" #posts path, all in posts directory
 AGENTS_FILE = "agents/agents.json" #agents path, all in agents directory
 OUTPUT_DIR = "output"
 POSTS_OUT_FILE = os.path.join(OUTPUT_DIR, "posts", f"{subreddit}/posts_2.csv") #where the log file is saved 
-
-# 4. Run your first simulation
+```
+4. Run your first simulation
+```
 python driver2.py
 ```
 
@@ -201,7 +206,7 @@ The system includes pre-generated user profiles:
 
 There are post datasets as part of this repo:
 - `posts_SecurityCamera.json` -  dataset of 189 posts from SecurityCamera subreddit
-- `posts_NationalServiceSG.json` - dataset of 227 posts for National Service subreddit
+- `posts_NationalServiceSG.json` - dataset of 276 posts for National Service subreddit
 
 Keep building onto these existing datasets, and try the simulator on new subreddits!
 

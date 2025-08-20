@@ -45,6 +45,6 @@ def save_to_csv(data, filename):
 if __name__ == "__main__":
     subreddit = "NationalServiceSG"
     posts = fetch_reddit_json(subreddit, limit=200)
-    csv_file = f"validation/validation_{subreddit}_h1.csv"
+    csv_file = f"validation/validation_{subreddit}_h2.csv"
     save_to_csv(posts, csv_file)
     print(f"✅ Extracted {len(posts)} posts from r/{subreddit} and saved to {csv_file}")

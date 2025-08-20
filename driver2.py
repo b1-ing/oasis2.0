@@ -12,7 +12,7 @@ from recommendation.fyp import recommend_posts
 
 # ---------- CONFIG ----------
 # Prefer setting GEMINI_API_KEY in env: export GEMINI_API_KEY="..."
-API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBMDhVRQ3zBrfGSDiVoz16ELCwsFGoZ1Eo")
+API_KEY = os.getenv("GEMINI_API_KEY", "___")
 genai.configure(api_key=API_KEY)
 MODEL_NAME = "gemini-2.5-flash"
 
